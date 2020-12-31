@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $data := .Data }}
+<article>
+	Test POdcast Tags	
+	<div>
+		{{ .Content }}
+	</div>
+</article>
+<div>
+	<section>
+		{{ range .Parent.Pages }}
+		<div>
+			{{ partial "summary.html" . }}
+		</div>
+		{{ end }}
+	</section>
+</div>
+{{ end }}

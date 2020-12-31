@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}">
+{{ partial "main/head.html" .}}
+<body id="{{- if eq .Page.Kind "home" -}} frontpage {{- else -}} {{- .Page.Section -}} {{- end -}}" class="no-js theme-mod">
+	<header >
+		{{- partial "main/header.html" . -}}
+		{{ block "headerkonten" . }}{{end}}
+	</header>
+	<main role="main">
+		{{ block "main" . }}{{ end }}
+	</main>
+	{{ partial "main/footer.html" . }}
+	{{- block "scripts" . }}{{ end }}
+</body>
+</html>

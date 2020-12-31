@@ -1,0 +1,13 @@
+<head>
+{{- partial "main/head/general.html" . -}}
+{{- partial "main/head/metadata.html" . -}}
+{{- partial "main/head/robot.html" . -}}
+{{- partial "main/head/style.html" . -}}
+{{- if .Site.Params.favicon -}}
+	<link rel="shortcut icon" href="/{{ .Site.Params.favicon }}" type="image/x-icon" />
+{{- end -}}
+{{- partial "main/head/schema.html" . -}}
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+</head>

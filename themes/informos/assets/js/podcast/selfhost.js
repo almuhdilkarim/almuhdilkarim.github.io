@@ -1,0 +1,227 @@
+/* 
+This file is Copyright ©2020 Al Muhdil Karim All Rights Reserved..
+Contact Al Muhdil Karim  @almuhdilkarim@outlook.com for all purposes.
+*/
+
+// =================================
+// Aksi untuk hidup dan mati audio
+// ==================================
+
+// Fungsi untuk lazy load data audio, dengna mengubah data ke src
+function ambilaudio(episode) {
+    let ids = document.getElementById('src-' + episode);
+    let src = ids.getAttribute('src');
+    let url = ids.getAttribute('data-url');
+
+    if (src.length <= 12) {
+        // Load Audio URL
+        ids.setAttribute('src', url);
+        document.getElementById('aud-' + episode).load();
+        console.log("audio file is loaded");
+    } else {
+        console.log("audio file is existed");
+    }
+}
+
+// Fungsi untuk menghitung total durasi
+function ambildurasi(episode) {
+    let durasi = document.getElementById('dur-' + episode);
+    let sumber = document.getElementById('aud-' + episode);
+    let barmax = document.getElementById('bar-' + episode);
+    let cekdurasi = durasi.getAttribute('data-duration');
+
+    if (cekdurasi.length >= 1) {
+        console.log('data duration is existed');
+    } else {
+        sumber.onloadedmetadata = function () {
+            barmax.setAttribute('max', sumber.duration)
+            var ds = parseInt(sumber.duration % 60)
+            var dm = parseInt((sumber.duration / 60) % 60)
+            durasi.innerHTML = dm + ':' + ds
+        };
+        console.log('data duration is loaded')
+    }
+}
+
+// Fungsi untuk menjalankan bar progress dan waktu progress
+function barpodcast(episode) {
+    let timmer = document.getElementById('sec-' + episode);
+    let barmax = document.getElementById('bar-' + episode);
+    let sumber = document.getElementById('aud-' + episode);
+
+    sumber.ontimeupdate = function () {
+        barmax.value = sumber.currentTime
+    }
+    barmax.oninput = function () {
+        sumber.currentTime = barmax.value
+    }
+    sumber.addEventListener('timeupdate', function () {
+        var cs = parseInt(sumber.currentTime % 60)
+        var cm = parseInt((sumber.currentTime / 60) % 60)
+        timmer.innerHTML = cm + ':' + cs
+    }, false)
+}
+
+// Fungsi untuk mematikan audio yang aktiv jika tombol play di player lain di pencet
+function sinkronizer() {
+    let play = document.getElementsByClassName('pemutar-audio');
+    for (let i = 0; i < play.length; i++) {
+        play[i].setAttribute('data-status', 'pause');
+        play[i].pause();
+        play[i].loop = false;
+        play[i].muted = false
+
+    }
+
+    let cover = document.getElementsByClassName('cover');
+    for (let i = 0; i < cover.length; i++) {
+        cover[i].classList.remove('on-play');
+    }
+
+    let repeat = document.getElementsByClassName('repeat');
+    for (let i = 0; i < repeat.length; i++) {
+        repeat[i].classList.remove('active');
+    }
+
+    let muted = document.getElementsByClassName('mute');
+    for (let i = 0; i < muted.length; i++) {
+        muted[i].classList.remove('active');
+    }
+
+    let ctrlbox = document.getElementsByClassName('control-box');
+    for (let i = 0; i < ctrlbox.length; i++) {
+        ctrlbox[i].classList.remove('active');
+    }
+}
+
+// Fungsi untuk mereset data setalah audio selesai di putar
+function akhirtrack(sumber, cover, ikon, ctrbox) {
+    sumber.addEventListener('ended', function () {
+        sumber.currentTime = 0
+        cover.classList.remove('on-play');
+        ctrbox.classList.remove('active');
+        ikon.innerHTML = '<svg height="25" width="25" class="icon ic-media-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Play">	<path d="M46.0136986,31.1054993L25.1973,20.6973c-0.3096008-0.1532993-0.6777992-0.1387005-0.9727001,0.0438995		C23.9297009,20.9237995,23.75,21.2451,23.75,21.5918007v20.8163986c0,0.3467026,0.1797009,0.6679993,0.4745998,0.8506012		C24.3848,43.3583984,24.5674,43.4081993,24.75,43.4081993c0.1532993,0,0.3057003-0.035099,0.4473-0.1054001l20.8163986-10.4081993		c0.3388023-0.1699982,0.5527-0.5157013,0.5527-0.8945999C46.5663986,31.6210995,46.3525009,31.2754002,46.0136986,31.1054993z		 M25.75,40.7901001v-17.580101L43.330101,32L25.75,40.7901001z"/>	<path d="M32,0C14.3268995,0,0,14.3268995,0,32s14.3268995,32,32,32s32-14.3269005,32-32S49.6730995,0,32,0z M32,62		C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2c16.5419998,0,30,13.4580002,30,30C62,48.542099,48.5419998,62,32,62z"/></g></svg>'
+        console.log('all audio data is reset ');
+    });
+}
+
+// Fungsi kontrol utama berupa play, pause dll
+function pemutar() {
+
+    let episode = this.getAttribute('data-val');
+    let sumber = document.getElementById('aud-' + episode)
+    let status = sumber.getAttribute('data-status');
+    let cover = document.getElementById('cov-' + episode);
+    let ikon = document.getElementById('ikon-' + episode);
+    let ctrbox = document.getElementById('ctrbox-' + episode);
+
+    new ambilaudio(episode);
+    new ambildurasi(episode);
+    new barpodcast(episode);
+    new akhirtrack(sumber, cover, ikon, ctrbox);
+
+    if (status == 'play') {
+        sumber.setAttribute('data-status', 'pause');
+        cover.classList.remove('on-play');
+        ctrbox.classList.remove('active');
+        ikon.innerHTML = '<svg height="25" width="25" class="icon ic-media-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Play">	<path d="M46.0136986,31.1054993L25.1973,20.6973c-0.3096008-0.1532993-0.6777992-0.1387005-0.9727001,0.0438995		C23.9297009,20.9237995,23.75,21.2451,23.75,21.5918007v20.8163986c0,0.3467026,0.1797009,0.6679993,0.4745998,0.8506012		C24.3848,43.3583984,24.5674,43.4081993,24.75,43.4081993c0.1532993,0,0.3057003-0.035099,0.4473-0.1054001l20.8163986-10.4081993		c0.3388023-0.1699982,0.5527-0.5157013,0.5527-0.8945999C46.5663986,31.6210995,46.3525009,31.2754002,46.0136986,31.1054993z		 M25.75,40.7901001v-17.580101L43.330101,32L25.75,40.7901001z"/>	<path d="M32,0C14.3268995,0,0,14.3268995,0,32s14.3268995,32,32,32s32-14.3269005,32-32S49.6730995,0,32,0z M32,62		C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2c16.5419998,0,30,13.4580002,30,30C62,48.542099,48.5419998,62,32,62z"/></g></svg>'
+        sumber.pause();
+
+    } else {
+        new sinkronizer();
+        sumber.setAttribute('data-status', 'play');
+        cover.classList.add('on-play');
+        ctrbox.classList.add('active');
+        ikon.innerHTML = '<svg class="icon ic-pause" height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Pause">	<path d="M32,0C14.3268995,0,0,14.3268995,0,32s14.3268995,32,32,32s32-14.3269005,32-32S49.6730995,0,32,0z M32,62		C15.4580002,62,2,48.542099,2,32C2,15.4580002,15.4580002,2,32,2c16.542099,0,30,13.4580002,30,30C62,48.542099,48.542099,62,32,62		z"/>	<path d="M40,18h-4c-1.1044998,0-2,0.8953991-2,2v24c0,1.104599,0.8955002,2,2,2h4c1.104599,0,2-0.895401,2-2V20		C42,18.8953991,41.104599,18,40,18z M40,44h-4V20h4V44z"/>	<path d="M28,18h-4c-1.1044998,0-2,0.8953991-2,2v24c0,1.104599,0.8955002,2,2,2h4c1.1046009,0,2-0.895401,2-2V20		C30,18.8953991,29.1046009,18,28,18z M28,44h-4V20h4V44z"/></g></svg>'
+        sumber.play();
+    }
+}
+
+// Fungsi inisiasi
+function mainkanpodcast() {
+    let elmaksi = document.getElementsByClassName('aksi-podcast');
+    for (let i = 0; i < elmaksi.length; i++) {
+        elmaksi[i].addEventListener('click', pemutar, false);
+    }
+}
+mainkanpodcast();
+
+
+//===============================================
+// Fungsi Untuk Mengulang Audio
+//===============================================
+
+function handleulang() {
+
+    let episode = this.getAttribute('data-target');
+    let target = document.getElementById('aud-' + episode)
+    let selfem = document.getElementById('repeat-' + episode)
+
+    if (target.loop == true) {
+        target.loop = false
+        selfem.classList.toggle('active');
+        selfem.innerHTML = '<svg class="icon ic-repeat" height="25" width="25" xmlns="http://www.w3.org/2000/svg"								viewBox="0 0 64 64">								<g id="Cycle">									<path										d="M63.6213341,25.8802509c-0.436676-0.3509007-1.0704994-0.2780018-1.418499,0.1566982l-2.9656982,3.7034016		C58.1400375,15.5829496,46.2772369,4.3959498,31.8423367,4.3959498c-12.8505993,0-23.8588982,8.7292995-26.7686806,21.2279987		c-0.1272187,0.5432014,0.2108812,1.0853004,0.7540002,1.2115002c0.5401812,0.1291008,1.084281-0.2109985,1.2114811-0.7540989		C9.7359371,14.5023499,19.9350376,6.41465,31.8423367,6.41465c13.3769016,0,24.3693981,10.3680992,25.3831997,23.4885998		l-3.3961983-3.0539989c-0.4150009-0.3726006-1.0516815-0.3390999-1.4253006,0.0748997		c-0.3736,0.414999-0.3390999,1.0527,0.0748978,1.4252987l5.2853012,4.7521019		c0.1862984,0.1674995,0.4267998,0.2591972,0.6752014,0.2591972c0.0275993,0,0.0552177-0.0009995,0.082798-0.0029984		c0.276001-0.0225983,0.5312996-0.158699,0.7047997-0.3754997l4.5509987-5.6835995		C64.1269379,26.8639507,64.0569382,26.2282505,63.6213341,25.8802509z" />									<path										d="M58.1723366,37.1645508c-0.5411987-0.1320992-1.0853004,0.2109985-1.2113991,0.7541008		C54.2640343,49.4976501,44.0649376,57.58535,32.1577377,57.58535c-13.3770008,0-24.3694992-10.3680992-25.3833008-23.4886017		l3.3962188,3.0540009c0.415,0.3726006,1.0527811,0.3411026,1.4253807-0.0748978		c0.3734999-0.4150009,0.3390007-1.0527-0.0749998-1.4253006l-5.2852998-4.7521		c-0.2069998-0.1863003-0.4790001-0.2740002-0.7579999-0.2563c-0.276,0.0226994-0.5313001,0.158699-0.7048001,0.3755989		l-4.5509,5.6834984c-0.349,0.4347-0.279,1.0705032,0.1567,1.4185028c0.1863,0.1497993,0.409,0.2216988,0.6298,0.2216988		c0.2967,0,0.5895-0.1291008,0.7886-0.3784981l2.9656999-3.7034035		c1.0970998,14.1575012,12.9598989,25.3445015,27.3949013,25.3445015c12.8505974,0,23.8589172-8.7294006,26.7686996-21.2280998		C59.0535355,37.8328514,58.715435,37.2907486,58.1723366,37.1645508z" /></g></svg> <p>unrepeat<p>'
+    } else {
+        target.loop = true
+        selfem.classList.toggle('active')
+        selfem.innerHTML = '<svg class="icon ic-repeat" height="25" width="25" xmlns="http://www.w3.org/2000/svg"								viewBox="0 0 64 64">								<g id="Cycle">									<path										d="M63.6213341,25.8802509c-0.436676-0.3509007-1.0704994-0.2780018-1.418499,0.1566982l-2.9656982,3.7034016		C58.1400375,15.5829496,46.2772369,4.3959498,31.8423367,4.3959498c-12.8505993,0-23.8588982,8.7292995-26.7686806,21.2279987		c-0.1272187,0.5432014,0.2108812,1.0853004,0.7540002,1.2115002c0.5401812,0.1291008,1.084281-0.2109985,1.2114811-0.7540989		C9.7359371,14.5023499,19.9350376,6.41465,31.8423367,6.41465c13.3769016,0,24.3693981,10.3680992,25.3831997,23.4885998		l-3.3961983-3.0539989c-0.4150009-0.3726006-1.0516815-0.3390999-1.4253006,0.0748997		c-0.3736,0.414999-0.3390999,1.0527,0.0748978,1.4252987l5.2853012,4.7521019		c0.1862984,0.1674995,0.4267998,0.2591972,0.6752014,0.2591972c0.0275993,0,0.0552177-0.0009995,0.082798-0.0029984		c0.276001-0.0225983,0.5312996-0.158699,0.7047997-0.3754997l4.5509987-5.6835995		C64.1269379,26.8639507,64.0569382,26.2282505,63.6213341,25.8802509z" />									<path										d="M58.1723366,37.1645508c-0.5411987-0.1320992-1.0853004,0.2109985-1.2113991,0.7541008		C54.2640343,49.4976501,44.0649376,57.58535,32.1577377,57.58535c-13.3770008,0-24.3694992-10.3680992-25.3833008-23.4886017		l3.3962188,3.0540009c0.415,0.3726006,1.0527811,0.3411026,1.4253807-0.0748978		c0.3734999-0.4150009,0.3390007-1.0527-0.0749998-1.4253006l-5.2852998-4.7521		c-0.2069998-0.1863003-0.4790001-0.2740002-0.7579999-0.2563c-0.276,0.0226994-0.5313001,0.158699-0.7048001,0.3755989		l-4.5509,5.6834984c-0.349,0.4347-0.279,1.0705032,0.1567,1.4185028c0.1863,0.1497993,0.409,0.2216988,0.6298,0.2216988		c0.2967,0,0.5895-0.1291008,0.7886-0.3784981l2.9656999-3.7034035		c1.0970998,14.1575012,12.9598989,25.3445015,27.3949013,25.3445015c12.8505974,0,23.8589172-8.7294006,26.7686996-21.2280998		C59.0535355,37.8328514,58.715435,37.2907486,58.1723366,37.1645508z" /></g></svg> <p>repeat<p>'
+    }
+}
+
+function initulang() {
+    let elmulang = document.getElementsByClassName('repeat');
+    for (let i = 0; i < elmulang.length; i++) {
+        elmulang[i].addEventListener('click', handleulang, false);
+    }
+}
+initulang();
+
+
+//===============================================
+// Fungsi Untuk Mute
+//===============================================
+
+function handlediam() {
+
+    let episode = this.getAttribute('data-target');
+    let target = document.getElementById('aud-' + episode)
+    let selfem = document.getElementById('mute-' + episode)
+
+    if (target.muted == true) {
+        target.muted = false
+        selfem.classList.toggle('active');
+        selfem.innerHTML = '<svg  height="25" width="25" class="icon ic-mute" viewBox="0 0 64 64" ><path id="Microphone-disabled" d="M32,40c6.0653992,0,11-5.0653992,11-11.2919998V17.2388L57.6772003,3.7358999	c0.4062996-0.3739998,0.4326973-1.0063999,0.0585976-1.4131C57.3618011,1.9165,56.7304993,1.8902,56.3227997,2.2642L43,14.5209999	v-3.2290001C43,5.0654998,38.0653992,0,32,0S21,5.0654998,21,11.2919998v17.4160004	c0,1.7950001,0.4208012,3.4870987,1.1497002,4.9953995l-4.9078999,4.5153999C15.8229008,35.6833992,15,32.7570992,15,29.6333008V26	c0-0.5522003-0.4477997-1-1-1c-0.5521994,0-0.999999,0.4477997-0.999999,1v3.6333008	c0,3.649498,1.0119991,7.0524979,2.7416048,9.9655991l-9.4188051,8.6652985	c-0.4063001,0.3740005-0.4327002,1.0063019-0.0585999,1.4131012C6.4614005,49.8916016,6.7305007,50,7.0005007,50	c0.2417002,0,0.4843998-0.0873985,0.6767001-0.2640991l9.1839008-8.4490013	C20.1452999,45.6963005,25.2313995,48.6402016,31,48.9482994V62H21c-0.5522003,0-1,0.4477997-1,1c0,0.5522995,0.4477997,1,1,1h22	c0.5522003,0,1-0.4477005,1-1c0-0.5522003-0.4477997-1-1-1H33V48.9482994c10.0106049-0.5349007,18-8.9801979,18-19.3149986V26	c0-0.5522003-0.4477997-1-1-1s-1,0.4477997-1,1v3.6333008C49,39.2094994,41.3740005,47,32,47	c-5.6002007,0-10.5613937-2.7927017-13.6604996-7.0733986l4.8607006-4.4717026C25.2080994,38.2075996,28.3999004,40,32,40z	 M41,28.7080002C41,33.8316002,36.9623985,38,32,38c-3.0174999,0-5.6865005-1.546299-7.3202991-3.9065018L41,19.0788994V28.7080002z	 M23,28.7080002V11.2919998C23,6.1684999,27.0376053,2,32,2s9,4.1684999,9,9.2919998v5.0690994L23.6946068,32.282299	C23.2483006,31.1812,23,29.9741993,23,28.7080002z"/><g></svg><p>unmuted</p>'
+    } else {
+        target.muted = true
+        selfem.classList.toggle('active');
+        selfem.innerHTML = '<svg class="icon ic-unmute" height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Microphone_1_">	<path d="M32,40c6.0653992,0,11-5.0653992,11-11.2919998V11.2919998C43,5.0654998,38.0653992,0,32,0S21,5.0654998,21,11.2919998		v17.4160004C21,34.9346008,25.9346008,40,32,40z M23,11.2919998C23,6.1684999,27.0375996,2,32,2s9,4.1684999,9,9.2919998		v17.4160004C41,33.8316002,36.9623985,38,32,38s-9-4.1683998-9-9.2919998V11.2919998z"/>	<path d="M50,25c-0.5522041,0-1,0.4477997-1,1v3.6333008C49,39.2094994,41.3740005,47,32,47s-17-7.7905006-17-17.3666992V26		c0-0.5522003-0.4477997-1-1-1s-1,0.4477997-1,1v3.6333008c0,10.3348007,7.9894009,18.780098,18,19.3149986V62H21		c-0.5522003,0-1,0.4477997-1,1c0,0.5522995,0.4477997,1,1,1h22c0.5521965,0,1-0.4477005,1-1c0-0.5522003-0.4478035-1-1-1H33		V48.9482994c10.0105972-0.5349007,18-8.9801979,18-19.3149986V26C51,25.4477997,50.5521965,25,50,25z"/></g></svg><p>muted</p>'
+    }
+}
+
+// fungsi iniasi mute untuk player
+function initdiam() {
+    let elmdiam = document.getElementsByClassName('mute');
+    for (let i = 0; i < elmdiam.length; i++) {
+        elmdiam[i].addEventListener('click', handlediam, false);
+    }
+}
+initdiam();
+
+
+// Fungsi untuk membuka deskripsi pada header 
+
+function opendesc()
+{
+    let opendesc =  document.getElementById('deskripsi-podcast');
+    let elmtar  = document.getElementById('trailer-konten');
+    
+    opendesc.addEventListener('click', function(){
+
+        if ( elmtar.classList.contains('open') ){
+            elmtar.classList.remove('open');
+        } else{
+            elmtar.classList.add('open');
+        }
+
+    }, false);
+} opendesc();

@@ -1,0 +1,114 @@
+ [[main]]
+    identifier = "course"
+    name = "course"
+    icon = "<i class='fa fa-heart'></i>"
+    url = "/course"
+    weight = 1
+
+ [[main]]
+    identifier = "article"
+    name = "article"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/article"
+    weight = 2
+
+
+ [[main]]
+    identifier = "slides"
+    name = "slides"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/slide"
+    weight = 3
+
+ [[main]]
+    identifier = "book"
+    name = "book"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/book"
+    weight = 4
+
+
+ [[main]]
+    identifier = "movie"
+    name = "movie"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/movie"
+    weight = 5
+
+ [[main]]
+    identifier = "music"
+    name = "music"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/music"
+    weight = 5
+
+[[main]]
+    identifier = "photo"
+    name = "photo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/photo"
+    weight = 7
+
+[[main]]
+    identifier = "podcast"
+    name = "podcast"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/podcast"
+    weight = 8
+
+[[main]]
+    identifier = "doc"
+    name = "doc"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/doc"
+    weight = 9
+
+[[tools]]
+    identifier = "archive"
+    name = "archive"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/archive"
+    weight = 10
+
+[[tools]]
+    identifier = "dataset"
+    name = "dataset"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/dataset"
+    weight = 11
+
+[[tools]]
+    identifier = "tool"
+    name = "tool"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/tool"
+    weight = 12
+
+
+[[footer]]
+    identifier = "information"
+    name = "information"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/pages/information"
+    weight = 1
+
+[[footer]]
+    identifier = "help"
+    name = "help"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/pages/help"
+    weight = 2
+
+[[footer]]
+    identifier = "service"
+    name = "service"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/pages/service"
+    weight = 3
+
+[[footer]]
+    identifier = "contact"
+    name = "service"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/pages/contact"
+    weight = 4

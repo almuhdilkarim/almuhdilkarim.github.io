@@ -1,0 +1,31 @@
+
+{{- if eq .Page.Kind "home" -}}
+    {{- $script := resources.Get "js/page/frontpage.js" -}}
+    {{- $js := $script | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink | safeURL}}" integrity="{{ $js.Data.Integrity }}" ></script>
+    {{- else if eq .Page.Kind "course" -}}
+    <!-- Css untuk Book -->
+{{- else if eq .Page.Kind "article" -}}
+    <!-- Css untuk article -->
+{{- else if eq .Page.Kind "slide" -}}
+    <!-- Css untuk slide -->
+{{- else if eq .Page.Kind "books" -}}
+    <!-- Css untuk books -->
+{{- else if eq .Page.Kind "film" -}}
+    <!-- Css untuk film -->
+{{- else if eq .Page.Kind "music" -}}
+    <!-- Css untuk music -->
+{{- else if eq .Page.Kind "photo" -}}
+    <!-- Css untuk photo -->
+{{- else if eq .Page.Kind "page" -}}
+    <!-- Css untuk podcast -->
+{{- else if eq .Page.Kind "referen" -}}
+    <!-- Css untuk referen -->
+{{- else if eq .Page.Kind "archive" -}}
+    <!-- Css untuk archive -->
+{{- else if eq .Page.Kind "dataset" -}}
+    <!-- Css untuk dataset -->
+{{- else if eq .Page.Kind "tools" -}}
+    <!-- Css untuk tools -->
+{{- else -}}
+{{- end -}}

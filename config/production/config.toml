@@ -1,0 +1,6 @@
+# Konfigurasi Produksi Yuros
+
+baseURL      = "https://yuros.org/"
+languageCode = "id-ID"
+title        = "My New Hugo Site"
+theme        = "informos"

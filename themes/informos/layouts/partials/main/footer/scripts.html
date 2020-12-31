@@ -1,0 +1,10 @@
+<!-- Main js -->
+{{- $script := resources.Get "js/main.js" -}}
+{{- $js := $script | minify | fingerprint -}}
+<script src="{{ $js.RelPermalink | safeURL }}" integrity="{{ $js.Data.Integrity }}" ></script>
+<!-- JS Page -->
+{{- partial "main/footer/script/pages.html" . -}}
+<!-- JS Module  -->
+{{- partial "main/footer/script/module.html" . -}}
+<!-- JS Shortcode  -->
+{{- partial "main/footer/script/shortcodes.html" . -}}

@@ -1,0 +1,7 @@
+{{ if .HasShortcode "podcast"}}
+    {{- $news := resources.Get "js/shortcodes/podcast.js" -}}
+    {{- $player := $news | minify | fingerprint -}}
+    <script src="{{ $news.RelPermalink | safeURL }}" integrity="{{ $news.Data.Integrity }}" defer></script>
+{{ else }}
+
+{{end}}

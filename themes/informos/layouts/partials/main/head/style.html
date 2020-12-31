@@ -1,0 +1,11 @@
+{{- $css := resources.Get "css/main.css" -}}
+{{- $style := $css | minify | fingerprint -}}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ $style.RelPermalink | safeURL }}" integrity="{{ $style.Data.Integrity }}" />
+{{- $partial := resources.Get "css/partial.css" -}}
+{{- $part := $partial | minify | fingerprint -}}
+<link type="text/css" rel="stylesheet" href="{{ $part.RelPermalink | safeURL }}" integrity="{{ $part.Data.Integrity }}" />
+{{- partial "main/head/style/module.html" . -}}
+{{- partial "main/head/style/pages.html" . -}}
+{{- partial "main/head/style/shortcodes.html" . -}}

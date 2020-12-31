@@ -1,0 +1,7 @@
+{{ if .HasShortcode "podcast"}}
+    {{- $src    := resources.Get "css/shortcodes/podcast.css" -}}
+    {{- $style  := $src | minify | fingerprint -}}
+    <link type="text/css" rel="stylesheet" href="{{ $style.RelPermalink | safeURL }}" integrity="{{ $style.Data.Integrity }}" />
+{{ else }}
+
+{{end}}

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+
+		"emeraldwalk.runonsave": {
+			"commands": [
+				{
+					"match": ".*",
+					"cmd": "sh local.sh"
+				}
+			]
+		}
+	}
+}
+
