@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Perpustakaan Yuros</title>
-    <link>http://yuros.al/categories/</link>
+    <link>https://almuhdilkarim.github.io/categories/</link>
     <description>Recent content in Categories on Perpustakaan Yuros</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="http://yuros.al/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://almuhdilkarim.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>filsafat</title>
-      <link>http://yuros.al/categories/filsafat/</link>
+      <link>https://almuhdilkarim.github.io/categories/filsafat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yuros.al/categories/filsafat/</guid>
+      <guid>https://almuhdilkarim.github.io/categories/filsafat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sosiologi</title>
-      <link>http://yuros.al/categories/sosiologi/</link>
+      <link>https://almuhdilkarim.github.io/categories/sosiologi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yuros.al/categories/sosiologi/</guid>
+      <guid>https://almuhdilkarim.github.io/categories/sosiologi/</guid>
       <description></description>
     </item>
     

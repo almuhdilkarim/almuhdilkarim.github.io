@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podtags on Yuros Libraries</title>
-    <link>http://yuros.al/en/podtags/</link>
+    <link>https://almuhdilkarim.github.io/en/podtags/</link>
     <description>Recent content in Podtags on Yuros Libraries</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="http://yuros.al/en/podtags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://almuhdilkarim.github.io/en/podtags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>klasik</title>
-      <link>http://yuros.al/en/podtags/klasik/</link>
+      <link>https://almuhdilkarim.github.io/en/podtags/klasik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yuros.al/en/podtags/klasik/</guid>
+      <guid>https://almuhdilkarim.github.io/en/podtags/klasik/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yunani</title>
-      <link>http://yuros.al/en/podtags/yunani/</link>
+      <link>https://almuhdilkarim.github.io/en/podtags/yunani/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yuros.al/en/podtags/yunani/</guid>
+      <guid>https://almuhdilkarim.github.io/en/podtags/yunani/</guid>
       <description></description>
     </item>
     
