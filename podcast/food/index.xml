@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Food on Perpustakaan Yuros</title>
-    <link>https://yuros.org/podcast/food/</link>
+    <link>https://almuhdilkarim.github.io/podcast/food/</link>
     <description>Recent content in Food on Perpustakaan Yuros</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="https://yuros.org/podcast/food/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://almuhdilkarim.github.io/podcast/food/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
