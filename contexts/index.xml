@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contexts on Karim&#39;s Pages</title>
+    <link>https://almuhdilkarim.github.io/contexts/</link>
+    <description>Recent content in Contexts on Karim&#39;s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language><atom:link href="https://almuhdilkarim.github.io/contexts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>application</title>
+      <link>https://almuhdilkarim.github.io/contexts/application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/contexts/application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OperatingSystem</title>
+      <link>https://almuhdilkarim.github.io/contexts/operatingsystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/contexts/operatingsystem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programing</title>
+      <link>https://almuhdilkarim.github.io/contexts/programing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/contexts/programing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

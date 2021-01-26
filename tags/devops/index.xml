@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on Karim&#39;s Pages</title>
+    <link>https://almuhdilkarim.github.io/tags/devops/</link>
+    <description>Recent content in devops on Karim&#39;s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch - Books 1</title>
+      <link>https://almuhdilkarim.github.io/article/agriculture/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/article/agriculture/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Arch - Books 1</title>
+      <link>https://almuhdilkarim.github.io/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Arch - Books 1</title>
+      <link>https://almuhdilkarim.github.io/module/arch-linux/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/arch-linux/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Arch - Docs 1</title>
+      <link>https://almuhdilkarim.github.io/article/agriculture/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/article/agriculture/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Arch - Docs 1</title>
+      <link>https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Arch - Docs 1</title>
+      <link>https://almuhdilkarim.github.io/module/arch-linux/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/arch-linux/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/article/politics/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/article/politics/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
+      <link>https://almuhdilkarim.github.io/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
+php --version
+Setelah itu akan keluar output sebagai berikut.
+PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS ) Copyright (c) The PHP Group Zend Engine v4.0.1, Copyright (c) Zend Technologies with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1
+Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/hugo/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/hugo/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/javascript/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/javascript/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/nginx/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/nginx/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/python/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/python/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/slims/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/slims/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Error 413 Request Entity Too Large </title>
+      <link>https://almuhdilkarim.github.io/module/ubuntu/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/ubuntu/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress Docs 1 </title>
+      <link>https://almuhdilkarim.github.io/module/wordpress/docs/error-413-request/</link>
+      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.github.io/module/wordpress/docs/error-413-request/</guid>
+      <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
+    </item>
+    
+  </channel>
+</rss>
