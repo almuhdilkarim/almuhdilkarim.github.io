@@ -1,0 +1,3 @@
+const body=document.getElementsByTagName('BODY')[0];function id($val){return document.getElementById($val);}
+function cl($val){return document.getElementsByClassName($val);}
+function mobilesidebar(){if(screen.width<=960){if(id('sidebar-open')!=null){id('sidebar-open').addEventListener('click',event=>{id('sidebar').classList.toggle('active');body.classList.toggle('fixed');});}else if(id('toc-open')!=null){id('toc-open').addEventListener('click',event=>{});}else{}}else{console.log('this screen not a mobile')}}mobilesidebar();
