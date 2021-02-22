@@ -20,18 +20,19 @@
 <meta name="twitter:label2" content="Est. reading time">
 <meta name="twitter:data2" content="1 minutes">
 <title>Arch - Docs 1 | Karim Pages</title>
-<link rel="canonical" href="https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/"><link type="text/css" rel="stylesheet" href="/css/single.min.c82dbc5167ffec1851fb1330a66daafd1396b24fbec94842c6819713462cba15.css" integrity="sha256-yC28UWf/7BhR&#43;xMwpm2q/ROWsk&#43;&#43;yUhCxoGXE0YsuhU="/>
-<body><main id="dual-sidebar" class="wrapper" ><header> 
+<link rel="canonical" href="https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/"><link type="text/css" rel="stylesheet" href="/css/single.min.7d7873428e0eadbcced1ec35750dd6312157c8680b0e5e4e0789a39695cbb8bb.css" integrity="sha256-fXhzQo4OrbzO0ew1dQ3WMSFXyGgLDl5OB4mjlpXLuLs="/>
+<body><main id="dual-sidebar" class="wrapper" ><header id="navigation-panel"> 
     <div id="panel" class="panel flx-a">
         <a href="https://almuhdilkarim.github.io/" id="brand" class="info flx-a">
+           
             
-            <img class="logo desktop" src="https://almuhdilkarim.github.io/image/brand/yuros.png" alt="Karim Pages logo" height="34px" width="34px">
-            <img class="logo mobile" src="https://almuhdilkarim.github.io/course/web-development/docs/" height="40px" width="40px" alt=" menu logo">
+            <img class="logo" src="https://almuhdilkarim.github.io/image/brand/yuros.png" alt="Karim Pages logo" height="34px" width="34px">
             
 
             
             <h2 class="context grd-a">
             
+                <div class="sitename">Karim Pages</div>
             
             </h2>
         </a>
@@ -60,6 +61,39 @@
         </aside>
         <article id="main-content" class="base-h">
             <h1>Arch - Docs 1</h1>
+            <h2 id="mengetahui-single-version-php">Mengetahui Single Version PHP</h2>
+<p>Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,</p>
+<p><code>php --version</code></p>
+<p>Setelah itu akan keluar output sebagai berikut.</p>
+<pre><code>PHP 8.0.1 (cli) (built: Jan 13 2021 08:22:35) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.1, Copyright (c) Zend Technologies
+    with Zend OPcache v8.0.1, Copyright (c), by Zend Technologies
+
+</code></pre><p>Dari keterangan tersebut, kita mengentahui kalau versi php yang sedangkan digunakan adalah versi PHP 8.0.1</p>
+<h2 id="mengatahui-multiple-version-php">Mengatahui Multiple Version PHP</h2>
+<p>Dalam beberapa kasus, terkadang kita menginstall berbagai versi php untuk beberapa kebutuhan khusus.</p>
+<p>Untuk mengetahui semua versi php telah terinstall di dalam server atau komputer local, kita bisa menggunakan perintah <code>locate</code>.</p>
+<p>Pertama buka terminal anda, atau login ke server anda dengan menggunakan ssh. Selanjutnya, silahkan ketikan perintah berikut ini di terminal dan enter,</p>
+<p><code>locate bin/php</code></p>
+<p>Sebagai contoh, dikomputer saya keluar output sebagai berikut,</p>
+<pre><code>/usr/bin/php
+/usr/bin/php8.0
+/usr/local/lsws/lsphp73/bin/php
+/usr/local/lsws/lsphp73/bin/php-helper
+/usr/local/lsws/lsphp73/bin/php-maintscript-helper
+/usr/local/lsws/lsphp73/bin/php7.3
+/usr/local/lsws/lsphp73/bin/phpdismod
+/usr/local/lsws/lsphp73/bin/phpenmod
+/usr/local/lsws/lsphp73/bin/phpquery
+/usr/sbin/php-fpm8.0
+/usr/sbin/phpdismod
+/usr/sbin/phpenmod
+/usr/sbin/phpquery
+</code></pre><p>Output dari perintah tersebut akan menampilkan versi php yang terinstall didalam perangkat anda.</p>
+<p>Hasil diatas adalah output dari perangkatsaya. pada baris kedua kita menemukan <code>php8.0</code> dan pada baris ke-3 sampai ke-9 kita menemukan <code>lsphp73</code>. terakhir pada barus ke-10 kita menemukan <code>php-fpm8.0</code>.</p>
+<p>Berdasarkan contoh diatas, dapat diketahui kalau saya menggunakan php8.0, lsphp7.3 dan php-fpm8.0.</p>
+
         </article>
         <div id="related-content">
         </div>
