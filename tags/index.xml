@@ -2,152 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Karim&#39;s Pages</title>
-    <link>/tags/</link>
+    <link>https://almuhdilkarim.github.io/tags/</link>
     <description>Recent content in Tags on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>devops</title>
-      <link>/tags/devops/</link>
+      <link>https://almuhdilkarim.github.io/tags/devops/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>/tags/devops/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programing</title>
-      <link>/tags/programing/</link>
+      <link>https://almuhdilkarim.github.io/tags/programing/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>/tags/programing/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/programing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>/tags/ubuntu/</link>
+      <link>https://almuhdilkarim.github.io/tags/ubuntu/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>/tags/ubuntu/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wordpress</title>
-      <link>/tags/wordpress/</link>
+      <link>https://almuhdilkarim.github.io/tags/wordpress/</link>
       <pubDate>Sat, 09 Jan 2021 03:00:44 +0700</pubDate>
       
-      <guid>/tags/wordpress/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>centos</title>
-      <link>/tags/centos/</link>
+      <link>https://almuhdilkarim.github.io/tags/centos/</link>
       <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
       
-      <guid>/tags/centos/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/centos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iptables</title>
-      <link>/tags/iptables/</link>
+      <link>https://almuhdilkarim.github.io/tags/iptables/</link>
       <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
       
-      <guid>/tags/iptables/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/iptables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>magento</title>
-      <link>/tags/magento/</link>
+      <link>https://almuhdilkarim.github.io/tags/magento/</link>
       <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
       
-      <guid>/tags/magento/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/magento/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>/tags/php/</link>
+      <link>https://almuhdilkarim.github.io/tags/php/</link>
       <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
       
-      <guid>/tags/php/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>redhat</title>
-      <link>/tags/redhat/</link>
+      <link>https://almuhdilkarim.github.io/tags/redhat/</link>
       <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
       
-      <guid>/tags/redhat/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/redhat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arch</title>
-      <link>/tags/arch/</link>
+      <link>https://almuhdilkarim.github.io/tags/arch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/arch/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/arch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>/tags/golang/</link>
+      <link>https://almuhdilkarim.github.io/tags/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://almuhdilkarim.github.io/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>openlitespeed</title>
-      <link>/tags/openlitespeed/</link>
+      <link>https://almuhdilkarim.github.io/tags/openlitespeed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/openlitespeed/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/openlitespeed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>selinux</title>
-      <link>/tags/selinux/</link>
+      <link>https://almuhdilkarim.github.io/tags/selinux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/selinux/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/selinux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>slims</title>
-      <link>/tags/slims/</link>
+      <link>https://almuhdilkarim.github.io/tags/slims/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/slims/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/slims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>/tags/ssh/</link>
+      <link>https://almuhdilkarim.github.io/tags/ssh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ssh/</guid>
+      <guid>https://almuhdilkarim.github.io/tags/ssh/</guid>
       <description></description>
     </item>
     

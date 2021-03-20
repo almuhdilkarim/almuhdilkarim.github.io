@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Audio on Karim&#39;s Pages</title>
-    <link>/module/arch-linux/audio/</link>
+    <link>https://almuhdilkarim.github.io/module/arch-linux/audio/</link>
     <description>Recent content in Audio on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="/module/arch-linux/audio/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://almuhdilkarim.github.io/module/arch-linux/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch - Docs 1</title>
-      <link>/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>https://almuhdilkarim.github.io/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>https://almuhdilkarim.github.io/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
