@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devops on Karim&#39;s Pages</title>
-    <link>https://almuhdilkarim.github.io/tags/devops/</link>
+    <link>/tags/devops/</link>
     <description>Recent content in devops on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch - Books 1</title>
-      <link>https://almuhdilkarim.github.io/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/web-development/books/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -22,10 +22,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/web-development/docs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -35,10 +35,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/audio/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -48,10 +48,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/codecs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/codecs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/codecs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/codecs/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -61,10 +61,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/collection-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/collection-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/collection-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/collection-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -74,10 +74,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/emails/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/emails/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/emails/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/emails/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -87,10 +87,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -100,10 +100,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/image/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/image/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/image/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/image/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -113,10 +113,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/instant-messaging/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/instant-messaging/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/instant-messaging/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/instant-messaging/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -126,10 +126,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/media-server/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/media-server/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/media-server/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/media-server/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -139,10 +139,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/metadata/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/metadata/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/metadata/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/metadata/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -152,10 +152,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/mobile-device-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/mobile-device-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/mobile-device-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/mobile-device-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -165,10 +165,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/network-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/network-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/network-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/network-manager/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -178,10 +178,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/news-rss/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/news-rss/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/news-rss/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/news-rss/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -191,10 +191,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/optical-disk/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/optical-disk/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/optical-disk/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/optical-disk/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -204,10 +204,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/proxy-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/proxy-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/proxy-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/proxy-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -217,10 +217,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/remote-desktop/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/remote-desktop/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/remote-desktop/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/remote-desktop/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -230,10 +230,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/video/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/video/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/video/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/video/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -243,10 +243,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/vpn-clients/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/vpn-clients/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/vpn-clients/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/vpn-clients/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -256,10 +256,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/web-browser/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/web-browser/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/web-browser/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/web-browser/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -269,10 +269,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/web-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/arch-linux/web-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/web-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/arch-linux/web-servers/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -282,10 +282,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/course/drupal/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/drupal/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/drupal/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/drupal/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -295,10 +295,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/course/grav/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/grav/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/grav/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/grav/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -308,10 +308,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/course/laravel/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/laravel/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/laravel/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/laravel/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -321,10 +321,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/course/wordpress/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -334,10 +334,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/bash/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -347,10 +347,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/c&#43;&#43;/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -360,10 +360,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/css3/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -373,10 +373,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/eprints/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -386,10 +386,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Cara Mengecek Versi Semua PHP di Ubuntu</title>
-      <link>https://almuhdilkarim.github.io/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>/module/php/docs/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -399,73 +399,73 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/hugo/docs/error-413-request/</link>
+      <link>/module/hugo/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/hugo/docs/error-413-request/</guid>
+      <guid>/module/hugo/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/javascript/docs/error-413-request/</link>
+      <link>/module/javascript/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/javascript/docs/error-413-request/</guid>
+      <guid>/module/javascript/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/nginx/docs/error-413-request/</link>
+      <link>/module/nginx/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/nginx/docs/error-413-request/</guid>
+      <guid>/module/nginx/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/python/docs/error-413-request/</link>
+      <link>/module/python/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/python/docs/error-413-request/</guid>
+      <guid>/module/python/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/slims/docs/error-413-request/</link>
+      <link>/module/slims/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/slims/docs/error-413-request/</guid>
+      <guid>/module/slims/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.github.io/module/ubuntu/docs/error-413-request/</link>
+      <link>/module/ubuntu/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/ubuntu/docs/error-413-request/</guid>
+      <guid>/module/ubuntu/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     
     <item>
       <title>Freenet</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/freenet/content/</link>
+      <link>/module/arch-linux/anonymizing-networks/freenet/content/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/freenet/content/</guid>
+      <guid>/module/arch-linux/anonymizing-networks/freenet/content/</guid>
       <description>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>GNUnet</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/gnunet/content/</link>
+      <link>/module/arch-linux/anonymizing-networks/gnunet/content/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/gnunet/content/</guid>
+      <guid>/module/arch-linux/anonymizing-networks/gnunet/content/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -475,10 +475,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>I2P</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/i2p/i2p/</link>
+      <link>/module/arch-linux/anonymizing-networks/i2p/i2p/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/i2p/i2p/</guid>
+      <guid>/module/arch-linux/anonymizing-networks/i2p/i2p/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -488,10 +488,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Lantern </title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/lantern/content/</link>
+      <link>/module/arch-linux/anonymizing-networks/lantern/content/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/lantern/content/</guid>
+      <guid>/module/arch-linux/anonymizing-networks/lantern/content/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -501,10 +501,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Tor</title>
-      <link>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/tor/content/</link>
+      <link>/module/arch-linux/anonymizing-networks/tor/content/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/arch-linux/anonymizing-networks/tor/content/</guid>
+      <guid>/module/arch-linux/anonymizing-networks/tor/content/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
@@ -514,10 +514,10 @@ Mengatahui Multiple Version PHP Dalam beberapa kasus, terkadang kita menginstall
     
     <item>
       <title>Wordpress Docs 1 </title>
-      <link>https://almuhdilkarim.github.io/module/wordpress/docs/error-413-request/</link>
+      <link>/module/wordpress/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/module/wordpress/docs/error-413-request/</guid>
+      <guid>/module/wordpress/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     

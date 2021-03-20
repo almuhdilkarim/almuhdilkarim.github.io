@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>popular on Karim&#39;s Pages</title>
-    <link>https://almuhdilkarim.github.io/contexts/popular/</link>
+    <link>/contexts/popular/</link>
     <description>Recent content in popular on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sat, 09 Jan 2021 03:00:44 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.github.io/contexts/popular/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 03:00:44 +0700</lastBuildDate><atom:link href="/contexts/popular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>popular 1</title>
-      <link>https://almuhdilkarim.github.io/article/popular/1-docs/</link>
+      <link>/article/popular/1-docs/</link>
       <pubDate>Sat, 09 Jan 2021 03:00:44 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/article/popular/1-docs/</guid>
+      <guid>/article/popular/1-docs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Popular 2</title>
-      <link>https://almuhdilkarim.github.io/article/popular/2-docs/</link>
+      <link>/article/popular/2-docs/</link>
       <pubDate>Sat, 09 Jan 2021 03:00:44 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.github.io/article/popular/2-docs/</guid>
+      <guid>/article/popular/2-docs/</guid>
       <description></description>
     </item>
     
