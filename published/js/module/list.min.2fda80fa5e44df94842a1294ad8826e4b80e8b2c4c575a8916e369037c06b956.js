@@ -1,4 +1,0 @@
-const body=document.getElementsByTagName('BODY')[0];function id($val){return document.getElementById($val);}
-function cl($val){return document.getElementsByClassName($val);}
-if(screen.width<960){for(let y=0;y<cl('dropdown').length;y++){cl('dropdown')[y].addEventListener('click',event=>{let test=cl('dropdown')[y].getAttribute('data-dropdown');id(test).classList.toggle('hide');cl('dropdown')[y].classList.toggle('close')})}}else{for(let y=0;y<cl('sidebar-filter').length;y++){cl('sidebar-filter')[y].addEventListener('click',event=>{let test=cl('sidebar-filter')[y].getAttribute('data-show');if(test!='all'){for(let x=0;x<cl('dropdown').length;x++){cl('dropdown')[x].classList.add('hide')}
-id(test).classList.remove('hide');}else{for(let x=0;x<cl('dropdown').length;x++){cl('dropdown')[x].classList.remove('hide')}}})}}
