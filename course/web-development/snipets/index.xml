@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snipets on Karim&#39;s Pages</title>
-    <link>https://almuhdilkarim.com/course/web-development/snipets/</link>
+    <link>https://www.almuhdilkarim.com/course/web-development/snipets/</link>
     <description>Recent content in Snipets on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="https://almuhdilkarim.com/course/web-development/snipets/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://www.almuhdilkarim.com/course/web-development/snipets/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

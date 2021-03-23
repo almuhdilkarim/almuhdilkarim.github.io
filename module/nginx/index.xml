@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NGINX on Karim&#39;s Pages</title>
-    <link>https://almuhdilkarim.com/module/nginx/</link>
+    <link>https://www.almuhdilkarim.com/module/nginx/</link>
     <description>Recent content in NGINX on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="https://almuhdilkarim.com/module/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://www.almuhdilkarim.com/module/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Error 413 Request Entity Too Large </title>
-      <link>https://almuhdilkarim.com/module/nginx/docs/error-413-request/</link>
+      <link>https://www.almuhdilkarim.com/module/nginx/docs/error-413-request/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.com/module/nginx/docs/error-413-request/</guid>
+      <guid>https://www.almuhdilkarim.com/module/nginx/docs/error-413-request/</guid>
       <description>Mengenal 413 Request Entity Too Large  Error 413 Request Entity Too Large * adalah kesalahan sistem yang terjadi ketika kita mengupload file berukuran besar ke server melebihi standar dari yang ditetapkan dalam pengaturan webserver atau penyedia layanan webhosting.  Suatu webserver atau penyedia hosting biasanya telah mempunyai pengaturan terkait besar file yang di izinkan untuk diupload ke server. Pesan ini muncul saat kita mengupload file dengan ukuran yang melebihi ketentuan yang telah ditetapkan oleh webserver atau pengelola layanan hosting.</description>
     </item>
     

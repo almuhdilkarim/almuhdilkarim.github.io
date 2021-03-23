@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>File Sharing on Karim&#39;s Pages</title>
-    <link>https://almuhdilkarim.com/module/arch-linux/file-sharing/</link>
+    <link>https://www.almuhdilkarim.com/module/arch-linux/file-sharing/</link>
     <description>Recent content in File Sharing on Karim&#39;s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language><atom:link href="https://almuhdilkarim.com/module/arch-linux/file-sharing/index.xml" rel="self" type="application/rss+xml" />
+    <language>id-ID</language><atom:link href="https://www.almuhdilkarim.com/module/arch-linux/file-sharing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch - Docs 1</title>
-      <link>https://almuhdilkarim.com/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
+      <link>https://www.almuhdilkarim.com/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</link>
       <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.com/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
+      <guid>https://www.almuhdilkarim.com/module/arch-linux/file-sharing/00001/cara-mengecek-semua-versi-php-yang-terinstall/</guid>
       <description>Mengetahui Single Version PHP Buka terminal pada linux ubuntu anda, kemudian ketikan perintah,
 php --version
 Setelah itu akan keluar output sebagai berikut.
