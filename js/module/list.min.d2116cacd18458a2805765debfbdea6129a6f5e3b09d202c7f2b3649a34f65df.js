@@ -1,0 +1,4 @@
+const body=document.getElementsByTagName('BODY')[0];function id($val){return document.getElementById($val);}
+function cl($val){return document.getElementsByClassName($val);}
+if(screen.width<960){id('open-categories').addEventListener('click',event=>{if(id('toc-box').style.display=="block"){id('toc-box').style.display="none";id('table-of-content').style.height="auto"}else{id('toc-box').style.display="block";body.style.overflow="hidden";id('table-of-content').style.height="-webkit-fill-available"}});id('table-of-content').addEventListener('click',event=>{id('toc-box').style.display="none";id('table-of-content').style.height="auto"
+body.style.overflow="unset";})}
