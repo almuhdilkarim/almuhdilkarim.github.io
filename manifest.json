@@ -1,6 +1,6 @@
 {
-    "name": "Karim Library",
-    "short_name": "Karlib",
+    "name": "Karlib",
+    "short_name": "karlib",
     "icons": [
       {
         "src": "/pwa/favicon-128.png",
