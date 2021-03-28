@@ -163,45 +163,7 @@
         
     </div>
 </footer>
-<script>
-    if('serviceWorker' in navigator) {
-    const PREFETCH = true;
-    const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
-    function prefetchCache() {
-        if(navigator.serviceWorker.controller) {
-            let links = document.querySelectorAll(
-                PREFETCH_LINK_RELS.map((rel) => {
-                    return 'link[rel='+rel+']';
-                }).join(',')
-            );
-            if(links.length > 0) {
-                Array.from(links)
-                    .map((link) => {
-                        let href = link.getAttribute('href');
-                        navigator.serviceWorker.controller.postMessage({
-                            action : 'cache',
-                            url : href,
-                        });
-                    });
-            }
-        }
-    }
-
-    navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
-        .then(() => {
-            console.log('Service Worker Registered');
-        });
-
-    navigator.serviceWorker
-        .ready
-        .then(() => {
-            if(PREFETCH) {
-                prefetchCache();
-            }
-        });
-}
-  </script></main><script src="/js/main.min.56e6d1870c5b93842bbbf821a62f12f7246baada7cbc8a0c82f8172b215fe116.js" integrity="sha256-VubRhwxbk4Qru/ghpi8S9yRrqtp8vIoMgvgXKyFf4RY=" crossorigin="anonymous"></script>
+<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('/sw.js?version=3.7',{scope:'/'}).then(()=>{console.info('Developer for Life Service Worker Registered');},err=>console.error("Developer for Life Service Worker registration failed: ",err));navigator.serviceWorker.ready.then(()=>{console.info('Developer for Life Service Worker Ready');});}</script></main><script src="/js/main.min.56e6d1870c5b93842bbbf821a62f12f7246baada7cbc8a0c82f8172b215fe116.js" integrity="sha256-VubRhwxbk4Qru/ghpi8S9yRrqtp8vIoMgvgXKyFf4RY=" crossorigin="anonymous"></script>
     
     <script type="text/javascript" src="https://almuhdilkarim.com/js/pages/home.min.06d7c470e077a2ce8df3880f3d713ffc882f728d301485004950a10f7256ded4.js" integrity="sha256-BtfEcOB3os6N84gPPXE//Igvco0wFIUASVChD3JW3tQ=" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js" defer></script>
