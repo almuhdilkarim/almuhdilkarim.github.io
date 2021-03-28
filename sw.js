@@ -6,16 +6,14 @@ const BASE_CACHE_FILES = [
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
-    '/offline/index.html',
+    /*'/offline/index.html'*/
 ];
 
 const NOT_FOUND_CACHE_FILES = [
     '/404.html',
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
+/* const OFFLINE_PAGE = '/offline/index.html'; */
 const NOT_FOUND_PAGE = '/404.html';
 
 const CACHE_VERSIONS = {
