@@ -6,14 +6,14 @@ const BASE_CACHE_FILES = [
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/offline/'
+    '/index.html'
 ];
 
 const NOT_FOUND_CACHE_FILES = [
     '/404.html',
 ];
 
-const OFFLINE_PAGE = '/offline/';
+const OFFLINE_PAGE = '/index.html';
 const NOT_FOUND_PAGE = '/404.html';
 
 const CACHE_VERSIONS = {
