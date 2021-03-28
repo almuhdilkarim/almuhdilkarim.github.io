@@ -11,7 +11,7 @@ class Pwa {
         ];
         this.host = `${self.location.protocol}//${self.location.host}`;
         console.info(`Host: ${this.host}`);
-        this.OFFLINE_PAGE = '/index.html';
+        this.OFFLINE_PAGE = '/module/';
         this.NOT_FOUND_PAGE = '/404.html';
         this.CACHE_NAME = `content-v${this.CACHE_VERSION}`;
         this.MAX_TTL = 86400;
