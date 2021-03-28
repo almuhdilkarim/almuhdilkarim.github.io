@@ -130,42 +130,13 @@
     </div>
 </footer>
 <script>
-    if('serviceWorker' in navigator) {
-    const PREFETCH = true;
-    const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
-    function prefetchCache() {
-        if(navigator.serviceWorker.controller) {
-            let links = document.querySelectorAll(
-                PREFETCH_LINK_RELS.map((rel) => {
-                    return 'link[rel='+rel+']';
-                }).join(',')
-            );
-            if(links.length > 0) {
-                Array.from(links)
-                    .map((link) => {
-                        let href = link.getAttribute('href');
-                        navigator.serviceWorker.controller.postMessage({
-                            action : 'cache',
-                            url : href,
-                        });
-                    });
-            }
-        }
-    }
-
-    navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
-        .then(() => {
-            console.log('Service Worker Registered');
-        });
-
-    navigator.serviceWorker
-        .ready
-        .then(() => {
-            if(PREFETCH) {
-                prefetchCache();
-            }
-        });
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    console.log('ServiceWorker registration successful with scope:',  registration.scope);
+  }).catch(function(error) {
+    console.log('ServiceWorker registration failed:', error);
+  });
+}
 }
   </script></main><script src="/js/main.min.56e6d1870c5b93842bbbf821a62f12f7246baada7cbc8a0c82f8172b215fe116.js" integrity="sha256-VubRhwxbk4Qru/ghpi8S9yRrqtp8vIoMgvgXKyFf4RY=" crossorigin="anonymous"></script><script src="/script/js/jquery.js" async></script>
     <script src="/script/js/search.js" defer></script>
