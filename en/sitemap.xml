@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://almuhdilkarim.com/en/categories/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/class/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,9 +25,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/class/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/clusters/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,9 +37,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/clusters/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/contexts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -56,9 +49,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/contexts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/</loc>
     <xhtml:link
                 rel="alternate"
@@ -70,9 +61,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/levels/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,9 +73,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/levels/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/numerates/</loc>
     <xhtml:link
                 rel="alternate"
@@ -98,9 +85,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/numerates/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/relates/</loc>
     <xhtml:link
                 rel="alternate"
@@ -112,9 +97,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/relates/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -126,9 +109,7 @@
                 hreflang="en"
                 href="https://almuhdilkarim.com/en/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://almuhdilkarim.com/en/types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -141,5 +122,4 @@
                 href="https://almuhdilkarim.com/en/types/"
                 />
   </url>
-  
 </urlset>
