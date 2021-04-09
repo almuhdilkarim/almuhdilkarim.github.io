@@ -96,7 +96,7 @@
     <lastmod>2021-02-17T04:53:41+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/devops/</loc>
-    <lastmod>2021-02-22T22:58:57+07:00</lastmod>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/module/hugo/docs/error-413-request/</loc>
     <lastmod>2021-01-29T20:53:18+07:00</lastmod>
@@ -128,17 +128,20 @@
     <loc>https://almuhdilkarim.com/module/arch-linux/anonymizing-networks/lantern/content/</loc>
     <lastmod>2021-02-19T04:14:11+07:00</lastmod>
   </url><url>
+    <loc>https://almuhdilkarim.com/module/arch-linux/installation/default-mode/content/</loc>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
+  </url><url>
     <loc>https://almuhdilkarim.com/types/module/</loc>
     <lastmod>2021-01-29T20:53:18+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/module/</loc>
-    <lastmod>2021-02-22T22:58:57+07:00</lastmod>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/programing/</loc>
-    <lastmod>2021-02-22T22:58:57+07:00</lastmod>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/</loc>
-    <lastmod>2021-02-22T22:58:57+07:00</lastmod>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -167,7 +170,7 @@
                 />
   </url><url>
     <loc>https://almuhdilkarim.com/tags/ubuntu/</loc>
-    <lastmod>2021-02-22T22:58:57+07:00</lastmod>
+    <lastmod>2021-04-09T18:28:00+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/module/wordpress/docs/error-413-request/</loc>
     <lastmod>2021-01-29T20:53:18+07:00</lastmod>
@@ -404,6 +407,9 @@
   </url><url>
     <loc>https://almuhdilkarim.com/pages/informasi/</loc>
     <lastmod>2021-01-29T20:53:18+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/module/arch-linux/installation/</loc>
+    <lastmod>2021-04-09T18:27:01+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/module/arch-linux/instant-messaging/</loc>
     <lastmod>2021-02-18T01:47:53+07:00</lastmod>
