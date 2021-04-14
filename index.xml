@@ -5,7 +5,17 @@
     <link>https://almuhdilkarim.com/</link>
     <description>Recent content on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://almuhdilkarim.com/post/hello-world/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/post/hello-world/</guid>
+      <description>Halo semua, salam kenal. Tulisan ini adalah tulisan pertama saya. Saya akan memulai menulis dari sekarang.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://almuhdilkarim.com/archives/</link>
