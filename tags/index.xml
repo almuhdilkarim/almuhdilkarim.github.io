@@ -1,153 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Karim&#39;s Pages</title>
+    <title>Tags on Karim Pages</title>
     <link>https://almuhdilkarim.com/tags/</link>
-    <description>Recent content in Tags on Karim&#39;s Pages</description>
+    <description>Recent content in Tags on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language>
-    <lastBuildDate>Fri, 15 Jan 2021 03:00:21 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language><atom:link href="https://almuhdilkarim.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>devops</title>
-      <link>https://almuhdilkarim.com/tags/devops/</link>
-      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programing</title>
-      <link>https://almuhdilkarim.com/tags/programing/</link>
-      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/programing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://almuhdilkarim.com/tags/ubuntu/</link>
-      <pubDate>Fri, 15 Jan 2021 03:00:21 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wordpress</title>
-      <link>https://almuhdilkarim.com/tags/wordpress/</link>
-      <pubDate>Sat, 09 Jan 2021 03:00:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>centos</title>
-      <link>https://almuhdilkarim.com/tags/centos/</link>
-      <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iptables</title>
-      <link>https://almuhdilkarim.com/tags/iptables/</link>
-      <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/iptables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>magento</title>
-      <link>https://almuhdilkarim.com/tags/magento/</link>
-      <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/magento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>php</title>
-      <link>https://almuhdilkarim.com/tags/php/</link>
-      <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>redhat</title>
-      <link>https://almuhdilkarim.com/tags/redhat/</link>
-      <pubDate>Fri, 08 Jan 2021 03:58:44 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/redhat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arch</title>
-      <link>https://almuhdilkarim.com/tags/arch/</link>
+      <title>index</title>
+      <link>https://almuhdilkarim.com/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://almuhdilkarim.com/tags/arch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://almuhdilkarim.com/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://almuhdilkarim.com/tags/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>openlitespeed</title>
-      <link>https://almuhdilkarim.com/tags/openlitespeed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/openlitespeed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>selinux</title>
-      <link>https://almuhdilkarim.com/tags/selinux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/selinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>slims</title>
-      <link>https://almuhdilkarim.com/tags/slims/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/slims/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>https://almuhdilkarim.com/tags/ssh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tags/ssh/</guid>
+      <guid>https://almuhdilkarim.com/tags/index/</guid>
       <description></description>
     </item>
     
