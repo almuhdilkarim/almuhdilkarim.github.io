@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://almuhdilkarim.com/post/installasi-lynis-security-audit-di-linux/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/audit/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/categories/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/linux/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/categories/lynis/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/security/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/</loc>
+    <lastmod>2021-04-16T00:01:49+07:00</lastmod>
+  </url><url>
     <loc>https://almuhdilkarim.com/post/hello-world/</loc>
     <lastmod>2021-04-14T22:33:16+07:00</lastmod>
   </url><url>
@@ -17,15 +38,10 @@
     <loc>https://almuhdilkarim.com/</loc>
     <lastmod>2021-04-14T03:46:59+07:00</lastmod>
   </url><url>
-    <loc>https://almuhdilkarim.com/categories/</loc>
-  </url><url>
     <loc>https://almuhdilkarim.com/tags/index/</loc>
     <lastmod>2021-04-14T03:46:59+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/post/</loc>
-    <lastmod>2021-04-14T03:46:59+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/tags/</loc>
     <lastmod>2021-04-14T03:46:59+07:00</lastmod>
   </url>
 </urlset>

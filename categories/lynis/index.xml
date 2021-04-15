@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Karim Pages</title>
-    <link>https://almuhdilkarim.com/post/</link>
-    <description>Recent content in Posts on Karim Pages</description>
+    <title>lynis on Karim Pages</title>
+    <link>https://almuhdilkarim.com/categories/lynis/</link>
+    <description>Recent content in lynis on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="https://almuhdilkarim.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language>
+    <lastBuildDate>Thu, 15 Apr 2021 02:27:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/categories/lynis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 Metode Installasi Lynis Di Linux</title>
       <link>https://almuhdilkarim.com/post/installasi-lynis-security-audit-di-linux/</link>
@@ -13,15 +14,6 @@
       
       <guid>https://almuhdilkarim.com/post/installasi-lynis-security-audit-di-linux/</guid>
       <description>Lynis adalah salah satu software yang biasa digunakan untuk melakukan audit keamanan sistem operasi berbasis linux dan Macos.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://almuhdilkarim.com/post/hello-world/</link>
-      <pubDate>Tue, 13 Apr 2021 21:47:41 +0000</pubDate>
-      
-      <guid>https://almuhdilkarim.com/post/hello-world/</guid>
-      <description>Halo semua, salam kenal. Tulisan ini adalah tulisan pertama saya. Saya akan memulai menulis dari sekarang.</description>
     </item>
     
   </channel>
