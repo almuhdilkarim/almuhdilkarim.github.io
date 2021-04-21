@@ -149,33 +149,30 @@
                 
             </div>
 
-            <p>Slock adalah salah satu aplikasi yang berguna untuk menampilkan screensaver atau mengunci antar muka (Screen locker ) dari suatu sistem linux
-supaya tidak bisa digunakan oleh orang lain selama perangkat ditinggalkan dalam keadaan hidup.</p>
-<p>Slock sendiri adalah kependekan dari &ldquo;Simple X display locker&rdquo;. Dalam perancanganya, slock didesain dengan secara minimalis.
-Karena didesain secara minimalis, maka jangan berharap anda akan mendapatkan tampilan yang menawan seperti aplikasi screen saver lainya.</p>
-<p>Ketika layar terkunci oleh slock, secara default  slock hanya akan membuat tampilan layar menajadi hitam (blank).
-Ketika anda mengetikan sesuatu pada keyboard, warna hitam tersebut akan berubah menjadi warna merah dan biru.</p>
-<p>Walupun demikian, slock bisa bekerja dengan sangat cepat dan ramah dalam penggunaan memory. Disamping itu, karena slock
-didesain secara minimalis, maka jika ada celah keamanan dari aplikasi cendrung akan lebih akan lebih mudah dan cepat untuk diperbaiki.</p>
-<h2 id="instalasi--slock-di-arch-linux">Instalasi  Slock di Arch Linux</h2>
+            <p>Slock adalah aplikasi yang berfugsi untuk mengunci layar ( Screen locker ) pada sistem operasi berbasis linux. Tujuannya adalah menjaga perangkat dari pihak yang tidak berwenang saat perangkat ditinggalkan dalam keadaan hidup.</p>
+<p>Slock merupakan singkatan dari &ldquo;Simplest X display locker&rdquo;. Memang dalam rancanganya, slock didesain dengan sangat minimalis. Karena didesain secara minimalis, maka anda jangan terlalu berharap menemukan tampilan yang menarik saat menggunakan slock.</p>
+<p>Ketika anda mengunci layar menggunakan slock, tampilan layar anda akan berubah menjadi hitam (blank). Pada saat layar terkunci dan anda mengetikan sesuatu pada keyboard, warna layar yang awalnya hitam (blank) akan berubah menjadi warna merah atau biru.</p>
+<p>Walupun memiliki tampilan yang sangat sederhana, slock mempunyai beberapa kelebihan. Yang pertama adalah slock bekerja dengan sangat cepat, bahkan untuk perangkat-perangkat yang cukup tua.</p>
+<p>Selain itu, slock juga ramah dalam penggunaan memory, slock tidak membutuhkan alokasi memory ( RAM ) yang besar untuk dijalankan. Kelebihan slock yang terakhir terkait dengan desain minimalisnya. Karena slock di desain secara minimalis, jika ditemukan celah keamanan akan lebih mudah untuk di perbaiki ( patch ).</p>
+<h2 id="instalasi-slock-di-arch-linux">Instalasi Slock di Arch Linux</h2>
 <ul>
 <li>Buka terminal emulator</li>
-<li>Update repository menggunakan perintah</li>
+<li>Update repository arch  linux menggunakan perintah</li>
 </ul>
 <pre><code>	sudo pacman -Syy
 </code></pre><ul>
-<li>Setelah itu baru Ketikan perintah berikut untuk memulai installasi :</li>
+<li>Setelah itu, ketikan perintah berikut untuk memulai proses  installasi :</li>
 </ul>
 <pre><code>	sudo pacman -S slock
-</code></pre><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
-<h2 id="instalasi--slock-di-linux-ubuntu">Instalasi  Slock di Linux Ubuntu</h2>
+</code></pre><p>Tunggu beberapa saat sampai proses installasi selesai.</p>
+<h2 id="instalasi-slock-di-linux-ubuntu">Instalasi Slock di Linux Ubuntu</h2>
 <ul>
 <li>Buka terminal emulator</li>
-<li>Update repository menggunakan perintah</li>
+<li>Update repository ubuntu terlebih dahulu, dengan mengetikan perintah</li>
 </ul>
 <pre><code>	sudo apt-get update -y
 </code></pre><ul>
-<li>Setelah itu baru Ketikan perintah berikut untuk memulai installasi :</li>
+<li>Setelah itu, ketikan perintah berikut untuk memulai proses installasi :</li>
 </ul>
 <pre><code>	sudo apt-get install -y slock
 </code></pre><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
@@ -186,7 +183,7 @@ didesain secara minimalis, maka jika ada celah keamanan dari aplikasi cendrung a
 </ul>
 <pre><code>	sudo yum -y update
 </code></pre><ul>
-<li>Setelah itu baru Ketikan perintah berikut untuk memulai installasi :</li>
+<li>Setelah itu ketikan perintah berikut untuk memulai proses installasi :</li>
 </ul>
 <pre><code>	sudo yum -y install slock
 </code></pre><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
@@ -196,20 +193,17 @@ didesain secara minimalis, maka jika ada celah keamanan dari aplikasi cendrung a
 <li>Ketikan perintah berikut :</li>
 </ul>
 <pre><code> slock
-</code></pre><p>Ketika layar anda akan menjadi hitam (Blank),  Berarti layar anda telah terkunci oleh slock</p>
+</code></pre><p>Setelah anda mengetikan perintah di atas dan layar perangkat anda akan menjadi hitam ( blank ), berati layar anda telah terkunci oleh slock.</p>
 <h2 id="cara-membuka-layar-yang-terkunci">Cara Membuka Layar Yang Terkunci</h2>
-<p>Untuk membuka layar yang terkunci oleh slock, anda cukup,</p>
+<p>Untuk membuka layar yang terkunci oleh slock anda cukup,</p>
 <ul>
 <li>Menekan tombol apa saja</li>
 <li>Ketika warna layar berubah, ketikan password anda.</li>
 </ul>
-<p>Mungkin ini adalah salah satu faktor yang mebuat slock menjadi  &ldquo;simplest screen locker&rdquo; . Ketika aplikasi screen locker lain membutuhkan username dan password untuk membuka layar,
-pada slock, kita cukup menginput password untuk membuka kunci layar.</p>
-<p>Simplisitas yang ditawarkan oleh slock ini yang membuat saya menjadikan slock sebagai screen locker
-favorit saya ( karena saya cukup merasa malas mengetikan username, hehe).</p>
+<p>Simple ya cara buka layarnya? mungkin ini adalah salah satu faktor yang mebuat slock dikenal sebagai  &ldquo;simplest screen locker&rdquo;. Ketika aplikasi screen locker lain membutuhkan username dan password untuk membuka kunci layar, dengan menggunakan slock kita hanya butuh menginput password untuk membuka kunci layar.</p>
+<p>Simplisitas yang ditawarkan oleh slock ini yang membuat saya menjadikan slock sebagai screen lockerfavorit saya ( kalau bisa pakai password aja, kenapa mesti ketik username, hehe).</p>
 <h2 id="tips--otomasi-penguncian--layar-menggunakan-systemd">Tips : Otomasi Penguncian  Layar Menggunakan Systemd</h2>
-<p>Dalam langkah sebelumnya, untuk mengunci layar,kita perlu membuka terminal terlebih dahulu.
-Walaupun tidak terlalu signifikan, namun bagi saya ini adalah hal yang merepotkan,</p>
+<p>Dalam langkah sebelumnya, untuk mengunci layar kita perlu membuka terminal terlebih dahulu lalu mengetikan perinah <code>slock</code>. Walaupun tidak terlalu signifikan, namun bagi saya ini adalah hal yang merepotkan,</p>
 <p>Nah, dalam tips ini, kita akan membuat slock secara otomatis mengunci layar, ketika keadaan layar dalam keadaan sleep.
 Sehingga kita tidak perlu mengulang langkah, dengan membuka terminal dan mengetik perintah <code>slock</code> ketika akan megunci layar.
 Pekerjaan yang membosankan bukan? hehe.</p>
