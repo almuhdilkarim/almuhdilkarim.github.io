@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Optimasi  Systemd Untuk Network Handling Pada Sistem Operasi Berbasis Linux</title>
+      <link>https://almuhdilkarim.com/blog/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</link>
+      <pubDate>Wed, 21 Apr 2021 11:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/blog/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</guid>
+      <description>Latar Belakang Perangkat yang sering saya gunakan akhir akhir ini adalah Asus dengan Seri E202ES.</description>
+    </item>
+    
+    <item>
       <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
       <link>https://almuhdilkarim.com/blog/mengganti-warna-pada-slock-screen-locker/</link>
       <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
