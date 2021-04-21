@@ -205,50 +205,50 @@
 </code></pre><p>Jika anda belum memasang aplikasi git didalam linux anda, anda bisa mengunduh slock dengan menggunakan perintah curl.</p>
 <h3 id="opsi-2---menggunakan-curl">Opsi 2 - Menggunakan Curl</h3>
 <p>Utuk mengunduh source code <code>slock</code> menggunakan curl, silahkan ketikan perintah dibawah ini</p>
-<pre><code>curl -O https://dl.suckless.org/tools/slock-1.4.tar.gz slock.tar.gz
-</code></pre><p>setelah itu kita harus mengekstrak file terlebih dahulu. Untuk  ekstrasi ketikan perintah dibawah ini pada terminal</p>
-<pre><code>tar -xf slock-1.4.tar.gz
-</code></pre><p>selanjutnya baru kita masuk kedalam direktori slock dengan perintah</p>
-<pre><code>cd slock-1.4
-</code></pre><h2 id="merubah-file-konfigurasi">Merubah File Konfigurasi</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl -O https://dl.suckless.org/tools/slock-1.4.tar.gz slock.tar.gz
+</code></pre></div><p>setelah itu kita harus mengekstrak file terlebih dahulu. Untuk  ekstrasi ketikan perintah dibawah ini pada terminal</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">tar -xf slock-1.4.tar.gz
+</code></pre></div><p>selanjutnya baru kita masuk kedalam direktori slock dengan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd slock-1.4
+</code></pre></div><h2 id="merubah-file-konfigurasi">Merubah File Konfigurasi</h2>
 <p>Setelah mempersiapkan source code, kita harus megubah file konfigurasi dari <code>slock</code> untuk bisa mengubah warna default dari <code>slock</code> . Jadi nantinya aplikasi akan menggunakan warna yang kita pilih ketika menjalankan fungsinya.</p>
 <p>Untuk merubah warna default tersebut kita harus mengedit file yang bernama <code>config.def.h</code>. Untuk mengubah file tersebut, kita bisa menggunakan perintah berikut,</p>
 <pre><code>nano config.def.h
 </code></pre><p>Output dari perintah tersebut adalah sebagai berikut</p>
-<pre><code>/* user and group to drop privileges to */
-static const char *user  = &quot;nobody&quot;;
-static const char *group = &quot;nogroup&quot;;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/* user and group to drop privileges to */
+static const char *user  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nobody&#34;</span>;
+static const char *group <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nogroup&#34;</span>;
 
-static const char *colorname[NUMCOLS] = {
-        [INIT] =   &quot;black&quot;,     /* after initialization */
-        [INPUT] =  &quot;#005577&quot;,   /* during input */
-        [FAILED] = &quot;#CC3333&quot;,   /* wrong password */
-};
+static const char *colorname<span style="color:#f92672">[</span>NUMCOLS<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+        <span style="color:#f92672">[</span>INIT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>   <span style="color:#e6db74">&#34;black&#34;</span>,     /* after initialization */
+        <span style="color:#f92672">[</span>INPUT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>  <span style="color:#e6db74">&#34;#005577&#34;</span>,   /* during input */
+        <span style="color:#f92672">[</span>FAILED<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#CC3333&#34;</span>,   /* wrong password */
+<span style="color:#f92672">}</span>;
 
-/* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
+/* treat a cleared input like a wrong password <span style="color:#f92672">(</span>color<span style="color:#f92672">)</span> */
+static const int failonclear <span style="color:#f92672">=</span> 1;
 
-</code></pre><p>Hal yang pertama kali harus kita lakukan adalah mengedit baris <code>static const char *user</code>dan <code>static const char *group</code> yang ada di dalam output di diatas.  G</p>
+</code></pre></div><p>Hal yang pertama kali harus kita lakukan adalah mengedit baris <code>static const char *user</code>dan <code>static const char *group</code> yang ada di dalam output di diatas.  G</p>
 <p>Kita akan mengganti  <code>nobody</code>  dan  <code>nogroup</code> dengan username dan group dari akun linux kita. Jika anda ingin memastikan username dari akun linux anda, anda bisa mengetikan perintah berikut di terminal</p>
-<pre><code>whoami
-</code></pre><p>Output dari perintah tersebut adalah sebagai berikut</p>
-<pre><code>[karim@minigun ~]$ whoami
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">whoami
+</code></pre></div><p>Output dari perintah tersebut adalah sebagai berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>karim@minigun ~<span style="color:#f92672">]</span>$ whoami
 karim
-</code></pre><p>dari perintah tersebut dapat diketahui kalau saya menggunakan user karim untuk login, sehingga saya akan menggnati <code>nobody</code> dan <code>nogroup</code> menjadi <code>karim</code>.</p>
+</code></pre></div><p>dari perintah tersebut dapat diketahui kalau saya menggunakan user karim untuk login, sehingga saya akan menggnati <code>nobody</code> dan <code>nogroup</code> menjadi <code>karim</code>.</p>
 <p>Berikut file cofigurasi saya, setelah menyunting user account yang akan digunakan.</p>
-<pre><code>/* user and group to drop privilegess to */
-static const char *user  = &quot;karim&quot;;
-static const char *group = &quot;karim&quot;;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/* user and group to drop privilegess to */
+static const char *user  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;karim&#34;</span>;
+static const char *group <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;karim&#34;</span>;
 
-static const char *colorname[NUMCOLS] = {
-        [INIT] =   &quot;black&quot;,     /* after initialization */
-        [INPUT] =  &quot;#005577&quot;,   /* during input */
-        [FAILED] = &quot;#CC3333&quot;,   /* wrong password */
-};
+static const char *colorname<span style="color:#f92672">[</span>NUMCOLS<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+        <span style="color:#f92672">[</span>INIT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>   <span style="color:#e6db74">&#34;black&#34;</span>,     /* after initialization */
+        <span style="color:#f92672">[</span>INPUT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>  <span style="color:#e6db74">&#34;#005577&#34;</span>,   /* during input */
+        <span style="color:#f92672">[</span>FAILED<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#CC3333&#34;</span>,   /* wrong password */
+<span style="color:#f92672">}</span>;
 
-/* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
-</code></pre><p>Setelah mengganti user, baru kita akan mengganti warna default dari slock. Untuk mengganti warna default kita akan megubah nilai pada bagian <code> [INIT]</code>, <code>[INPUT]</code>, <code>[FAILED]</code>.</p>
+/* treat a cleared input like a wrong password <span style="color:#f92672">(</span>color<span style="color:#f92672">)</span> */
+static const int failonclear <span style="color:#f92672">=</span> 1;
+</code></pre></div><p>Setelah mengganti user, baru kita akan mengganti warna default dari slock. Untuk mengganti warna default kita akan megubah nilai pada bagian <code> [INIT]</code>, <code>[INPUT]</code>, <code>[FAILED]</code>.</p>
 <ul>
 <li>[INIT] adalah background default yang berwarna hitam</li>
 <li>[INPUT] adalah background saat kita sedang menginput password dan berwarna biru</li>
@@ -256,32 +256,32 @@ static const int failonclear = 1;
 </ul>
 <p>Dalam mengganti warna kita bisa menggunakan nama warna atau kode warna berbasis hex. Pada percobaan ini saya akan menggnati warna baris <code>[INPUT]</code> dan <code>[FAILED]</code> yang awalnya berwarna biru dan merah menjadi warna hijau dan orange.</p>
 <p>Berikut file konfigurasi akhir saya setelah saya mengganti warna</p>
-<pre><code>/* user and group to drop privileges to */
-static const char *user  = &quot;karim&quot;;
-static const char *group = &quot;karim&quot;;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/* user and group to drop privileges to */
+static const char *user  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;karim&#34;</span>;
+static const char *group <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;karim&#34;</span>;
 
-static const char *colorname[NUMCOLS] = {
-        [INIT] =   &quot;black&quot;,     /* after initialization */
-        [INPUT] =  &quot;#3DCC33&quot;,   /* during input - telah diganti */
-        [FAILED] = &quot;#FFA500&quot;,   /* wrong password - telah diganti */
-};
+static const char *colorname<span style="color:#f92672">[</span>NUMCOLS<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+        <span style="color:#f92672">[</span>INIT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>   <span style="color:#e6db74">&#34;black&#34;</span>,     /* after initialization */
+        <span style="color:#f92672">[</span>INPUT<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>  <span style="color:#e6db74">&#34;#3DCC33&#34;</span>,   /* during input - telah diganti */
+        <span style="color:#f92672">[</span>FAILED<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#FFA500&#34;</span>,   /* wrong password - telah diganti */
+<span style="color:#f92672">}</span>;
 
-/* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
-</code></pre><p>Keterangan :</p>
+/* treat a cleared input like a wrong password <span style="color:#f92672">(</span>color<span style="color:#f92672">)</span> */
+static const int failonclear <span style="color:#f92672">=</span> 1;
+</code></pre></div><p>Keterangan :</p>
 <ul>
 <li>#3DCC33 adalah kode hex untuk warna Hijau</li>
 <li>#FFA500 adalah kode hex untuk warna Orange</li>
 </ul>
 <h2 id="installasi">INSTALLASI</h2>
 <p>Untuk bisa menggunakan slock dengan konfigurasi yang telah kita sesuikan, kita harus mengcompile source code tersebut terlebih dahulu. Untuk kompilasi source code kita bisa menggunakan perintah berikut.</p>
-<pre><code>make
-</code></pre><p>setelah proses <code>make</code> selesai, kita bisa memulai proses installasi dengan mengetikan perintah</p>
-<pre><code>sudo make install
-</code></pre><p>tunggu sampai proses installasi sampai selesai.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">make
+</code></pre></div><p>setelah proses <code>make</code> selesai, kita bisa memulai proses installasi dengan mengetikan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo make install
+</code></pre></div><p>tunggu sampai proses installasi sampai selesai.</p>
 <p>Untuk mulai menggunakan slock,  kita bisa mengetikan perintah berikut di terminal</p>
-<pre><code>slock
-</code></pre><p>Sampai di sini, ketika kita telah berhasil mengganti warna pada slock.  Ketika kita mengetikan password , warna layar yang awalnya berwarna biru akan berubah menjadi hijau. Begitu juga ketika kita salah mengetikan password, yang awalnya berwarna merah akan berganti menjadi orange.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">slock
+</code></pre></div><p>Sampai di sini, ketika kita telah berhasil mengganti warna pada slock.  Ketika kita mengetikan password , warna layar yang awalnya berwarna biru akan berubah menjadi hijau. Begitu juga ketika kita salah mengetikan password, yang awalnya berwarna merah akan berganti menjadi orange.</p>
 <h2 id="artikel-terkait">Artikel Terkait</h2>
 <p><a href="https://almuhdilkarim.com/blog/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/">Mengenal Slock - Screen Saver Linux Yang Sederhana Namun Full Performance</a></p>
 <h2 id="referensi">Referensi</h2>
