@@ -197,28 +197,22 @@
 <h2 id="cara-membuka-layar-yang-terkunci">Cara Membuka Layar Yang Terkunci</h2>
 <p>Untuk membuka layar yang terkunci oleh slock anda cukup,</p>
 <ul>
-<li>Menekan tombol apa saja</li>
-<li>Ketika warna layar berubah, ketikan password anda.</li>
+<li>Menekan tombol apa saja pada keyboard</li>
+<li>Ketika warna layar berubah menjadi biru atau merah, ketikan password anda.</li>
 </ul>
 <p>Simple ya cara buka layarnya? mungkin ini adalah salah satu faktor yang mebuat slock dikenal sebagai  &ldquo;simplest screen locker&rdquo;. Ketika aplikasi screen locker lain membutuhkan username dan password untuk membuka kunci layar, dengan menggunakan slock kita hanya butuh menginput password untuk membuka kunci layar.</p>
 <p>Simplisitas yang ditawarkan oleh slock ini yang membuat saya menjadikan slock sebagai screen lockerfavorit saya ( kalau bisa pakai password aja, kenapa mesti ketik username, hehe).</p>
 <h2 id="tips--otomasi-penguncian--layar-menggunakan-systemd">Tips : Otomasi Penguncian  Layar Menggunakan Systemd</h2>
-<p>Dalam langkah sebelumnya, untuk mengunci layar kita perlu membuka terminal terlebih dahulu lalu mengetikan perinah <code>slock</code>. Walaupun tidak terlalu signifikan, namun bagi saya ini adalah hal yang merepotkan,</p>
-<p>Nah, dalam tips ini, kita akan membuat slock secara otomatis mengunci layar, ketika keadaan layar dalam keadaan sleep.
-Sehingga kita tidak perlu mengulang langkah, dengan membuka terminal dan mengetik perintah <code>slock</code> ketika akan megunci layar.
-Pekerjaan yang membosankan bukan? hehe.</p>
-<p>Untuk otomasi slock, kita akan membuat sebuah configurasi sederhana pada systemd. berikut langkahnya,</p>
+<p>Dalam langkah sebelumnya, untuk mengunci layar kita perlu membuka terminal terlebih dahulu, lalu mengetikan perinah <code>slock</code>. Walaupun tidak terlalu ribet, namun bagi saya ini adalah hal yang merepotkan, karena masih ada peluang untuk di otomasi.</p>
+<p>Nah, dalam tips ini, kita akan membuat slock secara otomatis mengunci layar, ketika keadaan layar masuk kedalam keadaan sleep. Sehingga kita tidak perlu mengulang langkah manual sebelumnya.</p>
+<p>Untuk  membuat slock berfungsi secatra otomatis, kita akan membuat sebuah daemon pada systemd. Berikut langkahnya,</p>
 <ul>
-<li>buka terminal</li>
-<li>ketikan perintah</li>
-</ul>
-<pre><code>sudo su
-</code></pre><ul>
+<li>Buka terminal</li>
 <li>Buat file konfigurasi slock pada systemd menggunakan perintah</li>
 </ul>
-<pre><code>nano /etc/systemd/system/slock@.service
+<pre><code>sudo nano /etc/systemd/system/slock@.service
 </code></pre><ul>
-<li>Copy configurasi berikut</li>
+<li>Copy configurasi berikut kedalam file tersebut</li>
 </ul>
 <pre><code>[Unit]
 Description=Lock X session using slock for user %i
@@ -233,14 +227,13 @@ ExecStart=/usr/bin/slock
 [Install]
 WantedBy=sleep.target
 </code></pre><ul>
-<li>Selanjutnya save configurasi <code>slock@.service</code> dengan menekan tombol <code>Ctrl+X</code>, ketika muncul dialog ketikan <code>Y</code></li>
-<li>Restart perangkat anda atau jika anda malas untuk merestart perangkat, anda bisa mengetikan perintah berikut pada terminal anda.</li>
+<li>Selanjutnya save configurasi dengan menekan tombol <code>Ctrl+X</code>, ketika muncul dialog ketikan <code>Y</code> dan tekan ENTER</li>
+<li>Untuk mengaktivasi konfigurasi, silahkan restart perangkat anda. Namun, Jika anda malas untuk merestart perangkat, anda bisa mengetikan perintah berikut pada terminal anda.</li>
 </ul>
-<pre><code>systemd daemon-reload
-</code></pre><p>Setelah itu, slock  secara otomatis akan mengunci perangkat ada ketika posisi perangkat anda idle dan screen anda memasuki posisi sleep.</p>
+<pre><code>sudo systemd daemon-reload
+</code></pre><p>Sekarang slock secara otomatis akan mengunci layar ketika posisi perangkat anda dalam keadaan sleep.</p>
 <h2 id="penutup">Penutup</h2>
-<p>Nah, sampai disini dulu catatan saya terkait perkenalan slock, dalam artikel selanjutnya, mungkin saya akan membahas bagaimana memercantik
-slock, sehingga tidak terkesan terlalu horor bagi anda yang terbiasa dengan screen locker yang cantik dan menawan.</p>
+<p>Nah, sampai disini dulu catatan saya terkait perkenalan dengan slock. Dalam artikel selanjutnya, saya akan membahas bagaimana memercantik slock. Sehingga slock bisa terlihat lebih sedikit elegan saat digunakan.</p>
 <h2 id="referensi">Referensi</h2>
 <ol>
 <li><a href="https://wiki.archlinux.org/index.php/Slock">Arch Wiki</a></li>
