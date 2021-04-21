@@ -159,41 +159,41 @@
 <li>Buka terminal emulator</li>
 <li>Update repository arch  linux menggunakan perintah</li>
 </ul>
-<pre><code>	sudo pacman -Syy
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo pacman -Syy
+</code></pre></div><ul>
 <li>Setelah itu, ketikan perintah berikut untuk memulai proses  installasi :</li>
 </ul>
-<pre><code>	sudo pacman -S slock
-</code></pre><p>Tunggu beberapa saat sampai proses installasi selesai.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo pacman -S slock
+</code></pre></div><p>Tunggu beberapa saat sampai proses installasi selesai.</p>
 <h2 id="instalasi-slock-di-linux-ubuntu">Instalasi Slock di Linux Ubuntu</h2>
 <ul>
 <li>Buka terminal emulator</li>
 <li>Update repository ubuntu terlebih dahulu, dengan mengetikan perintah</li>
 </ul>
-<pre><code>	sudo apt-get update -y
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo apt-get update -y
+</code></pre></div><ul>
 <li>Setelah itu, ketikan perintah berikut untuk memulai proses installasi :</li>
 </ul>
-<pre><code>	sudo apt-get install -y slock
-</code></pre><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo apt-get install -y slock
+</code></pre></div><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
 <h2 id="instalasi--slock-di-linux-fedora">Instalasi  Slock di Linux Fedora</h2>
 <ul>
 <li>Buka terminal emulator</li>
 <li>Update repository menggunakan perintah</li>
 </ul>
-<pre><code>	sudo yum -y update
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo yum -y update
+</code></pre></div><ul>
 <li>Setelah itu ketikan perintah berikut untuk memulai proses installasi :</li>
 </ul>
-<pre><code>	sudo yum -y install slock
-</code></pre><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">	sudo yum -y install slock
+</code></pre></div><p>Tunggu beberapa saat, sampai proses installasi selesai.</p>
 <h2 id="cara-mengunci-layar-menggunakan-slock">Cara Mengunci Layar Menggunakan Slock</h2>
 <ul>
 <li>Buka terminal  emulator</li>
 <li>Ketikan perintah berikut :</li>
 </ul>
-<pre><code> slock
-</code></pre><p>Setelah anda mengetikan perintah di atas dan layar perangkat anda akan menjadi hitam ( blank ), berati layar anda telah terkunci oleh slock.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"> slock
+</code></pre></div><p>Setelah anda mengetikan perintah di atas dan layar perangkat anda akan menjadi hitam ( blank ), berati layar anda telah terkunci oleh slock.</p>
 <h2 id="cara-membuka-layar-yang-terkunci">Cara Membuka Layar Yang Terkunci</h2>
 <p>Untuk membuka layar yang terkunci oleh slock anda cukup,</p>
 <ul>
@@ -210,28 +210,28 @@
 <li>Buka terminal</li>
 <li>Buat file konfigurasi slock pada systemd menggunakan perintah</li>
 </ul>
-<pre><code>sudo nano /etc/systemd/system/slock@.service
-</code></pre><ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo nano /etc/systemd/system/slock@.service
+</code></pre></div><ul>
 <li>Copy configurasi berikut kedalam file tersebut</li>
 </ul>
-<pre><code>[Unit]
-Description=Lock X session using slock for user %i
-Before=sleep.target
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#f92672">[</span>Unit<span style="color:#f92672">]</span>
+Description<span style="color:#f92672">=</span>Lock X session using slock <span style="color:#66d9ef">for</span> user %i
+Before<span style="color:#f92672">=</span>sleep.target
 
-[Service]
-User=%i
-Environment=DISPLAY=:0
-ExecStartPre=/usr/bin/xset dpms force suspend
-ExecStart=/usr/bin/slock
+<span style="color:#f92672">[</span>Service<span style="color:#f92672">]</span>
+User<span style="color:#f92672">=</span>%i
+Environment<span style="color:#f92672">=</span>DISPLAY<span style="color:#f92672">=</span>:0
+ExecStartPre<span style="color:#f92672">=</span>/usr/bin/xset dpms force suspend
+ExecStart<span style="color:#f92672">=</span>/usr/bin/slock
 
-[Install]
-WantedBy=sleep.target
-</code></pre><ul>
+<span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
+WantedBy<span style="color:#f92672">=</span>sleep.target
+</code></pre></div><ul>
 <li>Selanjutnya save configurasi dengan menekan tombol <code>Ctrl+X</code>, ketika muncul dialog ketikan <code>Y</code> dan tekan ENTER</li>
 <li>Untuk mengaktivasi konfigurasi, silahkan restart perangkat anda. Namun, Jika anda malas untuk merestart perangkat, anda bisa mengetikan perintah berikut pada terminal anda.</li>
 </ul>
-<pre><code>sudo systemd daemon-reload
-</code></pre><p>Sekarang slock secara otomatis akan mengunci layar ketika posisi perangkat anda dalam keadaan sleep.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo systemd daemon-reload
+</code></pre></div><p>Sekarang slock secara otomatis akan mengunci layar ketika posisi perangkat anda dalam keadaan sleep.</p>
 <h2 id="artikel-terkait">Artikel Terkait</h2>
 <p><a href="https://almuhdilkarim.com/blog/mengganti-warna-pada-slock-screen-locker/">Cara Mengganti Warna Default Pada Slock Screen Locker </a></p>
 <h2 id="referensi">Referensi</h2>
