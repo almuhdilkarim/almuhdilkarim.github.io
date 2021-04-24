@@ -7,6 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sejauh Mana Batasan Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</title>
+      <link>https://almuhdilkarim.com/blog/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/blog/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</guid>
+      <description>Linux kernel developers do not like being experimented on, we have enough real work to do: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Cara Memperbaiki Possibly Missing Firmware for Module: Xhci_pci Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:40:04 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:34:25 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:32:44 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
       <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
       <link>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</link>
       <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
@@ -17,10 +56,10 @@
     
     <item>
       <title>Optimasi  Systemd Untuk Network Handling Pada Sistem Operasi Berbasis Linux</title>
-      <link>https://almuhdilkarim.com/case/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</link>
+      <link>https://almuhdilkarim.com/report/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</link>
       <pubDate>Tue, 20 Apr 2021 11:52:41 +0000</pubDate>
       
-      <guid>https://almuhdilkarim.com/case/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</guid>
+      <guid>https://almuhdilkarim.com/report/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</guid>
       <description>Latar Belakang Perangkat yang sering saya gunakan akhir akhir ini adalah Asus dengan Seri E202ES.</description>
     </item>
     
