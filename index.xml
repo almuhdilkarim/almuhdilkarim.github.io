@@ -7,6 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cara Memperbaiki Possibly Missing Firmware for Module: Xhci_pci Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:40:04 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:34:25 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:32:44 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/troubleshoot/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
+      <description>Buka terminal
+  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
       <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
       <link>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</link>
       <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
