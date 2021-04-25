@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>https://almuhdilkarim.com/blog/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</loc>
     <lastmod>2021-04-26T00:11:26+07:00</lastmod>
   </url><url>
@@ -70,5 +71,72 @@
   </url><url>
     <loc>https://almuhdilkarim.com/</loc>
     <lastmod>2021-04-25T01:33:58+07:00</lastmod>
+=======
+    <loc>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</loc>
+    <lastmod>2021-04-25T00:09:50+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/resolve/</loc>
+    <lastmod>2021-04-25T00:09:50+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</loc>
+    <lastmod>2021-04-25T00:09:46+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/resolve/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</loc>
+    <lastmod>2021-04-25T00:09:42+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tutorial/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/report/optimasi-systemd-sebagai-networks-handling-pada-sistem-operasi-berbasis-linux/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/report/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/audit/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/categories/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/linux/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/categories/lynis/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/security/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/tags/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/archives/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/contact/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/about/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/blog/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/blog/semua-bermula-dari-sini/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/</loc>
+    <lastmod>2021-04-24T23:09:56+07:00</lastmod>
+>>>>>>> e89e6919531997a88362a32eede6f5881faddf1c
   </url>
 </urlset>
