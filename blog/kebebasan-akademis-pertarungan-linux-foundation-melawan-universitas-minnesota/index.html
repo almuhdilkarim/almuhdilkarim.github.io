@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="id" data-theme=""><head>
-    <title> Al Muhdil Karim | Sejauh Mana Batasan Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota </title>
+    <title> Al Muhdil Karim |  Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.82.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -64,7 +64,7 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://almuhdilkarim.com/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Sejauh Mana Batasan Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota"/>
+<meta name="twitter:title" content=" Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota"/>
 <meta name="twitter:description" content="Linux kernel developers do not like being experimented on, we have enough real work to do: https://t."/>
 
 
@@ -169,48 +169,48 @@
         <div class="post-content">
             
             <div class="post-title">
-                <h1>Sejauh Mana Batasan Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</h1>
+                <h1> Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</h1>
                 
             </div>
 
             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Linux kernel developers do not like being experimented on, we have enough real work to do: <a href="https://t.co/vWvtxjt7A5">https://t.co/vWvtxjt7A5</a></p>&mdash; Greg K-H (@gregkh) <a href="https://twitter.com/gregkh/status/1384785747874656257?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>Statemen di atas adalah statemen dari Greg Kroah Hartman, salah seorang yang bertanggung jawab dalam mengelola pengembangan kernel linux. Kroah Hartman, secara tegas menolak pengembangan kernel linux menjadi objek eksprimen yang di lakukan oleh Universitas Minnesota.</p>
-<p>Statemen tersebut diikuti dengan penutupan akses universitas oleh linux foundation untuk ikut berpartisipasi dalam pengembangan kernel linux.</p>
-<p>Polemik bermula dari aktivitas Universitas Minnesota yang melakukan perbaikan dengan menambal kode kernel linux. Namun, dalam aktivitas penambalan tersebut (patch) ternyata oknum akademisi dari Universitas Minnesota denga sengaja menyisipkan kode yang menimbulkan celah keamanan baru dalam kode perbaikan yang dibuat olehnya.</p>
-<p>Berdasarkan catatan dari linux foundation, kejadian ini bukanlah kejadian pertama kali. Sebelumnya universitas Minnesota juga melakukan hal yang sama dan telah di peringatkan oleh Linux Foundation terkait aktivitasnya.</p>
-<p>Universitas Minnesota memberikan tanggapan, bahwa celah keamanan tersebut sengaja ditanamamkan oleh oknum dari Universitas Minnesota dengan dalih keperluan riset, khususnya dalam pengembangan kajian kemanan informasi terkait metode peretasan dengan pendekatan serangan menggunakan pedekaan supply-chain.</p>
+<p>Greg Kroah Hartman adalah salah seorang maintenar yang bertanggung jawab dalam mengelola pengembangan kernel linux pada Linux Foundation. Linux Foundation adalah organisasi yang mendedikasikan kegiatannya untuk pengembangan kernel linux.</p>
+<p>Dalam cuitannya, Greg mengungkapkan rasa kecewanya terhadap aktivitas riset yang dilakukan oleh Universitas  Minnesota. Selain Greg, banyak orang dalam komunitas linux merasa kecewa saat Universitas Minnesota menjadikan aktivitas pengembangan kernel sebagai objek eksperimen yang membahayakan bagi komunitas linux secara luas.</p>
+<p>Polemik bermula dari aktivitas Universitas Minnesota yang mengajukan source code untuk tujuan perbaikan terhadap bugs dari kernel linux yang ada. Namun dalam source code yang diajukan oleh Universitas Minnesota, terdapat beberapa kode pemograman yang menimbulkan celah keamanan baru.</p>
+<p>Yang sangat disayangkan adalah, kode pemograman yang menimbulkan celah keamanan tersebut ternyata ditanamkan secara sengaja oleh Universitas Minnesota untuk sebuah penelitian ilmiah.</p>
+<p>Berdasarkan catatan dari Linux Fundation, kejadian ini bukanlah kejadian yang pertama kalinya. Sebelumnya Universitas Minnesota juga pernah diberikan peringatan oleh Linux Foundation karena kasus yang sama.</p>
+<p>Sebagai respon atas pemblokiran hak kontribusi oleh Linux Foudation terhadap  Universitas Minnesota. Universitas Minnesota menyatakan, &ldquo;bahwa celah keamanan tersebut sengaja ditanamamkan untuk mengembangkan suatu kajian kemanan informasi terkait aktivitas penyerangan menggunakan pendekatan supply-chain.  Seluruh metode penelitian sampai dengan parameter ekperimen telah di evaluasi sebelumnya dan seharusnya dapat diterima.&rdquo;</p>
 <h2 id="mengenal-supply-chain">Mengenal Supply-Chain</h2>
-<p>Pendekatan serangan supply chain, dalam dunia militer bukanlah hal yang baru. Sesuai dengan namanya, serangan supply-chain adalah jenis serangan dengan menargetkan sumber dimana suatu kekuatan strategis berada.</p>
-<pre><code>Sederhananya, jangan fokus pada meriam atau pasakan infantri, fokus lah untuk mengalahkan jendral dari pasukan lawan.
-</code></pre><p>Yang membedakan penyerangan dengan pendekatan supply-chain dengan jenis penyerangan lainya adalah, pendekatan lain cendrung berorientasi kepada mencari kelemahan dari suatu aplikasi atau pengguna dari aplikasi. S</p>
-<p>edangkan dalam pendekatan supply-chain, peretasan lebih berorientasi kepada perangkat yang digunakan oleh programer suatu aplikasi, sehingga suatu celah keamanan dapat ditanamkan tepat pada proses produksi suatu program atau aplikasi.</p>
-<p>Anaologi sederhana dari pendekatan suply-chain adalah</p>
-<pre><code>JIka anda ingin meretas suatu server, 
-Jangan retas servernya, namun anda cukup mengetahui aplikasi yang digunakan.
-Kemudian anda retas komputer si pembuat aplikasi atau jalur produksi dari aplikasi. 
-ketika komputer atau jalur produksi suatu aplikasi  berhasil didapatkan, 
-anda bisa menanamkan kode yang bisa anda gunakan
-untuk masuk kedalam  setiap server  yang menggunakan aplikasi tersebut.
-</code></pre><p>Pendekatan ini sebenarnya yang memicu masalah antara linux foundation dan civitas akademika. Kernel yang telah dipatch  menggunakan source code dari universitas Minnesota akan di distribusikan secara luas. Sehingga aktvitas riset Universitas Minnesota yang sengaja menyisipkan kerentanan dalam kernel dapat membahayakan setiap orang dalam komunitas linux.</p>
+<p>Penyerangan dengan pendekatan supply-chain, adalah pendekatan serangan yang menjadikan jalur produksi suatu aplikasi sebgagai target serangan.  Dalam pendekatan ini , suatu celah keamanan ditanamkan saat aplikas sedang dibangun,  sehingga saat aplikasi diluncurkan kepada publik, penyerang bisa dengan mudah melakukan ekploitasi terhadap sistem informasi yang menggunakan aplikasi tersebut.</p>
+<p>Kerangka kerja yang berorientasi terhadap jalur produksi adalah pembeda antara pendekatan suply-chain dengan pendekatan serangan lainnya. Dalam pendekaan lainya, biasanya aktivitas peretasan berorientasi pada celah keamanan dari aplikasi yang telah berjalan di suatu sistem informasi atau menggunakan kelemahan yang berada dalam level pengguna.</p>
 <h2 id="siapa-yang-salah-">Siapa Yang Salah ?</h2>
-<p>Ini adalah pertanyaan yang biasanya latah muncul ketika suatu permasalahan terjadi.  Sejujurnya saya tidak terlalu menyukai pertanyaan ini. Karena jarang memberi solusi akan permasalahan dan menjadi suatu peta konflik baru yang tidak lagi rasional.</p>
-<p>Saya lebih senang, memulai dengan pertanyaan, bagaimana permasalahanya?</p>
-<p>Berdasarkan aktvitas yang dilakukan oleh Univeristas Minnesota, riset ini berpretensi untuk memberikan sudut pandang baru terhadap rantai produksi aplikasi berbasis open source. Rantai produksi open source yang selama ini digunakan memang memberikan peluang bagi setiap orang untuk memberikan kontribusi terhadap suatu aplikasi.</p>
-<p>Pendekatan alur produksi yang cendrung digunakan aplikasi berbasis opensource ini tidaklah salah, Sebagai salah satu contoh, pendekatan ini memang terbukti berhasil membawa linux menjadi kernel superior. Hampir setiap super komputer menggunakan linux sebagai bagian elemental dari keberadaanya.</p>
-<p>Akan tetapi, dalam faktnya, tidak semua pengguna kernel linux adalah pengembangan aplikasi. Sehingga aktivitas Universitas Minnesota secara langsung membawa dampak yang merugikan bagi seluruh komunitas linux, khususnya yang menggunakan linux sebagai kernel bagi aktivitas komputasi harian.</p>
-<p>Kejadian ini juga bukan yang pertama kalinya terjadi, hal ini adalah kejadian yang ke sekian kalinya. Sehingga pilihan linux fondation untuk mem-banned universita Minnesotta dan universitas lainya menjadi masuk akal. Karena aktivitas akademis yang dilakukan mengancamkan kemanan komunitas linux secara global.</p>
+<p>Ini adalah pertanyaan yang biasanya latah muncul ketika suatu permasalahan terjadi.  Secara pribadi, saya tidak terlalu menyukai pertanyaan ini. Karena menurut saya, pertanyaan semacam ini sangat jarang memberikan solusi dari suatu permasalahan dan malah memperluas cakupan permasalahan menjadi suatu peta konflik yang sentimentil. Saya lebih senang, memulai dengan pertanyaan, bagaimana kita mengurai permasalahanya ?</p>
+<h2 id="bagaimana-permasalahanya-">Bagaimana Permasalahanya ?</h2>
+<p>Kernel linux adalah salah satu projek sumber terbuka ( Open Source ), dimana setiap orang bisa ikut serta dalam  mengajukan perbaikan dan pengembangan proyek kernel linux. Hal ini berarti, setiap orang bisa memberikan source code yang telah mereka kembangkan kepada pengembang yang bertanggung jawab terhadap kernel linux.</p>
+<p>Secara prosedur, source tersebut biasanya akan direview terlebih dahulu oleh maintener dari pada Linux Foundation. Namun perkembangan komunitas linux yang pada beberapa dekade mengalami peningkatan yang pesat. Membuat lonjakan pengajuan source kode perbaikan dan pengembangan.</p>
+<p>Dalam beberapa kasus mungkin saja terjadi ketidaksengajaan dari maintener pengembangan kernel dengan menyetujui source code yang didalamnya terdapat kode program yang membahayakan.</p>
+<p>Faktor ketidaksengajaan ini yang dimamfaatkan oleh serangan dengan suply-chain untuk menyisipkan kerentenan yang disengaja. Sehingga fenomana tersebut dapat dikategorikan sebagai suatu celah dalam jalur produksi pengembangan aplikasi berbasis Open Source.</p>
+<p>Celah tersebut yang dimamfaatkan oleh Universitas Minnesota dalam eksperimen pengujian keamanan pegembangan kernel linux menggunakan pendekatan suply-chain.  Universitas Minnesota dengan secara sengaja menanamkan kode progam berbahaya kedalam kode perbaikan yang mereka ajukan untuk tujuan pengembangan kernel linux .</p>
+<p>Masalahnya adala, kernel yang didalamnya terdapat source code dari Universitas Minnesota tersebut  akan disebarkan secara luas kepada semua komunitas linux. Tidak semua orang dalam Komunitas linux adalah orang-orang yang ahli dalam bidang pengembangan kernel.</p>
+<p>Bahkan jika seorang pengguna tergolong sebagai pengguna linux pada tingkat mahir dan mempunyai keahlian dalam pengembangan kernel,  tidak semua juga mempunyai waktu untuk mereview kembali source code kernel memakan waktu yang cukup lama. Kebanyakan mereka akan menggunakan yang ada atau memodifikasi sedikit dari source code kernel untuk tujuan tertentu.</p>
+<p>Sederhananya, kernel yang  menyimpan source code Universitass Minnesota sebagai bagian dalam rilisnya akan membuat penggunanya berpotensi menjadi korban dari suatu serangan siber.</p>
+<p>Apalagi melihat fakta pengguna linux pada akhir-akhir ini, dimana pengguna linux mulai berkembang dari berbagai latar belakang. Linux digunakan mulai dari server pemerintahan dan perusahaan sampai dengan pengguna personal untuk komputer pribadi mereka. Aktvitas riset ini, tentu akan membawa komunitas pengguna ini kedalam suatu resiko keamanan.</p>
+<p>Pertimbangan ini yang menjadi landasan dari Linux Foundation untuk menutup akses terhadap Universitas Minnesota dalam berkontribusi terhadap pengembangan kernel linux.</p>
+<p>Tindakan ini diambil, karena sebelumnya Universitas Minnesota pernah melakukan hal yang sama. Dalam kasus sebelumnya Universitas Minnesota telah diberikan peringatan oleh Linux Foundation.</p>
 <h2 id="bagaimana-solusinya-">Bagaimana Solusinya ?</h2>
-<p>Untuk solusinya, mungkin saya bukanlah orang yang tepat. Saya hanya seorang pengguna linux reguler.</p>
-<p>Namun jika boleh berpendapat, riset yang dilakukan oleh Universitas Minnesota seharusnya mempunyai parameter yang terkontrol, karena riset yang dilakukan oleh universitas Minnesota mempunyai pretensi yang merugikan dalam skala luas. Dalam pendapat saya pribadi, saya kurang sepakat dengan nilai kebebasan akademis yang berpretensi merugikan kebebasan orang lain di luar civitas akademik.</p>
-<p>Bagi linux foundation, saya memahami, mungkin mereka berhadap dengan ribuan pengajuan patch setiap harinya, mengecek satu persatu setiap patch tentu adalah hal yang sangat melelahkan. S</p>
-<p>angat manusiawi, satu patch yang didalamnya terdapat kode yang berisis kerentanan bisa terlewat untuk diaudit. Namun menutup akses terhadap suatu komunitas, menurut saya juga bukanlah kebebasan yang dicita-citakan oleh ide awal dari semangat open source.</p>
-<p>Bagi saya pribadi, saya melihat fenoemena ini sebagai tantangan bagi komunitas linux. Mungkin dengan adanya persoalan ini, komunitas open source bisa menemukan cara baru yang lebih aman untuk bisa berbagi sekaligus mampu menyaring setiap ancaman terhadap komunitasnya.</p>
-<p><a href="https://www.tomshardware.com/news/university-of-minnesota-responds-linux-ban">https://www.tomshardware.com/news/university-of-minnesota-responds-linux-ban</a></p>
-<p><a href="https://www.tomshardware.com/news/linux-fellow-bans-university-contributing-kernel">https://www.tomshardware.com/news/linux-fellow-bans-university-contributing-kernel</a></p>
-<p><a href="https://www.theverge.com/2021/4/22/22398156/university-minnesota-linux-kernal-ban-research">https://www.theverge.com/2021/4/22/22398156/university-minnesota-linux-kernal-ban-research</a></p>
-<p><a href="https://www.zdnet.com/article/greg-kroah-hartman-bans-university-of-minnesota-from-linux-development-for-deliberately-buggy-patches/">https://www.zdnet.com/article/greg-kroah-hartman-bans-university-of-minnesota-from-linux-development-for-deliberately-buggy-patches/</a></p>
+<p>Untuk solusinya, saya bukanlah orang yang mempunyai wewenang. Saya hanyalah seorang pengguna linux reguler yang kebetulan tertarik dengan isu ini. Akan tetapi, saya mungkin boleh memberikan opini berdasarkan pendapat pribadi saya.</p>
+<p>Riset yang dilakukan oleh Universitas Minnesota seharusnya mempunyai pertimbangan parameter resiko yang lebih terukur, sehingga tidak harus membahayakan banyak pihak dalam aktivitas riset yang dilakukanya.</p>
+<p>Cakupan riset yang dilakukan oleh universitas Minnesota mempunyai pretensi yang merugikan dalam skala luas. Bagi saya pribadi, nilai kebebasan akademis berbading lurus dengan tanggung jawab terhadap keberadaan orang lain di luar civitas akademika.</p>
+<p>Bagi Linux Foundation, saya bisa memahami ketidaksengajaan dalam menyetujui source code yang diajukan oleh Universitas Minnesota. Setiap harinya mungkin para maintener kernel linux  harus berhadap dengan ratusan sampai ribuan pengajuan source code. Melakukan review terhadap setiap pengajuan bukanlah hal yang mudah.</p>
+<p>Hal yang manusiawi jika ada satu atau dua baris kode yang berisi kerentanan bisa terlewatkan dalam proses audit. Namun menutup akses terhadap suatu komunitas tertentu, menurut saya juga bukanlah langkah yang tepat. Langkah ini sedikit kontradiktir dengan tujuan awal keberadaan kernel linux.</p>
+<p>Secara pribadi, saya melihat fenoemena ini sebagai tantangan bagi komunitas linux khususnya dan open source secara luasnya. Kita mungkin bisa mulai berfikir bagaimana cara mengamankan jalur produksi dari pengalaman ini. Sehingga kedepanya proyek  linux atau proyek sumber terbuka lainya bisa menjadi lebih baik, baik untuk pengguna baru ataupun mahir.</p>
+<h2 id="referensi">Referensi</h2>
+<p><a href="https://www.tomshardware.com/news/linux-fellow-bans-university-contributing-kernel">Linux Fellow Bans University Contributing Kernel</a></p>
+<p><a href="https://www.theverge.com/2021/4/22/22398156/university-minnesota-linux-kernal-ban-research">University Minnesota Linux Kernel Ban Research</a></p>
+<p><a href="https://www.zdnet.com/article/greg-kroah-hartman-bans-university-of-minnesota-from-linux-development-for-deliberately-buggy-patches/">Greg Kroah Hartman Bans University Of Minesota From Linux Development For Deliberately Buggy Patches</a></p>
+<p><a href="https://www.tomshardware.com/news/university-of-minnesota-responds-linux-ban">University Of Minnesota Respond Linux</a></p>
 </div>
         <div class="post-footer">
             <div class="info">
