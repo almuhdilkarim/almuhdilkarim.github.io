@@ -1,0 +1,14 @@
+{
+	"imageFolderPath": "/home/null/Documents/blog/engine/content/images/",
+	"screenshotFolderPath": "/home/null/Documents/blog/engine/content/screenshot/",
+	"webImages": [],
+	"cloudImages": [],
+	"currentUploader": "none",
+	"imageBed": {
+		"github": {
+			"owner": "",
+			"repo": "",
+			"branch": ""
+		}
+	}
+}
