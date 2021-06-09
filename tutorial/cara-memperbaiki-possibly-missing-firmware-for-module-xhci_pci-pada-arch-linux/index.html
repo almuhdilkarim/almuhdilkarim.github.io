@@ -8,7 +8,7 @@
     <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo">
     
     <link rel="stylesheet"
-          href="/css/style.min.00646697c9f3686b8ac28903794a8b96d0ede2f878fedf3a2ee885aac4023948.css"
+          href="/css/style.min.e17eb00a3a9750a9a7f3fb7d7604602e4fda2ffae4b8513a24c2e432bcf19585.css"
           integrity=""
           crossorigin="anonymous"
           type="text/css">
@@ -48,7 +48,7 @@
 
 <meta name="twitter:title" content="Cara Memperbaiki Possibly Missing Firmware for Module: Xhci_pci Pada Arch Linux"/>
 <meta name="twitter:description" content="Buka terminal
-  Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
 
 
     
@@ -179,7 +179,7 @@
                         </div>
                         <div class="info-result">
                              
-                                 May 3, 2021 
+                                 Jun 9, 2021 
                             
                         </div>
                     </div>
@@ -194,43 +194,20 @@
                 </div>
             </div>
 
-            <ul>
-<li>
-<p>Buka terminal</p>
-</li>
-<li>
+            <p>Buka terminal</p>
 <p>Masuk kedalam folder <code>/tmp</code>, dengan mengetikan perintah berikut di terminal</p>
-<pre><code>cd /tmp
-</code></pre><pre><code>
-</code></pre></li>
-<li>
-<p>Clone file firmware dari github</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"> cd /tmp
+</code></pre></div><p>Clone file firmware dari github</p>
 <pre><code>git clone https://aur.archlinux.org/upd72020x-fw.git
-</code></pre><pre><code>
-</code></pre></li>
-<li>
-<p>Masuk kedalam folder firmware</p>
-<pre><code>```
-</code></pre>
-<p>cd upd72020x-fw</p>
-<pre><code>
-
-
-</code></pre></li>
-<li>
-<p>Install firmware</p>
+</code></pre><p>Masuk kedalam folder firmware</p>
+<pre><code>cd upd72020x-fw
+</code></pre><p>Install firmware</p>
 <pre><code>makepkg -sri
-</code></pre></li>
-<li>
-<p>Update konfigurasi mkinitcpio</p>
+</code></pre><p>Update konfigurasi mkinitcpio</p>
 <pre><code>sudo mklinitcpio -p linux
-</code></pre></li>
-<li>
-<p>Restart</p>
+</code></pre><p>Restart</p>
 <pre><code>systemd reboot
-</code></pre></li>
-</ul>
-</div>
+</code></pre></div>
         <div class="post-footer">
             <div class="info">
                 
