@@ -169,7 +169,7 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
                         </div>
                         <div class="info-result">
                              
-                                 Jun 12, 2021 
+                                 Jun 18, 2021 
                             
                         </div>
                     </div>
@@ -187,23 +187,15 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
             <p>Buka terminal</p>
 <p>Masuk kedalam folder <code>/tmp</code>, dengan mengetikan perintah berikut di terminal</p>
 <pre><code>cd /tmp
-</code></pre><ul>
-<li>
-<p>Clone file firmware dari github</p>
+</code></pre><p>Clone file firmware dari github</p>
 <pre><code>git clone https://aur.archlinux.org/aic94xx-firmware.git
-</code></pre></li>
-<li>
-<p>Masuk kedalam folder firmware</p>
+</code></pre><p>Masuk kedalam folder firmware</p>
 <pre><code>cd aic94xx-firmware
-</code></pre></li>
-<li>
-<p>Install firmware</p>
+</code></pre><p>Install firmware</p>
 <pre><code>makepkg -sri
-</code></pre></li>
-<li>
-<p>Update konfigurasi mkinitcpio</p>
-<pre><code>sudo mklinitcpio -p linux
-</code></pre></li>
+</code></pre><p>Update konfigurasi mkinitcpio</p>
+<pre><code>sudo mkinitcpio -p linux
+</code></pre><ul>
 <li>
 <p>Restart</p>
 <pre><code>systemd reboot
@@ -279,6 +271,17 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
         src="/js/main.min.344886c40950715fe860e27e3c21e92da7aae424fc34fdac9d2ea9730fc4d23e.js"
         integrity="sha256-NEiGxAlQcV/oYOJ&#43;PCHpLaeq5CT8NP2snS6pcw/E0j4="
         crossorigin="anonymous"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '');
+</script>
+
+
+
 <link rel="preload" 
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
