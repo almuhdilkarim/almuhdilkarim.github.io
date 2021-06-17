@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="id" data-theme="">
 <head>
-    <title> Al Muhdil Karim | Contact </title>
+    <title> Al Muhdil Karim | Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.82.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="description" content="Contact Page">
+    <meta name="description" content="Just A Linux Enthusiast">
     
     
     <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo">
-      
+    
+     
+ 
     
         
     
     
             
             <link rel="stylesheet" 
-                    href="/css/contact.min.ed117c4f7d70b4e5afbabd259eebb68f599f484b148de1ae526e5f5e69c1fc4d.css"
+                    href="/css/single.min.442fe7509fd6659ad7597acfb614e582bca1a1d19f46b929ce43a354c2bd22d2.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -27,15 +29,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/contact/">
+    <link rel="canonical" href="/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/">
 
     
     
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://almuhdilkarim.com/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Contact"/>
-<meta name="twitter:description" content="Contact Page"/>
+<meta name="twitter:title" content="Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux"/>
+<meta name="twitter:description" content="Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
 
 
     
@@ -145,29 +148,89 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="contact-post animated fadeInDown">
-        <div class="post-title">
-            <h1>Contact</h1>
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+            <div class="post-title">
+                <h1>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</h1>
+                <div class="post-info">
+                    <div class="col-info">
+                        <div class="info-title">
+                            Published
+                        </div>
+                        <div class="info-result">
+                             
+                                 Apr 24, 2021 
+                            
+                        </div>
+                    </div>
+                    <div class="col-info">
+                        <div class="info-title">
+                            Last Update
+                        </div>
+                        <div class="info-result">
+                             
+                                 Jun 18, 2021 
+                            
+                        </div>
+                    </div>
+                    <div class="col-info">
+                        <div class="info-title">
+                            Reading 
+                        </div>
+                        <div class="info-result">
+                            Estimate 1-min
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p>Buka terminal</p>
+<p>Masuk kedalam folder <code>/tmp</code>, dengan mengetikan perintah berikut di terminal</p>
+<pre><code>cd /tmp
+</code></pre><p>Clone file firmware dari github</p>
+<pre><code>git clone https://aur.archlinux.org/wd719x-firmware.git
+</code></pre><p>Masuk kedalam folder firmware</p>
+<pre><code>cd wd719x-firmware
+</code></pre><p>Install firmware</p>
+<pre><code>makepkg -sri
+</code></pre><p>Update konfigurasi mkinitcpio</p>
+<pre><code>sudo mkinitcpio -p linux
+</code></pre><p>Restart</p>
+<pre><code>systemd reboot
+</code></pre><section class="post-foot">
+    <div class="tab">
+        <div class="tab-btn active" data-target="related-post">
+            Related
         </div>
-        <div class="contact-form">
-            <form class="form-style" method="POST" action="https://formspree.io/f/xzbygzwq" data-toggle="validator">
-            <ul>
-                <li>
-                <input class="field-style field-full" type="text" name="username" id="username" placeholder="Name" required>
-                </li>
-                <li>
-                <input class="field-style field-full" type="email" id="email" name="email" placeholder="Email" required>
-                </li>
-                <li>
-                <textarea class="field-style" name="message" id="message" rows="6" placeholder=""></textarea>
-                </li>
-                <li>
-                <input class="field-style" type="submit" value="Send"></input>
-                </li>
-            </ul>
-            </form>
+        <div id="disqus" class="tab-btn" data-target="discuss-post">
+            Forum
+        </div>
+        <div class="tab-btn btn-right" data-target="share-post">
+            Share
         </div>
     </div>
+    <div class="tab-div">
+        <div id="related-post" class="item-div show">
+            Under Constructions
+        </div>
+        <div id="discuss-post" class="item-div">
+            <div id="comment-script">
+
+            </div>
+            <div id="disqus_thread"></div>
+            <noscript>
+                Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments .</a>
+            </noscript>
+        </div>
+        <section id="share-post" class="item-div">
+            Under Constructions
+        </section>
+    </div>
+</section>
+
+</div>
+    </div>
+
 
         </div><footer class="content-footer">
     <div class="menu-footer">

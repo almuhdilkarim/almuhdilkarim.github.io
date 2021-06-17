@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Karim Pages</title>
+    <link>https://almuhdilkarim.com/keys2/ubuntu/</link>
+    <description>Recent content in ubuntu on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sun, 25 Apr 2021 01:44:28 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/keys2/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</title>
+      <link>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</guid>
+      <description>Linux kernel developers do not like being experimented on, we have enough real work to do: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Cara Memperbaiki Possibly Missing Firmware for Module: Xhci_pci Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:40:04 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
+      <description>Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:34:25 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
+      <pubDate>Sat, 24 Apr 2021 23:32:44 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
+      <description>Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
+      <link>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</link>
+      <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</guid>
+      <description>Cara mengganti warna pada slock adalah dengan melakukan kompilasi ulang terhadap aplikasi slock secara manual.</description>
+    </item>
+    
+    <item>
+      <title>Mengenal Slock - Screen Saver Linux Yang Sederhana Namun Full Performance</title>
+      <link>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</link>
+      <pubDate>Tue, 20 Apr 2021 01:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</guid>
+      <description>Slock adalah aplikasi yang berfugsi untuk mengunci layar ( Screen locker ) pada sistem operasi berbasis linux.</description>
+    </item>
+    
+    <item>
+      <title>3 Cara Installasi Lynis Di Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</guid>
+      <description>Lynis adalah salah satu software yang biasa digunakan untuk melakukan audit keamanan sistem operasi berbasis linux dan Macos.</description>
+    </item>
+    
+    <item>
+      <title>DISCLAIMER - Semua Cerita Dimulai Dari  Sini</title>
+      <link>https://almuhdilkarim.com/story/semua-bermula-dari-sini/</link>
+      <pubDate>Sun, 13 Apr 2008 21:47:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/story/semua-bermula-dari-sini/</guid>
+      <description>Saya sedikit bingung memulai perkenalan ini dari mana. Sekadar perkenalan, saya hanyalah seseorang yang menyenangi teknologi informasi, khususnya linux.</description>
+    </item>
+    
+  </channel>
+</rss>
