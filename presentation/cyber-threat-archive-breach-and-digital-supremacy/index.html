@@ -18,7 +18,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/presentation.min.0c6c49e0a7a7371f2e63978a6fcf9e1509e83e911c6480ff938c1cca070f81ce.css"
+                    href="/css/presentation.min.0ee7b389416c158dbe4377bd583936a4ca2806655d2cbb73d3e74d9406dff8bf.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -201,14 +201,36 @@
                 </div>
             </div>
             <main class="presentation">
-                <h1>  </h1>
-                <img id="slide-content" src="https://almuhdilkarim.com/presentation/cyber-threat-archive-breach-and-digital-supremacy//slide/slide-1.jpg" alt="Thumbnail image" data-slide="1" data-max=30>
-                <audio id="audio-content" data-audio="cyber-threat-archive-breach-and-digital-supremacy" controls>
-                    <source  src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" type="audio/mpeg" >
-                </audio> 
-                <div class="slide-control">
-                    <div id="prev-slide" class="slide-button">Prev</div>
-                    <div id="next-slide" class="slide-button">Next</div>
+                <div id="player">
+                    <div class="slide-container">
+                        <img id="slide-content" class="" src="https://almuhdilkarim.com/presentation/cyber-threat-archive-breach-and-digital-supremacy//slide/slide-1.jpg" alt="Thumbnail image" data-slide="1" data-max=30>
+                        <div id="slide-overlay">
+                            <div id="start-presentation" class="slide-button">
+                                <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <audio id="audio-content" data-audio="cyber-threat-archive-breach-and-digital-supremacy" >
+                        <source  src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" type="audio/mpeg" >
+                    </audio>
+                </div>
+
+                <div id="slide-control">
+                    <div id="prev-slide" class="slide-button ctrl-btn">
+                        <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div id="start-slide" class="slide-button ctrl-btn">
+                        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div id="pause-slide" class="slide-button ctrl-btn">
+                        <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div id="stop-slide" class="slide-button ctrl-btn">
+                        <i class="fa fa-stop fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div id="next-slide" class="slide-button ctrl-btn">
+                        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                    </div>
                 </div>
                 
             </main><section class="post-foot">
@@ -305,7 +327,7 @@
 
 
 <script type="text/javascript"
-        src="/js/presentation.min.5e356fe0905e4f1abc29c767cf46c1511693e6a4bd7abe41db7b35657a1aefa5.js"
+        src="/js/presentation.min.5128d7fa875f683f3a3ca162c74a88eeb0e3583d6687cdbf64e7c0f229d5cf9c.js"
         integrity=""
         crossorigin="anonymous" defer></script>
 
