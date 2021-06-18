@@ -18,7 +18,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/presentation.min.0ee7b389416c158dbe4377bd583936a4ca2806655d2cbb73d3e74d9406dff8bf.css"
+                    href="/css/presentation.min.7aaf7793024acfe8c702922a45e9eaf98598dcfaf192278157d95e58a78ec4a0.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -200,39 +200,35 @@
                     </div>
                 </div>
             </div>
-            <main class="presentation">
-                <div id="player">
-                    <div class="slide-container">
+            <main id="presentation" data-player="">
+                <div class="player">
+                    <div class="slide">
                         <img id="slide-content" class="" src="https://almuhdilkarim.com/presentation/cyber-threat-archive-breach-and-digital-supremacy//slide/slide-1.jpg" alt="Thumbnail image" data-slide="1" data-max=30>
-                        <div id="slide-overlay">
-                            <div id="start-presentation" class="slide-button">
-                                <i class="fa fa-play fa-2x" aria-hidden="true"></i>
-                            </div>
+                        <div class="slide-overlay action" data-action="play">
+                            <i class="fa fa-play fa-2x play " aria-hidden="true"></i>
                         </div>
                     </div>
                     <audio id="audio-content" data-audio="cyber-threat-archive-breach-and-digital-supremacy" >
                         <source  src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" type="audio/mpeg" >
                     </audio>
+                    <div id="slide-control" data-icon="pause">
+                        <div class="ctrl-btn action" data-action="prev">
+                            <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="ctrl-btn action start" data-action="play">
+                             <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="ctrl-btn action pause" data-action="pause">
+                            <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="ctrl-btn action" data-action="next">
+                            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="ctrl-btn close action" data-action="exit">
+                            <i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
                 </div>
-
-                <div id="slide-control">
-                    <div id="prev-slide" class="slide-button ctrl-btn">
-                        <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div id="start-slide" class="slide-button ctrl-btn">
-                        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div id="pause-slide" class="slide-button ctrl-btn">
-                        <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div id="stop-slide" class="slide-button ctrl-btn">
-                        <i class="fa fa-stop fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div id="next-slide" class="slide-button ctrl-btn">
-                        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                    </div>
-                </div>
-                
             </main><section class="post-foot">
     <div class="tab">
         <div class="tab-btn active" data-target="related-post">
@@ -327,7 +323,7 @@
 
 
 <script type="text/javascript"
-        src="/js/presentation.min.5128d7fa875f683f3a3ca162c74a88eeb0e3583d6687cdbf64e7c0f229d5cf9c.js"
+        src="/js/presentation.min.99d97c0d7b1bf62d36476ee0b9716c497a859b4860d7b0fa8761ecaedd882fa4.js"
         integrity=""
         crossorigin="anonymous" defer></script>
 
