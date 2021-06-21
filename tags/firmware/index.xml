@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firmware on Karim Pages</title>
+    <link>https://almuhdilkarim.com/tags/firmware/</link>
+    <description>Recent content in firmware on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Wed, 16 Jun 2021 10:59:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/tags/firmware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module Xhci_pci pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
+      <description>Buka terminal dan masuk kedalam direktori /tmp dengan mengetikan perintah</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
+      <pubDate>Sat, 12 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
+      <description>Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Mon, 17 May 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal dan masuk kedalam folder /tmp, dengan mengetikan perintah berikut</description>
+    </item>
+    
+  </channel>
+</rss>

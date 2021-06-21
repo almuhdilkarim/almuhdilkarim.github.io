@@ -5,7 +5,7 @@
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.82.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="description" content="Just A Linux Enthusiast">
+    <meta name="description" content="Tutorial ini membahas bagaimana memperbaiki Possibly Missing Firmware for Module Wd719x">
    
     
     
@@ -43,8 +43,7 @@
 <meta name="twitter:image" content="https://almuhdilkarim.com/images/site-feature-image.png"/>
 
 <meta name="twitter:title" content="Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux"/>
-<meta name="twitter:description" content="Buka terminal
-Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
+<meta name="twitter:description" content="Tutorial ini membahas bagaimana memperbaiki Possibly Missing Firmware for Module Wd719x"/>
 
 
     
@@ -110,9 +109,9 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
         <div class="title">
             Published
         </div>
-        <time class="result" datetime=" 2021-06-18 00:46 ">
+        <time class="result" datetime=" 2021-06-22 01:54 ">
              
-                 Apr 24, 2021 
+                 May 17, 2021 
             
         </time>
     </div>
@@ -120,9 +119,9 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
         <div class="title">
             Last Update
         </div>
-        <time class="result" datetime=" 2021-06-18 00:46 ">
+        <time class="result" datetime=" 2021-06-22 01:54 ">
              
-                 Jun 18, 2021 
+                 Jun 22, 2021 
             
         </time>
     </div>
@@ -135,18 +134,17 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal"/>
         </div>
     </div>
 </div><div class="content">
-            <p>Buka terminal</p>
-<p>Masuk kedalam folder <code>/tmp</code>, dengan mengetikan perintah berikut di terminal</p>
+            <p>Buka terminal dan masuk kedalam folder <code>/tmp</code>, dengan mengetikan perintah berikut</p>
 <pre><code>cd /tmp
-</code></pre><p>Clone file firmware dari github</p>
+</code></pre><p>download file firmware dari github</p>
 <pre><code>git clone https://aur.archlinux.org/wd719x-firmware.git
-</code></pre><p>Masuk kedalam folder firmware</p>
+</code></pre><p>Masuk kedalam direktori dari file firmware</p>
 <pre><code>cd wd719x-firmware
-</code></pre><p>Install firmware</p>
+</code></pre><p>Mulai proses install firmware dengan perintah</p>
 <pre><code>makepkg -sri
 </code></pre><p>Update konfigurasi mkinitcpio</p>
 <pre><code>sudo mkinitcpio -p linux
-</code></pre><p>Restart</p>
+</code></pre><p>Setelah itu restart linux dengan perintah</p>
 <pre><code>systemd reboot
 </code></pre>
         </div>

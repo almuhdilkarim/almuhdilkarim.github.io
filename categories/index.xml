@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Thu, 17 Jun 2021 02:27:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jun 2021 01:39:37 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>password</title>
+      <link>https://almuhdilkarim.com/categories/password/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pam</title>
+      <link>https://almuhdilkarim.com/categories/pam/</link>
+      <pubDate>Fri, 18 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/pam/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>pusdokinfo</title>
       <link>https://almuhdilkarim.com/categories/pusdokinfo/</link>
@@ -17,11 +35,56 @@
     </item>
     
     <item>
+      <title>kernel</title>
+      <link>https://almuhdilkarim.com/categories/kernel/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>lynis</title>
       <link>https://almuhdilkarim.com/categories/lynis/</link>
-      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
       
       <guid>https://almuhdilkarim.com/categories/lynis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://almuhdilkarim.com/categories/linux/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iptables</title>
+      <link>https://almuhdilkarim.com/categories/iptables/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/iptables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yum</title>
+      <link>https://almuhdilkarim.com/categories/yum/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/yum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://almuhdilkarim.com/categories/blog/</link>
+      <pubDate>Sun, 13 Apr 2008 21:47:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/categories/blog/</guid>
       <description></description>
     </item>
     

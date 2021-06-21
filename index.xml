@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="https://almuhdilkarim.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Memperkuat Kemanan Linux Dengan Menetapkan Masa Kadaluarsa Password</title>
+      <link>https://almuhdilkarim.com/tutorial/memperkuat-keamanan-linux-dengan-menetapkan-masa-kadaluarsa-password/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/memperkuat-keamanan-linux-dengan-menetapkan-masa-kadaluarsa-password/</guid>
+      <description>Ada beberapa kebiasaan kita dimana kita sangat jarang mengganti password dan bahkan menggunakan satu password untuk berbagai macam akun,</description>
+    </item>
+    
+    <item>
+      <title>Memperkuat Otentikasi Pada Linux Dengan Meningkatkan Hashing Rounds PAM</title>
+      <link>https://almuhdilkarim.com/tutorial/memperkuat-otentikasi-pada-linux-dengan-meningkatkan-hashing-rounds-pam/</link>
+      <pubDate>Fri, 18 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/memperkuat-otentikasi-pada-linux-dengan-meningkatkan-hashing-rounds-pam/</guid>
+      <description>PAM dan Password Cracking Untuk tujuan tersebut, cracking password adalah salah satu metode klasik dalam mendapatkan credential dari suatu sistem linux, baik itu menggunakan bruteforce atau menggunakan dictionary attack.</description>
+    </item>
+    
+    <item>
       <title>Cyber Threat, Archive Breach And Digital Supremacy</title>
       <link>https://almuhdilkarim.com/works/cyber-threat-archive-breach-and-digital-supremacy/</link>
       <pubDate>Thu, 17 Jun 2021 02:27:19 +0700</pubDate>
@@ -16,42 +34,49 @@
     </item>
     
     <item>
-      <title> Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</title>
-      <link>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</link>
-      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</guid>
-      <description>Linux kernel developers do not like being experimented on, we have enough real work to do: https://t.</description>
-    </item>
-    
-    <item>
-      <title>Cara Memperbaiki Possibly Missing Firmware for Module: Xhci_pci Pada Arch Linux</title>
+      <title>Memperbaiki Possibly Missing Firmware for Module Xhci_pci pada Arch Linux</title>
       <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
-      <pubDate>Sat, 24 Apr 2021 23:40:04 +0700</pubDate>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
       
       <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
-      <description>Buka terminal
-Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
-    </item>
-    
-    <item>
-      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
-      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
-      <pubDate>Sat, 24 Apr 2021 23:34:25 +0700</pubDate>
-      
-      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
-      <description>Buka terminal
-Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+      <description>Buka terminal dan masuk kedalam direktori /tmp dengan mengetikan perintah</description>
     </item>
     
     <item>
       <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
       <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
-      <pubDate>Sat, 24 Apr 2021 23:32:44 +0700</pubDate>
+      <pubDate>Sat, 12 Jun 2021 10:59:19 +0700</pubDate>
       
       <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
       <description>Buka terminal
 Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>3 Cara Installasi Lynis Di Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</link>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</guid>
+      <description>Lynis adalah salah satu software yang biasa digunakan untuk melakukan audit keamanan sistem operasi berbasis linux dan Macos.</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Mon, 17 May 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal dan masuk kedalam folder /tmp, dengan mengetikan perintah berikut</description>
+    </item>
+    
+    <item>
+      <title>Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</title>
+      <link>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</guid>
+      <description>Linux kernel developers do not like being experimented on, we have enough real work to do: https://t.</description>
     </item>
     
     <item>
@@ -73,21 +98,21 @@ Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</descr
     </item>
     
     <item>
-      <title>3 Cara Installasi Lynis Di Linux</title>
-      <link>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</link>
-      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      <title>Cara Installasi Iptables Pada Centos 7</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</guid>
-      <description>Lynis adalah salah satu software yang biasa digunakan untuk melakukan audit keamanan sistem operasi berbasis linux dan Macos.</description>
+      <guid>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</guid>
+      <description>Persiapan Untuk menginstall iptables pada centos 7, pertama kita harus menghapus firewalld yang telah terpasang secara default.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://almuhdilkarim.com/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <title>Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</title>
+      <link>https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.com/archives/</guid>
-      <description></description>
+      <guid>https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos/</guid>
+      <description>Yum adalah package manager yang digunakan oleh Centos. Yum biasanya kita gunakan untuk mempermudah installasi, menghapus atau mengupdate aplikasi dari centos.</description>
     </item>
     
     <item>

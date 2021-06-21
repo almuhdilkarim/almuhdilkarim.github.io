@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Thu, 17 Jun 2021 02:27:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jun 2021 01:39:37 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://almuhdilkarim.com/tags/linux/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pasword</title>
+      <link>https://almuhdilkarim.com/tags/pasword/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/pasword/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>archive</title>
       <link>https://almuhdilkarim.com/tags/archive/</link>
@@ -35,29 +53,110 @@
     </item>
     
     <item>
+      <title>arch linux</title>
+      <link>https://almuhdilkarim.com/tags/arch-linux/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firmware</title>
+      <link>https://almuhdilkarim.com/tags/firmware/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/firmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>audit</title>
       <link>https://almuhdilkarim.com/tags/audit/</link>
-      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
       
       <guid>https://almuhdilkarim.com/tags/audit/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://almuhdilkarim.com/tags/linux/</link>
+      <title>Akademis</title>
+      <link>https://almuhdilkarim.com/tags/akademis/</link>
       <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
       
-      <guid>https://almuhdilkarim.com/tags/linux/</guid>
+      <guid>https://almuhdilkarim.com/tags/akademis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Security</title>
+      <link>https://almuhdilkarim.com/tags/information-security/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/information-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernel</title>
+      <link>https://almuhdilkarim.com/tags/kernel/</link>
+      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
       <link>https://almuhdilkarim.com/tags/security/</link>
-      <pubDate>Sun, 25 Apr 2021 01:44:28 +0700</pubDate>
+      <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
       
       <guid>https://almuhdilkarim.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>centos</title>
+      <link>https://almuhdilkarim.com/tags/centos/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>centos 7</title>
+      <link>https://almuhdilkarim.com/tags/centos-7/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/centos-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fedora</title>
+      <link>https://almuhdilkarim.com/tags/fedora/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package manager</title>
+      <link>https://almuhdilkarim.com/tags/package-manager/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/package-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://almuhdilkarim.com/tags/blog/</link>
+      <pubDate>Sun, 13 Apr 2008 21:47:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tags/blog/</guid>
       <description></description>
     </item>
     

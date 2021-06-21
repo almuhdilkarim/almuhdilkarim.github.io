@@ -1,0 +1,246 @@
+<!DOCTYPE html >
+<html lang="id" data-theme="">
+<head>
+    <title> Al Muhdil Karim | Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.82.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos ">
+   
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/main.min.11e2f06f9a41ada9e076acfb9575d48a4ccdb8f903485b91bd48e5fc6d76370c.js"
+            integrity=""
+            crossorigin="anonymous" ></script>
+
+    
+    
+     
+ 
+    
+    
+    
+            
+            <link rel="stylesheet" 
+                    href="/css/single.min.75419b2eab8fd857989e39c96310f89069c74b297f7b07bcc7a40657a2c5114a.css"
+                    type="text/css"
+                    crossorigin="anonymous"
+                    integrity=""/>
+    
+
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos/">
+
+    
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://almuhdilkarim.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos"/>
+<meta name="twitter:description" content="Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos "/>
+
+
+    
+
+    
+    <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo"></head>
+    
+<body>
+<header id="header">
+    <h2 class="site-title" title="site title"><a href="/">Karim Pages</a></h2>
+    <a role="button" title="mobile icon navigtion" class="navbar-burger" data-target="main-navigation" aria-label="menu" aria-expanded="false">
+        <i class="fas fa-align-right fa-fw" aria-hidden="true"></i>
+    </a>
+    
+    <nav class="nav" id="main-navigation" title="main navigation">
+        
+
+        
+            
+            <a 
+                   href="/"
+                        
+                   title="">All</a>
+        
+            
+            <a 
+                   href="/story"
+                        
+                   title="">story</a>
+        
+            
+            <a 
+                   href="/tutorial"
+                        
+                   title="">Tutorial</a>
+        
+            
+            <a 
+                   href="/works"
+                        
+                   title="">Works</a>
+        
+    </nav>
+    
+    
+    
+   <a class="theme-switch" title="Mode switch theme">
+        <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</header>
+
+<main class="post animated fadeInDown" >
+    <article >
+        <h1 class="post-title">Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</h1><div class="metadata">
+    <a href="/profile" class="author flex column" rel="author">
+        <img src="/images/profil.jpeg">
+        <div class="name">
+            Al Muhdil Karim<br>
+            <label>see profile</label>
+        </div>
+    </a>
+    <div id="published-date" class="column">
+        <div class="title">
+            Published
+        </div>
+        <time class="result" datetime=" 2021-06-21 23:10 ">
+             
+                 Apr 15, 2021 
+            
+        </time>
+    </div>
+    <div id="last-update" class="column">
+        <div class="title">
+            Last Update
+        </div>
+        <time class="result" datetime=" 2021-06-21 23:10 ">
+             
+                 Jun 21, 2021 
+            
+        </time>
+    </div>
+    <div id="reading-time" class="column">
+        <div class="title">
+            Estimate 
+        </div>
+        <div class="result">
+            1-min read
+        </div>
+    </div>
+</div><div class="content">
+            <p>Yum adalah package manager yang digunakan oleh Centos. Yum biasanya kita gunakan untuk mempermudah installasi, menghapus atau mengupdate aplikasi dari centos. Dalam pekerjaanya yum biasanya menggunakan dua tipe internet protokol IPV4 dan IPV6.</p>
+<p><img src="wireshark-screenshoot.webp" alt="image alt &lsquo;Penggunaan protokol internet IPV4 dan IPV6 oleh yum&rsquo; "></p>
+<p>Namun masalahnya, terkadang perangkat dekstop atau server kita tidak selalu berada pada jaringan yang telah mendukung IPV6. Dalam beberapa kasus terjadi error seperti contoh berikut</p>
+<pre><code class="language-sheel" data-lang="sheel">[Errno 14] curl#7 - &quot;Failed to connect to 2404:6800:4005:c00::88: Network is unreachable&quot;
+</code></pre><p>Nah dalam kesempatan ini kita akan memabahas bagaimana mendisable IPV6 pada aplikasi yum, sehingga setiap kita menginstall, mengupdate atau menghapus aplikasi pada centos, yum sebagai package manager akan selalu menggunakan IPV4.</p>
+<p>Caranya cukup mudah, kita hanya perlu menambahkan <code>ip_resolve=4</code> atau <code>ip_resolve=ipv4</code> pada file <code>/etc/yum.conf</code>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Untuk menambahkan hal tersebut, buka terminal dan ketikan perintah berikut</p>
+<pre><code class="language-sheel" data-lang="sheel">echo &quot;ip_resolve=4&quot; &gt;&gt; /etc/yum.conf
+</code></pre><p>Setelah itu restart perangkat dengan perintah</p>
+<pre><code class="language-sheel" data-lang="sheel">reboot
+</code></pre><p>Sampai disini yum akan menggunakan IPV4 untuk seluruh aktivitas seperti installasi, update ataupun ugprade aplikasi.</p>
+<h2 id="referensi">Referensi</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://man7.org/linux/man-pages/man8/yum.8.html"> yum(8) — Linux manual page </a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </div>
+    </article><section class="related">
+    <div class="tab">
+        <div class="tab-btn active" data-target="related-post">
+            Related
+        </div>
+        <div id="disqus" class="tab-btn" data-target="discuss-post">
+            Forum
+        </div>
+        <div class="tab-btn btn-right" data-target="share-post">
+            Share
+        </div>
+    </div>
+    <div class="tab-div">
+        <div id="related-post" class="item-div show">
+            Under Constructions
+        </div>
+        <div id="discuss-post" class="item-div">
+            <div id="comment-script"></div>
+            <div id="disqus_thread"></div>
+            <noscript>
+                Please enable JavaScript to view the comments .</a>
+            </noscript>
+        </div>
+        <section id="share-post" class="item-div">
+            Under Constructions
+        </section>
+    </div>
+</section>
+
+</main>
+<footer class="content-footer">
+    <div class="menu-footer">
+        
+        
+            
+            <a class="profile-items"
+                href="/contact"
+                        
+                title="">Contact</a>
+        
+            
+            <a class="profile-items"
+                href="/faqs"
+                        
+                title="">FAQs</a>
+        
+            
+            <a class="profile-items"
+                href="/patnership"
+                        
+                title="">Patnership</a>
+        
+    </div>
+    <div class="credit mobile">
+        <div class="by_karim">&copy; Al Muhdil Karim  2018-2021 </div>
+    </div>
+</footer>
+
+    
+    
+    <script type="text/javascript"
+            src="/js/footer-post.min.00d4d649fb0a2515d533b639369c411109317ad15bf037b15d3009f30bbafffd.js"
+            integrity=""
+            crossorigin="anonymous" defer></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', "UA-116241347-1");
+    </script>
+<link rel="preload" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+        crossorigin="anonymous"
+        as="style" 
+        onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</noscript>
+ 
+</body>
+</html>

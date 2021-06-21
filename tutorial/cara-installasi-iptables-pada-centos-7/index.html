@@ -1,0 +1,278 @@
+<!DOCTYPE html >
+<html lang="id" data-theme="">
+<head>
+    <title> Al Muhdil Karim | Cara Installasi Iptables Pada Centos 7 </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.82.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Dalam tutorial ini kita akan membahas bagaimana melakukan installasi iptables pada centos 7">
+   
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/main.min.11e2f06f9a41ada9e076acfb9575d48a4ccdb8f903485b91bd48e5fc6d76370c.js"
+            integrity=""
+            crossorigin="anonymous" ></script>
+
+    
+    
+     
+ 
+    
+    
+    
+            
+            <link rel="stylesheet" 
+                    href="/css/single.min.75419b2eab8fd857989e39c96310f89069c74b297f7b07bcc7a40657a2c5114a.css"
+                    type="text/css"
+                    crossorigin="anonymous"
+                    integrity=""/>
+    
+
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/">
+
+    
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://almuhdilkarim.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Cara Installasi Iptables Pada Centos 7"/>
+<meta name="twitter:description" content="Dalam tutorial ini kita akan membahas bagaimana melakukan installasi iptables pada centos 7"/>
+
+
+    
+
+    
+    <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo"></head>
+    
+<body>
+<header id="header">
+    <h2 class="site-title" title="site title"><a href="/">Karim Pages</a></h2>
+    <a role="button" title="mobile icon navigtion" class="navbar-burger" data-target="main-navigation" aria-label="menu" aria-expanded="false">
+        <i class="fas fa-align-right fa-fw" aria-hidden="true"></i>
+    </a>
+    
+    <nav class="nav" id="main-navigation" title="main navigation">
+        
+
+        
+            
+            <a 
+                   href="/"
+                        
+                   title="">All</a>
+        
+            
+            <a 
+                   href="/story"
+                        
+                   title="">story</a>
+        
+            
+            <a 
+                   href="/tutorial"
+                        
+                   title="">Tutorial</a>
+        
+            
+            <a 
+                   href="/works"
+                        
+                   title="">Works</a>
+        
+    </nav>
+    
+    
+    
+   <a class="theme-switch" title="Mode switch theme">
+        <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</header>
+
+<main class="post animated fadeInDown" >
+    <article >
+        <h1 class="post-title">Cara Installasi Iptables Pada Centos 7</h1><div class="metadata">
+    <a href="/profile" class="author flex column" rel="author">
+        <img src="/images/profil.jpeg">
+        <div class="name">
+            Al Muhdil Karim<br>
+            <label>see profile</label>
+        </div>
+    </a>
+    <div id="published-date" class="column">
+        <div class="title">
+            Published
+        </div>
+        <time class="result" datetime=" 2021-06-22 01:33 ">
+             
+                 Apr 17, 2021 
+            
+        </time>
+    </div>
+    <div id="last-update" class="column">
+        <div class="title">
+            Last Update
+        </div>
+        <time class="result" datetime=" 2021-06-22 01:33 ">
+             
+                 Jun 22, 2021 
+            
+        </time>
+    </div>
+    <div id="reading-time" class="column">
+        <div class="title">
+            Estimate 
+        </div>
+        <div class="result">
+            2-min read
+        </div>
+    </div>
+</div><div class="content">
+            <h2 id="persiapan">Persiapan</h2>
+<p>Untuk menginstall iptables pada centos 7, pertama kita harus menghapus firewalld yang telah terpasang secara default. Hal ini ditujukan untuk menghindari konflik antara iptables dan firewalld.</p>
+<p>Untuk menghapus firewalld, pertama kita harus menghentikan service firewalld dengan mengetikan perintah</p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl stop firewalld
+</code></pre><p>Selanjutnya kita mendisable service firewalld saat proses booting. Untuk mendisable service firewalld saat booting ketikan perintah berikut</p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl disable firewalld
+</code></pre><p>Setalah mendisable service firewalld saat proses booting, kita bisa memastikan service tersebut tidak di load oleh system dengan mengetikan perintah berikut ini</p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl mask --now firewalld
+</code></pre><p>Sampai di sini kita telah siap utuk memulai proses installasi iptables</p>
+<h2 id="installasi">Installasi</h2>
+<p>Untuk menginstall iptables, ketikan perintah berikut di terminal <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo yum install iptables-services
+</code></pre><p>Setelah proses intallasi selesai, kita harus mengaktivkan service iptables baik untuk IPV4 atau IPV6.Jika sistem jaringan tidak menggunakan IPV6 maka cukup untuk mengaktivkan iptables untuk IPV4.</p>
+<p><em><strong>Mengaktivkan iptables untuk IPV4</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl start iptables
+</code></pre><p><em><strong>Mengaktvikan iptables untuk IPV6</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl start ip6tables
+</code></pre><h2 id="autostart-iptables-pada-saat-booting">Autostart iptables Pada saat booting</h2>
+<p>Kalau ingin mengaktivkan iptables secara otomatis pada saat booting, kita harus mengenable terlebih dahulu dengan perintah berikut</p>
+<p><em><strong>Autostart iptables untuk IPV4</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl enable iptables
+</code></pre><p><em><strong>Autostart iptables untuk IPV6</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl enable ip6tables
+</code></pre><h2 id="mengecek-status-iptables">Mengecek status iptables</h2>
+<p>Dalam beberapa kasus, terkadang kita ingin melihat apakah iptables telah aktiv pada sistem kita atau belum. Cara untuk mengetahui status tersebut adalah dengan mengetikan perintah berikut</p>
+<p><em><strong>Mengecek service iptables untuk IPV4</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl status iptables
+</code></pre><p><em><strong>Mengecek service iptables untuk IPV6</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo systemctl status ip6tables
+</code></pre><h2 id="cara-melihat-rules-network-dari-iptables">Cara melihat rules network dari iptables</h2>
+<p>Sebelum melakukan konfigurasi, terkadang kita lupa terkait konfigurasi aturan pada firewall yang telah di konfigurasi sebelumnya. Nah untuk mengecek aturan network yang telah di jalankan oleh iptables, kita bisa menggunakan perintah berikut</p>
+<p><em><strong>Membaca rules iptables IPV4</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo iptables -nvL
+</code></pre><p><em><strong>Membaca rules iptables IPV6</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">sudo ip6tables -nvL
+</code></pre><p>atau jika anda ingin melihat sekaligus merubah konfigurasi, maka bisa langsung dilakukan dengan mengubah file pada direktori <code>/etc/sysconfig/iptables</code> untuk IPV4 dan <code>/etc/sysconfig/ip6tables</code> untuk IPV6.</p>
+<p>untuk merubah file konfigurasi anda bisa menggunakan perintah berikut menggunakan nano atau editor kesayangan anda lainya.</p>
+<p><em><strong>IPV4</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">    sudo nano /etc/sysconfig/iptables
+</code></pre><p><em><strong>IPV6</strong></em></p>
+<pre><code class="language-sheel" data-lang="sheel">    sudo nano /etc/sysconfig/ip6tables
+</code></pre><p>Jika output perintah tersebut adalah <code>command not found</code>, silahkan pasang terlebih dahulu nano editor dengan perintah</p>
+<pre><code class="language-sheel" data-lang="sheel"> sudo yum install nano
+</code></pre><h2 id="referensi">REFERENSI</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://wiki.archlinux.org/title/Iptables">Arch Wiki : Iptables</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </div>
+    </article><section class="related">
+    <div class="tab">
+        <div class="tab-btn active" data-target="related-post">
+            Related
+        </div>
+        <div id="disqus" class="tab-btn" data-target="discuss-post">
+            Forum
+        </div>
+        <div class="tab-btn btn-right" data-target="share-post">
+            Share
+        </div>
+    </div>
+    <div class="tab-div">
+        <div id="related-post" class="item-div show">
+            Under Constructions
+        </div>
+        <div id="discuss-post" class="item-div">
+            <div id="comment-script"></div>
+            <div id="disqus_thread"></div>
+            <noscript>
+                Please enable JavaScript to view the comments .</a>
+            </noscript>
+        </div>
+        <section id="share-post" class="item-div">
+            Under Constructions
+        </section>
+    </div>
+</section>
+
+</main>
+<footer class="content-footer">
+    <div class="menu-footer">
+        
+        
+            
+            <a class="profile-items"
+                href="/contact"
+                        
+                title="">Contact</a>
+        
+            
+            <a class="profile-items"
+                href="/faqs"
+                        
+                title="">FAQs</a>
+        
+            
+            <a class="profile-items"
+                href="/patnership"
+                        
+                title="">Patnership</a>
+        
+    </div>
+    <div class="credit mobile">
+        <div class="by_karim">&copy; Al Muhdil Karim  2018-2021 </div>
+    </div>
+</footer>
+
+    
+    
+    <script type="text/javascript"
+            src="/js/footer-post.min.00d4d649fb0a2515d533b639369c411109317ad15bf037b15d3009f30bbafffd.js"
+            integrity=""
+            crossorigin="anonymous" defer></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', "UA-116241347-1");
+    </script>
+<link rel="preload" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+        crossorigin="anonymous"
+        as="style" 
+        onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</noscript>
+ 
+</body>
+</html>
