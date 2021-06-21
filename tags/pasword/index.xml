@@ -22,7 +22,7 @@
       <pubDate>Fri, 18 Jun 2021 10:59:19 +0700</pubDate>
       
       <guid>https://almuhdilkarim.com/tutorial/memperkuat-otentikasi-pada-linux-dengan-meningkatkan-hashing-rounds-pam/</guid>
-      <description>PAM dan Password Cracking Untuk tujuan tersebut, cracking password adalah salah satu metode klasik dalam mendapatkan credential dari suatu sistem linux, baik itu menggunakan bruteforce atau menggunakan dictionary attack.</description>
+      <description>PAM dan Password Cracking Cracking password adalah salah satu metode klasik dalam mendapatkan credential dari suatu sistem linux, baik itu menggunakan bruteforce atau menggunakan dictionary attack.</description>
     </item>
     
   </channel>
