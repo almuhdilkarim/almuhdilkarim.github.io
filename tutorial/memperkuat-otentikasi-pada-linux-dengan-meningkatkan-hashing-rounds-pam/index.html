@@ -24,7 +24,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.75419b2eab8fd857989e39c96310f89069c74b297f7b07bcc7a40657a2c5114a.css"
+                    href="/css/single.min.074239b72edb57a1d071b9a95e71dde7b2ad0d6252cfa6b387e041d9bc53e0b4.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -109,7 +109,7 @@
         <div class="title">
             Published
         </div>
-        <time class="result" datetime=" 2021-06-23 03:08 ">
+        <time class="result" datetime=" 2021-06-23 03:40 ">
              
                  Jun 18, 2021 
             
@@ -119,7 +119,7 @@
         <div class="title">
             Last Update
         </div>
-        <time class="result" datetime=" 2021-06-23 03:08 ">
+        <time class="result" datetime=" 2021-06-23 03:40 ">
              
                  Jun 23, 2021 
             
@@ -141,24 +141,24 @@
 <p>Untuk meningkatkan hashing rounds kita hanya perlu merubah konfigurasi PAM linux. Yang perlu kita lakukan adalah memodifikasi file <code>password-auth</code> dan file <code>system-auth</code></p>
 <h2 id="memperkuat-otentikasi-password--password-auth-">Memperkuat Otentikasi Password ( password-auth )</h2>
 <p>Konfigurasi <code>password-auth</code> dapat anda temukan pada direktori</p>
-<pre><code>/etc/pam.d/password-auth
-</code></pre><p>Untuk menambahkan hashing rounds, edit file tersebut dengan perintah</p>
-<pre><code>nano /etc/pam.d/password-auth
-</code></pre><p>Selanjutnya cari baris yang bersikan sintaks berikut</p>
-<pre><code>password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow
-</code></pre><p>selanjutnya tambahkan <code>rounds=50000</code> pada bagian belakang baris tersebut, sehingga sintaks sebelumnya menjadi seperti berikut</p>
-<pre><code>password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds=50000
-</code></pre><p><code>rounds=50000</code> bisa anda ganti sesuai selera, bisa menjadi <code>rounds=30000</code> atau yang lainya. akan tetapi direkomendasikan menggunakan rentang 20000-50000,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/etc/pam.d/password-auth
+</code></pre></div><p>Untuk menambahkan hashing rounds, edit file tersebut dengan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nano /etc/pam.d/password-auth
+</code></pre></div><p>Selanjutnya cari baris yang bersikan sintaks berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow
+</code></pre></div><p>selanjutnya tambahkan <code>rounds=50000</code> pada bagian belakang baris tersebut, sehingga sintaks sebelumnya menjadi seperti berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds<span style="color:#f92672">=</span><span style="color:#ae81ff">50000</span>
+</code></pre></div><p><code>rounds=50000</code> bisa anda ganti sesuai selera, bisa menjadi <code>rounds=30000</code> atau yang lainya. akan tetapi direkomendasikan menggunakan rentang 20000-50000,</p>
 <h2 id="memperkuat-otentikasi-system--system-auth-">Memperkuat Otentikasi system ( system-auth )</h2>
 <p>Konfigurasi <code>system-auth</code> dapat anda temukan pada direktori</p>
-<pre><code>`/etc/pam.d/system-auth`
-</code></pre><p>Untuk menambahkan hashing rounds, edit file tersebut dengan perintah</p>
-<pre><code>nano /etc/pam.d/system-auth
-</code></pre><p>Selanjutnya cari baris yang bersikan sintaks berikut</p>
-<pre><code>password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow
-</code></pre><p>Selanjutnya tambahkan <code>rounds=50000</code> pada bagian belakang baris tersebut, sehingga sintaks sebelumnya menjadi seperti berikut</p>
-<pre><code>password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds=50000
-</code></pre><p>Sama seperti sebelumnya, anda bisa mengganti <code>rounds=50000</code> sesuai dengan keinginan anda.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#e6db74">`</span>/etc/pam.d/system-auth<span style="color:#e6db74">`</span>
+</code></pre></div><p>Untuk menambahkan hashing rounds, edit file tersebut dengan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nano /etc/pam.d/system-auth
+</code></pre></div><p>Selanjutnya cari baris yang bersikan sintaks berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow
+</code></pre></div><p>Selanjutnya tambahkan <code>rounds=50000</code> pada bagian belakang baris tersebut, sehingga sintaks sebelumnya menjadi seperti berikut</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds<span style="color:#f92672">=</span><span style="color:#ae81ff">50000</span>
+</code></pre></div><p>Sama seperti sebelumnya, anda bisa mengganti <code>rounds=50000</code> sesuai dengan keinginan anda.</p>
 
         </div>
     </article><section class="related">
