@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://almuhdilkarim.com/categories/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/linux/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/memperkuat-keamanan-linux-dengan-menetapkan-masa-kadaluarsa-password/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:09:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/password/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:09:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/pasword/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:09:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/</loc>
-    <lastmod>2021-06-22T02:50:56+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/memperkuat-otentikasi-pada-linux-dengan-meningkatkan-hashing-rounds-pam/</loc>
-    <lastmod>2021-06-22T02:14:02+07:00</lastmod>
+    <lastmod>2021-06-23T03:08:42+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/pam/</loc>
-    <lastmod>2021-06-22T02:14:02+07:00</lastmod>
+    <lastmod>2021-06-23T03:08:42+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/archive/</loc>
     <lastmod>2021-06-20T18:42:41+07:00</lastmod>
@@ -48,7 +48,7 @@
     <lastmod>2021-06-20T18:42:41+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/arch-linux/</loc>
-    <lastmod>2021-06-22T02:09:16+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/firmware/</loc>
     <lastmod>2021-06-22T02:09:16+07:00</lastmod>
@@ -93,31 +93,16 @@
     <lastmod>2021-04-25T01:44:28+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:47+07:00</lastmod>
   </url><url>
-    <loc>https://almuhdilkarim.com/keys1/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
+    <loc>https://almuhdilkarim.com/tags/screenlock/</loc>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
-    <loc>https://almuhdilkarim.com/keys2/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys3/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys3/linux/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys1/lynis/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/tags/security/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys2/ubuntu/</loc>
-    <lastmod>2021-06-12T11:16:34+07:00</lastmod>
+    <loc>https://almuhdilkarim.com/categories/slock/</loc>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</loc>
-    <lastmod>2021-06-12T11:16:28+07:00</lastmod>
+    <lastmod>2021-06-23T03:12:56+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</loc>
     <lastmod>2021-06-22T01:33:07+07:00</lastmod>
@@ -160,5 +145,11 @@
   </url><url>
     <loc>https://almuhdilkarim.com/</loc>
     <lastmod>2021-05-03T01:27:57+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/keys1/</loc>
+  </url><url>
+    <loc>https://almuhdilkarim.com/keys2/</loc>
+  </url><url>
+    <loc>https://almuhdilkarim.com/keys3/</loc>
   </url>
 </urlset>

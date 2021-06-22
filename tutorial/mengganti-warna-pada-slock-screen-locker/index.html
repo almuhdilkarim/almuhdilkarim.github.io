@@ -109,7 +109,7 @@
         <div class="title">
             Published
         </div>
-        <time class="result" datetime=" 2021-06-12 11:16 ">
+        <time class="result" datetime=" 2021-06-23 03:12 ">
              
                  Apr 21, 2021 
             
@@ -119,9 +119,9 @@
         <div class="title">
             Last Update
         </div>
-        <time class="result" datetime=" 2021-06-12 11:16 ">
+        <time class="result" datetime=" 2021-06-23 03:12 ">
              
-                 Jun 12, 2021 
+                 Jun 23, 2021 
             
         </time>
     </div>
@@ -143,7 +143,7 @@
 <p>Buka terminal emulator</p>
 </li>
 <li>
-<p>Ketikan perintah di bawah ini</p>
+<p>Ketikan perintah di bawah ini [^1]</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo pacman -Rs slock
 </code></pre></div></li>
 <li>
@@ -197,7 +197,7 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd slock-1.4
 </code></pre></div><h2 id="merubah-file-konfigurasi">Merubah File Konfigurasi</h2>
 <p>Setelah mempersiapkan source code, kita harus megubah file konfigurasi dari <code>slock</code> untuk bisa mengubah warna default dari <code>slock</code> . Jadi nantinya aplikasi akan menggunakan warna yang kita pilih ketika menjalankan fungsinya.</p>
-<p>Untuk merubah warna default tersebut kita harus mengedit file yang bernama <code>config.def.h</code>. Untuk mengubah file tersebut, kita bisa menggunakan perintah berikut,</p>
+<p>Untuk merubah warna default tersebut kita harus mengedit file yang bernama <code>config.def.h</code>.[^2] Untuk mengubah file tersebut, kita bisa menggunakan perintah berikut,</p>
 <pre><code>nano config.def.h
 </code></pre><p>Output dari perintah tersebut adalah sebagai berikut</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/* user and group to drop privileges to */
@@ -212,7 +212,6 @@ static const char *colorname<span style="color:#f92672">[</span>NUMCOLS<span sty
 
 /* treat a cleared input like a wrong password <span style="color:#f92672">(</span>color<span style="color:#f92672">)</span> */
 static const int failonclear <span style="color:#f92672">=</span> 1;
-
 </code></pre></div><p>Hal yang pertama kali harus kita lakukan adalah mengedit baris <code>static const char *user</code>dan <code>static const char *group</code> yang ada di dalam output di diatas.  G</p>
 <p>Kita akan mengganti  <code>nobody</code>  dan  <code>nogroup</code> dengan username dan group dari akun linux kita. Jika anda ingin memastikan username dari akun linux anda, anda bisa mengetikan perintah berikut di terminal</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">whoami
@@ -267,13 +266,9 @@ static const int failonclear <span style="color:#f92672">=</span> 1;
 <p>Untuk mulai menggunakan slock,  kita bisa mengetikan perintah berikut di terminal</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">slock
 </code></pre></div><p>Sampai di sini, ketika kita telah berhasil mengganti warna pada slock.  Ketika kita mengetikan password , warna layar yang awalnya berwarna biru akan berubah menjadi hijau. Begitu juga ketika kita salah mengetikan password, yang awalnya berwarna merah akan berganti menjadi orange.</p>
-<h2 id="artikel-terkait">Artikel Terkait</h2>
-<p><a href="https://almuhdilkarim.com/blog/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/">Mengenal Slock - Screen Saver Linux Yang Sederhana Namun Full Performance</a></p>
 <h2 id="referensi">Referensi</h2>
-<ol>
-<li><a href="https://wiki.archlinux.org/index.php/Slock">Arch Wiki</a></li>
-<li><a href="https://tools.suckless.org/slock/">Suckless.org</a></li>
-</ol>
+<p>[^1] <a href="https://wiki.archlinux.org/index.php/Slock">Arch Wiki</a>
+[^2] <a href="https://tools.suckless.org/slock/">Suckless.org</a></p>
 
         </div>
     </article><section class="related">

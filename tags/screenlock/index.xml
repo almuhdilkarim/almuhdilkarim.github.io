@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ubuntu on Karim Pages</title>
-    <link>https://almuhdilkarim.com/keys2/ubuntu/</link>
-    <description>Recent content in ubuntu on Karim Pages</description>
+    <title>screenlock on Karim Pages</title>
+    <link>https://almuhdilkarim.com/tags/screenlock/</link>
+    <description>Recent content in screenlock on Karim Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Wed, 21 Apr 2021 10:52:41 +0000</lastBuildDate><atom:link href="https://almuhdilkarim.com/keys2/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 10:52:41 +0000</lastBuildDate><atom:link href="https://almuhdilkarim.com/tags/screenlock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
       <link>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</link>
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>Mengenal Slock - Screen Saver Linux Yang Sederhana Namun Full Performance</title>
+      <title>Installasi Slock Screen Saver Linux Yang Sederhana Namun Full Performance</title>
       <link>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</link>
       <pubDate>Tue, 20 Apr 2021 01:52:41 +0000</pubDate>
       
