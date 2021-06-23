@@ -1,0 +1,135 @@
+@media print {
+
+    @page {
+        size: A4;
+        margin:2cm -4cm
+        /*margin: 2.5cm 3.5cm;*/
+    }
+    html {
+        margin:0 4cm;
+    }
+    body {
+        display:table;
+        table-layout:fixed;
+        height:auto;
+        color: #111;
+        font-size: 12pt;
+        
+    }
+    article{
+        padding: 0 3.5cm;
+    }
+
+    .post{
+        width: 100%;
+        margin:0;
+    }
+
+    .post pre {
+        -webkit-print-color-adjust: exact;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        overflow: unset ;
+        background: #222;
+        color: #eee;
+        font-size: 8.5pt; 
+        padding: 1em;
+        margin: 2.5em 0;
+    }
+
+    .post code{
+        -webkit-print-color-adjust: exact;
+        background: #222;
+        font-size: 8.2pt; 
+        padding: 3px 10px;; 
+    }
+
+    .post pre, .post blockquote,  .post code {page-break-inside: avoid;}
+
+    .post h1{
+        font-size: 13pt;
+        font-weight: 400;
+        margin:0 0 0 1em;
+        text-align: center;
+    }
+
+    .post h2{
+        font-size: 10.75pt;
+    }
+    .post h3 {
+        font-size: 10.5pt;
+    }
+    .post h4 {
+        font-size: 10.3pt;
+    }
+
+    .post h2, 
+    .post h3, 
+    .post h4 {
+        margin: 2.5em 0;
+        line-height: 2;
+        font-weight: 600;
+    }
+    .post p {
+        font-size: 10pt; 
+        margin: 1.5em 0 ;
+        line-height: 1.7;
+     }
+
+    .post .metadata{
+        font-size: 7pt;
+        margin:auto 2em;
+        display: unset;
+        flex-wrap: unset;
+    }
+    .post .metadata .author{
+        -webkit-print-color-adjust: exact;
+        margin: auto 0;
+        width: 30%;
+        color:#000;
+    }
+
+    .post .metadata .author img{
+        display: none;
+    }
+
+    .post .metadata .author .name{
+        margin: 0 auto;
+    }
+
+    .post .metadata #published-date{
+        display: flex;
+        justify-content:center ;
+        margin: 0;
+        margin-top: -10px;
+    }
+    .post .metadata #published-date .title{
+        margin-right: .5em;
+    }
+
+    .post .metadata #published-date .title:after{
+        content : ":" ;
+    }
+
+    .post .metadata .author,
+    .post .metadata #published-date .title,
+    .post .metadata #published-date .result {
+        -webkit-print-color-adjust: exact;
+        color:#000;
+    }
+
+    .post .content {
+        margin: 2em 0 2em  0;
+        clear: both;
+    }
+
+    .post .metadata .author img,
+    .post .metadata .author .name label,
+    .post .metadata #last-update,
+    .post .metadata #reading-time,
+    .post .twitter-tweet,
+    footer,  
+    .related {
+        display: none;
+    }
+ }
