@@ -8,12 +8,14 @@
     <meta name="description" content="Just A Linux Enthusiast">
    
     
-    
-    
-    <script type="text/javascript"
-            src="/js/main.min.11e2f06f9a41ada9e076acfb9575d48a4ccdb8f903485b91bd48e5fc6d76370c.js"
-            integrity=""
-            crossorigin="anonymous" ></script>
+    <script>
+        const ts = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+        if ( ts === 'dark' ) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+   </script>
 
     
     
@@ -51,7 +53,6 @@
 
     
     <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo"></head>
-    
 <body>
 <header id="header">
     <h2 class="site-title" title="site title"><a href="/">Karim Pages</a></h2>
@@ -61,7 +62,6 @@
     
     <nav class="nav" id="main-navigation" title="main navigation">
         
-
         
             
             <a 
@@ -133,6 +133,14 @@
         <div class="by_karim">&copy; Al Muhdil Karim  2018-2021 </div>
     </div>
 </footer>
+
+
+<script type="text/javascript"
+        src="/js/main.min.fc84b78f438925ce125c520d5c7a7f5371c52f220effcbfbb3c9839a5b2a24dc.js"
+        integrity=""
+        crossorigin="anonymous" defer></script>
+
+
 
 
 
