@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arch on Karim Pages</title>
+    <link>https://almuhdilkarim.com/selector2/arch/</link>
+    <description>Recent content in arch on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Wed, 16 Jun 2021 10:59:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/selector2/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module Xhci_pci pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</guid>
+      <description>Buka terminal dan masuk kedalam direktori /tmp dengan mengetikan perintah</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Aic94xx Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</link>
+      <pubDate>Sat, 12 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</guid>
+      <description>Buka terminal
+Masuk kedalam folder /tmp, dengan mengetikan perintah berikut di terminal</description>
+    </item>
+    
+    <item>
+      <title>Memperbaiki Possibly Missing Firmware for Module: Wd719x Pada Arch Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</link>
+      <pubDate>Mon, 17 May 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</guid>
+      <description>Buka terminal dan masuk kedalam folder /tmp, dengan mengetikan perintah berikut</description>
+    </item>
+    
+    <item>
+      <title>Cara Mengganti Warna Default Pada Slock Screen Locker</title>
+      <link>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</link>
+      <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</guid>
+      <description>Cara mengganti warna pada slock adalah dengan melakukan kompilasi ulang terhadap aplikasi slock secara manual.</description>
+    </item>
+    
+    <item>
+      <title>Installasi Slock Screen Saver Linux Yang Sederhana Namun Full Performance</title>
+      <link>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</link>
+      <pubDate>Tue, 20 Apr 2021 01:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</guid>
+      <description>Slock adalah aplikasi yang berfugsi untuk mengunci layar ( Screen locker ) pada sistem operasi berbasis linux.</description>
+    </item>
+    
+  </channel>
+</rss>

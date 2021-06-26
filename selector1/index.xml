@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selector1 on Karim Pages</title>
+    <link>https://almuhdilkarim.com/selector1/</link>
+    <description>Recent content in Selector1 on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sun, 20 Jun 2021 01:39:37 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/selector1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pam</title>
+      <link>https://almuhdilkarim.com/selector1/pam/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/pam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firmware</title>
+      <link>https://almuhdilkarim.com/selector1/firmware/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/firmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lynis</title>
+      <link>https://almuhdilkarim.com/selector1/lynis/</link>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/lynis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slock</title>
+      <link>https://almuhdilkarim.com/selector1/slock/</link>
+      <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/slock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iptables</title>
+      <link>https://almuhdilkarim.com/selector1/iptables/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/iptables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yum</title>
+      <link>https://almuhdilkarim.com/selector1/yum/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector1/yum/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

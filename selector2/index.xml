@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selector2 on Karim Pages</title>
+    <link>https://almuhdilkarim.com/selector2/</link>
+    <description>Recent content in Selector2 on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sun, 20 Jun 2021 01:39:37 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/selector2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos</title>
+      <link>https://almuhdilkarim.com/selector2/centos/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector2/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://almuhdilkarim.com/selector2/arch/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector2/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fedora</title>
+      <link>https://almuhdilkarim.com/selector2/fedora/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector2/fedora/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

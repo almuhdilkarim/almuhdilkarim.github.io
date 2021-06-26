@@ -2,32 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://almuhdilkarim.com/selector4/authentication/</loc>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
+  </url><url>
     <loc>https://almuhdilkarim.com/categories/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector2/centos/</loc>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/linux/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector3/linux/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/memperkuat-keamanan-linux-dengan-menetapkan-masa-kadaluarsa-password/</loc>
-    <lastmod>2021-06-23T03:39:32+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:15+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/pam/</loc>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/password/</loc>
-    <lastmod>2021-06-23T03:39:32+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:15+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/pasword/</loc>
-    <lastmod>2021-06-23T03:40:18+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector2/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector3/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector4/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/memperkuat-otentikasi-pada-linux-dengan-meningkatkan-hashing-rounds-pam/</loc>
-    <lastmod>2021-06-23T03:40:18+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/pam/</loc>
-    <lastmod>2021-06-23T03:40:18+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:24+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/archive/</loc>
     <lastmod>2021-06-20T18:42:41+07:00</lastmod>
@@ -47,32 +71,47 @@
     <loc>https://almuhdilkarim.com/works/</loc>
     <lastmod>2021-06-20T18:42:41+07:00</lastmod>
   </url><url>
+    <loc>https://almuhdilkarim.com/selector2/arch/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
     <loc>https://almuhdilkarim.com/tags/arch-linux/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/firmware/</loc>
-    <lastmod>2021-06-23T03:39:00+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:04+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/firmware/</loc>
+    <lastmod>2021-06-26T12:40:04+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector4/kernel/</loc>
+    <lastmod>2021-06-26T12:40:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/kernel/</loc>
-    <lastmod>2021-06-23T03:39:00+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-xhci_pci-pada-arch-linux/</loc>
-    <lastmod>2021-06-23T03:39:00+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:04+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-aic94xx-pada-arch-linux/</loc>
-    <lastmod>2021-06-23T03:38:02+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:43+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</loc>
-    <lastmod>2021-06-23T03:36:50+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:31+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/audit/</loc>
-    <lastmod>2021-06-23T03:56:01+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/lynis/</loc>
+    <lastmod>2021-06-26T12:38:31+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/lynis/</loc>
-    <lastmod>2021-06-23T03:36:50+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:31+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector4/security/</loc>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/cara-memperbaiki-possibly-missing-firmware-for-module-wd719x-pada-arch-linux/</loc>
-    <lastmod>2021-06-23T03:38:36+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:54+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/akademis/</loc>
     <lastmod>2021-04-25T01:44:28+07:00</lastmod>
@@ -93,40 +132,58 @@
     <lastmod>2021-04-25T01:44:28+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/mengganti-warna-pada-slock-screen-locker/</loc>
-    <lastmod>2021-06-23T03:56:23+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/screenlock/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector4/screenlock/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/slock/</loc>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/slock/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:48+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/mengenal-slock-simple-screen-saver-linux-yang-berorientasi-kepada-performa-dan-keamanan/</loc>
-    <lastmod>2021-06-23T03:56:41+07:00</lastmod>
+    <lastmod>2021-06-26T12:40:36+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</loc>
-    <lastmod>2021-06-23T03:56:01+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/centos/</loc>
-    <lastmod>2021-06-23T03:56:01+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/centos-7/</loc>
-    <lastmod>2021-06-23T03:56:01+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/iptables/</loc>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/iptables/</loc>
-    <lastmod>2021-06-23T03:56:01+07:00</lastmod>
+    <lastmod>2021-06-26T12:39:30+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos/</loc>
-    <lastmod>2021-06-23T03:55:55+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/fedora/</loc>
-    <lastmod>2021-06-23T03:55:55+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector2/fedora/</loc>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/tags/package-manager/</loc>
-    <lastmod>2021-06-23T03:55:55+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector4/package-manager/</loc>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
+  </url><url>
+    <loc>https://almuhdilkarim.com/selector1/yum/</loc>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/categories/yum/</loc>
-    <lastmod>2021-06-23T03:55:55+07:00</lastmod>
+    <lastmod>2021-06-26T12:38:53+07:00</lastmod>
   </url><url>
     <loc>https://almuhdilkarim.com/contact/</loc>
     <lastmod>2021-06-11T06:15:37+07:00</lastmod>
@@ -145,11 +202,5 @@
   </url><url>
     <loc>https://almuhdilkarim.com/</loc>
     <lastmod>2021-05-03T01:27:57+07:00</lastmod>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys1/</loc>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys2/</loc>
-  </url><url>
-    <loc>https://almuhdilkarim.com/keys3/</loc>
   </url>
 </urlset>

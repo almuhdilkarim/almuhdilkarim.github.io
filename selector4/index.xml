@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selector4 on Karim Pages</title>
+    <link>https://almuhdilkarim.com/selector4/</link>
+    <description>Recent content in Selector4 on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sun, 20 Jun 2021 01:39:37 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/selector4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>authentication</title>
+      <link>https://almuhdilkarim.com/selector4/authentication/</link>
+      <pubDate>Sun, 20 Jun 2021 01:39:37 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector4/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://almuhdilkarim.com/selector4/kernel/</link>
+      <pubDate>Wed, 16 Jun 2021 10:59:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector4/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://almuhdilkarim.com/selector4/security/</link>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector4/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>screenlock</title>
+      <link>https://almuhdilkarim.com/selector4/screenlock/</link>
+      <pubDate>Wed, 21 Apr 2021 10:52:41 +0000</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector4/screenlock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package manager</title>
+      <link>https://almuhdilkarim.com/selector4/package-manager/</link>
+      <pubDate>Thu, 15 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/selector4/package-manager/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

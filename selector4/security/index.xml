@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Karim Pages</title>
+    <link>https://almuhdilkarim.com/selector4/security/</link>
+    <description>Recent content in security on Karim Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 24 May 2021 02:27:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/selector4/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3 Cara Installasi Lynis Di Linux</title>
+      <link>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</link>
+      <pubDate>Mon, 24 May 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/3-cara-installasi-lynis-di-linux/</guid>
+      <description>Lynis adalah salah satu software yang biasa digunakan untuk melakukan audit keamanan sistem operasi berbasis linux dan Macos.</description>
+    </item>
+    
+    <item>
+      <title>Cara Installasi Iptables Pada Centos 7</title>
+      <link>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</link>
+      <pubDate>Sat, 17 Apr 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/tutorial/cara-installasi-iptables-pada-centos-7/</guid>
+      <description>Persiapan Untuk menginstall iptables pada centos 7, pertama kita harus menghapus firewalld yang telah terpasang secara default.</description>
+    </item>
+    
+  </channel>
+</rss>
