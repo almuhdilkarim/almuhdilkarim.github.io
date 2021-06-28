@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.82473c50bd9d35a7bd79dadabe21563cda464b1c481d35044a80352f9c75c9e0.css"
+                    href="/css/single.min.c6fd6b9ffc2d3e7a5e5e5129b33fd7e4a1f9fd39b08797f6d6d87a3f4b41ebc4.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -99,7 +99,7 @@
     <article >
         <h1 class="post-title">About Me</h1><div class="metadata">
     <a href="/profile" class="author flex column" rel="author">
-        <img src="/images/profil.jpeg">
+        <img src="/images/profil.jpeg" alt="Author Profile Pictures">
         <div class="name">
             Al Muhdil Karim<br>
             <label>see profile</label>
@@ -133,7 +133,11 @@
             1-min read
         </div>
     </div>
-</div><div class="content">
+</div><div id="feature" class="tab"  data-player="">
+            
+            
+        </div>
+        <div id="article" class="content">
             <p>Written in Go, Hugo is an open source static site generator available under the <a href="https://github.com/gohugoio/hugo/blob/master/LICENSE">Apache Licence 2.0.</a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</p>
 <p>Hugo makes use of a variety of open source projects including:</p>
 <ul>
@@ -148,6 +152,12 @@
 <p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.</p>
 <p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
 
+        </div>
+        <div id="audio" class="content">
+
+        </div>
+        <div id="video" class="content">
+            
         </div>
     </article><section class="related">
     <div id="related-tab-options" class="tab">
@@ -189,22 +199,23 @@
                 data-url = "https://almuhdilkarim.com/about/"
                 data-title = "About Me" >
                 <div class="social flex">
-                    <a id="share-to-facebook" class="flex item" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2falmuhdilkarim.com%2fabout%2f" target="_blank">
+                    <a id="share-to-facebook" rel="noreferrer" class="flex item" title="Share post to facebook" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2falmuhdilkarim.com%2fabout%2f" target="_blank">
                         <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><p> Facebook</p>
                     </a>
-                    <a id="share-to-twitter" class="flex item" href="'https://twitter.com/share?url=https%3a%2f%2falmuhdilkarim.com%2fabout%2f;text=About%20Me" target="_blank">
+                    <a id="share-to-twitter" rel="noreferrer" class="flex item" title="Share post to twitter" href="'https://twitter.com/share?url=https%3a%2f%2falmuhdilkarim.com%2fabout%2f;text=About%20Me" target="_blank">
                         <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><p> Twitter</p>
                     </a>
-                    <a id="share-to-linkedin" class="flex item" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2falmuhdilkarim.com%2fabout%2f" target="_blank">
+                    <a id="share-to-linkedin" rel="noreferrer" class="flex item" title="Share post to linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2falmuhdilkarim.com%2fabout%2f" target="_blank">
                         <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i><p> Linkedin</p>
                     </a>
                 </div>
             <div id="form-link" class="link flex" data-copy="copy">
-                <input type="text" value="https://almuhdilkarim.com/about/" id="url-copy" class="flex" readonly>
-                <button id="copy-link" class="flex">
+                <input id="url-copy" type="text" value="https://almuhdilkarim.com/about/" class="flex" readonly>
+                <label for="url-copy">Url</label>
+                <div id="copy-link" class="flex">
                     <span id="copy-info" class="flex"><i class="fas fa-clone fa-2x" aria-hidden="true"></i><p>Copy Url</p></span>
                     <span id="copied-info" class="flex"><i class="fas fa-clipboard fa-2x" aria-hidden="true"></i><p>Url Copied</p></span> 
-                </button>
+                </div>
             </div>
         </div>
     </div>
@@ -239,6 +250,14 @@
         <div class="by_karim">&copy; Al Muhdil Karim  2018-2021 </div>
     </div>
 </footer>
+
+
+
+
+<script type="text/javascript"
+        src="/js/main.min.9150d12b7cb41b61075f76aad85c99de297f4d0a1390a07d81f0b02ff4489242.js"
+        integrity=""
+        crossorigin="anonymous" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>
     <script>
     window.dataLayer = window.dataLayer || [];
