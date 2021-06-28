@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.434b7de50c24b22c8de66499c5b7f02d651dd0e62adc4494b25f4fe2aab73e0f.css"
+                    href="/css/single.min.f4a74b6ccadf55b63deab875f10864eb9a289739daab910d4cc8130ffa42e2e9.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -137,8 +137,9 @@
         <div id="feature"  data-player="">
             
         </div>
-        <div id="article" class="content">
-            <h2 id="pam-dan-password-cracking">PAM dan Password Cracking</h2>
+        <div class="content tab-div">
+            <div id="article" class="tab-content active">
+                <h2 id="pam-dan-password-cracking">PAM dan Password Cracking</h2>
 <p>Cracking password adalah salah satu metode klasik dalam mendapatkan credential dari suatu sistem linux, baik itu menggunakan bruteforce atau menggunakan dictionary attack.</p>
 <p>PAM sendiri adalah modul yang bertanggung jawab dalam proses otentikasi pengguna bagi banyak distro linux. Dalam kesempatan ini, kita akan belajar bagaimana meningkatkan hashing rounds pada password pada PAM.</p>
 <p>Diharapkan dengan meningkatkan hashing round, maka password kita akan lebih sulit untuk di dekripsi sehingga berdampak kepada meningkatnya sistem keamanan pada sistem operasi berbasis linux.</p>
@@ -164,12 +165,13 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds<span style="color:#f92672">=</span><span style="color:#ae81ff">50000</span>
 </code></pre></div><p>Sama seperti sebelumnya, anda bisa mengganti <code>rounds=50000</code> sesuai dengan keinginan anda.</p>
 
-        </div>
-        <div id="audio" class="content">
-
-        </div>
-        <div id="video" class="content">
-            
+            </div>
+            <div id="audio" class="tab-content">
+                    Audio
+            </div>
+            <div id="video" class="tab-content">
+                    Video
+            </div>
         </div>
     </article><section class="related">
     <div id="related-tab-options" class="tab">
