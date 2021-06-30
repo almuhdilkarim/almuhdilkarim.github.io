@@ -259,9 +259,10 @@
   }
 
   #audio-content .title{
+    justify-content: unset;
     margin-bottom: 2em;
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.27em;
   }
 
   #audio-description .description{
