@@ -229,7 +229,7 @@
   #audio-content .title{
     justify-content: unset;
     margin-bottom: 2em;
-    text-align: left;
+    text-align: center;
   }
 
   #audio-description .description{
@@ -239,10 +239,6 @@
     font-size: 1.5em;
   }
 
-
-  #audio-platform .title{
-    text-align: center;
-  }
 
   #audio-platform .platform{
     display: grid;
