@@ -228,7 +228,7 @@
 
   #audio-content .title{
     justify-content: unset;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     text-align: left;
   }
 
@@ -241,18 +241,24 @@
 
 
   #audio-platform .platform{
-    display: block;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: unset;
+    align-items: unset
   }
   #audio-platform .podcast-hosting{
-    display: flex;
-    align-items: center;
     margin-bottom: 2em;
+    padding: 1.5em;
   }
   #audio-platform .podcast-hosting span {
+    display: block;
     font-size: 1.03em;
+    text-align: center;
+    margin-top: .5em;
   }
 
   #audio-platform .podcast-hosting i{
-    margin-bottom: unset;
+    margin: unset;
+    font-size: 1.7em;
   }
 }
