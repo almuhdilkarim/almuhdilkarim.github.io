@@ -261,7 +261,7 @@
   #audio-content .title{
     justify-content: unset;
     margin-bottom: 2em;
-    text-align: center;
+    text-align: left;
     font-size: 1.27em;
   }
 
