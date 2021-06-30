@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.474dc51980de59085636e12ff9cf24ec0ea2e36fb591be39f2f1807b7e2d3194.css"
+                    href="/css/single.min.4839bf09a1f79f738d5904888a641f35d674b84ad474521506efe5257ac75346.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -107,7 +107,7 @@
         <div class="title">
             Published
         </div>
-        <time class="result" datetime=" 2021-06-29 02:58 ">
+        <time class="result" datetime=" 2021-06-29 05:00 ">
              
                  Apr 15, 2021 
             
@@ -117,7 +117,7 @@
         <div class="title">
             Update
         </div>
-        <time class="result" datetime=" 2021-06-29 02:58 ">
+        <time class="result" datetime=" 2021-06-29 05:00 ">
              
                  Jun, 2021 
             
@@ -133,27 +133,23 @@
     </div>
 </div>
     <sections class="options tab">
-        <div id="text-action" class="tab-btn flex active " data-target="article">
+        <a href="#main-title"  id="text-action" class="tab-btn flex active " data-target="article-content">
             <i class="fa fa-file-alt fa-2x flex" aria-hidden="true"></i><span class="article flex">Article</span>
-        </div>
+        </a>
         
-        <div id="audio-action" class="tab-btn flex" data-target="audio">
+        <a href="#main-title"  id="audio-action" class="tab-btn flex" data-target="audio-content">
             <i class="fa fa-microphone fa-2x flex" aria-hidden="true"></i><span class="audio flex">Audio</span>
-        </div>
+        </a>
         
         
     </sections>
     
-    <section class="content tab-div">
-        <article id="article" class="tab-content active" >
-            <h1 class="post-title">Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</h1>
-            <div id="feature"  data-player="">
-                
-                <div id="player">
-                    <img class="cover" src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" alt="Thumbnail image" />
-                </div>
-                
-            </div>
+    <article class="content tab-div">
+        <h1 id="main-title" class="post-title">Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</h1>
+        <div id="article-content"  class="tab-content active">
+            
+            <img class="cover" src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" alt="Thumbnail image" />
+            
             <p>Yum adalah package manager yang digunakan oleh Centos. Yum biasanya kita gunakan untuk mempermudah installasi, menghapus atau mengupdate aplikasi dari centos. Dalam pekerjaanya yum biasanya menggunakan dua tipe internet protokol IPV4 dan IPV6.</p>
 <p><img src="wireshark-screenshoot.webp" alt="image alt &lsquo;Penggunaan protokol internet IPV4 dan IPV6 oleh yum&rsquo; "></p>
 <p>Namun masalahnya, terkadang perangkat dekstop atau server kita tidak selalu berada pada jaringan yang telah mendukung IPV6. Dalam beberapa kasus terjadi error seperti contoh berikut</p>
@@ -174,14 +170,65 @@
 </ol>
 </section>
 
-        </article>
+        </div>
+        <div id="audio-content" class="tab-content"  
+        data-audio-url="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" >
+        <audio id="audio-source" src=""></audio>
+    <div id="audio-player">
+        <div id="audio-cover" class="flex">
+            <i class="fa fa-compact-disc fa-2x flex" aria-hidden="true"></i>
+        </div>
+        <div class="track">
+            <input id="progress" type="range" step="1" class="seekbar" value="0" min="0" max="100" >
+            <span id="start" class="time">0:0</span>
+            <span id="end"   class="time" data-duration="">0:0</span>
+        </div>
+        <div id="panel-control" class="flex">
+                <div id="audio-play" class="aud-control">
+                    <i class="fa fa-play fa-2x flex" aria-hidden="true"></i>
+                </div>
+                <div id="audio-pause" class="aud-control hide">
+                    <i class="fa fa-pause fa-2x flex" aria-hidden="true"></i>
+                </div>
+        </div>
+    </div>
+    <div id="audio-description">
+        <h2 class="title flex">
+            <i class="fa fa-headphones fa-2x flex" aria-hidden="true"></i>
+            Podcast Overview
+        </h2>
+        <p class="description">
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+        </p>
+    </div>
+    <div id ="audio-platform">
+       <h2 class="title">
+            Get latest Podcast Episode <span> Subscribe us on platform listed bellow</span>
+        </h2>
+        <div class="platform flex">
+            
+                <a class="podcast-hosting" href="https://open.spotify.com/show/2KRC9HS1J0cow37Xtuh0XG" rel="me" aria-label="Spotify">
+                    <i class="fab fa-spotify fa-2x" aria-hidden="true"></i><span> Spotify</span>
+                </a>
+            
+                <a class="podcast-hosting" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NTUzNGM5OC9wb2RjYXN0L3Jzcw" rel="me" aria-label="Google Podcast">
+                    <i class="fab fa-google fa-2x" aria-hidden="true"></i><span> Google Podcast</span>
+                </a>
+            
+                <a class="podcast-hosting" href="https://pca.st/l0s7s0wv" rel="me" aria-label="Pocket Cast ">
+                    <i class="fab fa-get-pocket fa-2x" aria-hidden="true"></i><span> Pocket Cast </span>
+                </a>
+            
+                <a class="podcast-hosting" href="https://anchor.fm/s/45534c98/podcast/rss" rel="me" aria-label="Rss">
+                    <i class="fas fa-rss fa-2x" aria-hidden="true"></i><span> Rss</span>
+                </a>
+            
+        </div>
+    </div>
+</div>
+
         
-        <aside id="audio" class="tab-content">
-                Audio
-        </aside>
-        
-        
-    </section><section class="related">
+    </article><section id="related" class="">
     <div id="related-tab-options" class="tab">
         <div id="related-post-action"class="tab-btn flex active" data-target="related-post">
             <i class="fa fa-link fa-2x flex" aria-hidden="true"></i><span>Related</span>
@@ -411,7 +458,7 @@
 
 
 <script type="text/javascript"
-        src="/js/main.min.9150d12b7cb41b61075f76aad85c99de297f4d0a1390a07d81f0b02ff4489242.js"
+        src="/js/main.min.637631a37d953ac59d5d85fa8f926c12976117a6d7b7b0926963ec9022a91954.js"
         integrity=""
         crossorigin="anonymous" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>
@@ -439,6 +486,8 @@
         crossorigin="anonymous"
         rel="stylesheet"
         type="text/css"  >
+
+
  
 </body>
 </html>
