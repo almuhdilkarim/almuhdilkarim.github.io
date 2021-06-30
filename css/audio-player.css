@@ -240,6 +240,10 @@
   }
 
 
+  #audio-platform .title{
+    text-align: center;
+  }
+
   #audio-platform .platform{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -252,7 +256,7 @@
   }
   #audio-platform .podcast-hosting span {
     display: block;
-    font-size: 1.03em;
+    font-size: .98em;
     text-align: center;
     margin-top: .5em;
   }
