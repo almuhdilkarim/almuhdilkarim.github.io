@@ -217,8 +217,40 @@
 
 @media screen and (max-width: 600px) { 
   #audio-player {
-    width: calc( 100% - 4em );
+    width: calc( 100% - 2em );
     float: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+  }
+
+  #audio-player::before {
+    margin:0;
+    font-size: 1.9em;
+  }
+
+  #audio-player #audio-cover{
+    font-size: 2em;
+    margin: 0;
+  }
+
+  #audio-player .track{
+    width: 50%;
+    margin:  0 auto;
+  }
+
+  #audio-player #progress{
+    margin-bottom: 0;
+  }
+
+  #audio-player #panel-control .aud-control i{
+    width: 2em;
+    height: 2em;
+  }
+
+  #audio-player #panel-control{
+    margin:0
   }
 
   #audio-description{
@@ -227,9 +259,9 @@
   }
 
   #audio-content .title{
-    justify-content: unset;
     margin-bottom: 2em;
     text-align: center;
+    font-size: 1.25em;
   }
 
   #audio-description .description{
