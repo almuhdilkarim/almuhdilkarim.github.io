@@ -31,6 +31,7 @@
     content: "";
     background-image:url(/image/audio-player.jpeg);
     background-size: cover;
+    background-position: center;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -222,7 +223,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 2em 1em;
   }
 
   #audio-player::before {
