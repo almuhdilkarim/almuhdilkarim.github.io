@@ -6,17 +6,6 @@
     transition: .2s;
 }
 
-
-#audio-content .title{
-  margin: 0em 0 1.5em 0;
-  text-transform: capitalize;
-}
-
-#audio-content .title::before{
-  content:"";
-  margin:0;
-}
-
 #audio-player{
     width: calc( 30% - 4em);
     float: left;
@@ -41,11 +30,14 @@
     z-index: -2;
 }
 
-#audio-player #audio-cover {
+#audio-content .title{
+  font-size: 1.4em;
+}
+
+#audio-cover {
     font-size: 2.5em;
     margin:  .5em 0 1em 0;
     color: rgba(255, 255, 255, .9);
-    
 }
 
 .rotate {
@@ -66,11 +58,15 @@
     }
 }
 
-#audio-player .track {
-    position: relative;
+#audio-player .audio-progress {
+  position: relative;
 }
 
-#audio-player #progress {
+#audio-player .audio-progress label{
+  display: none;
+}
+
+#audio-player .track{
   -webkit-appearance: none !important;
   background: rgba(255, 255, 255, .2);
   margin-bottom: 1em;
@@ -82,20 +78,22 @@
   border-radius: 50px;
 }
 
-#audio-player #progress::-ms-fill-lower {
+
+
+#audio-player .track::-ms-fill-lower {
   background: rgba(255, 255, 255, .2);
 }
 
-#audio-player #progress::-ms-fill-upper {
+#audio-player .track::-ms-fill-upper {
   background: rgba(255, 255, 255, .2);
 }
 
-#audio-player #progress::-moz-range-track {
+#audio-player .track ::-moz-range-track {
   border: none;
   background: rgba(255, 255, 255, .2);
 }
 
-#audio-player #progress::-webkit-slider-thumb {
+#audio-player .track::-webkit-slider-thumb {
   -webkit-appearance: none !important;
   background: #4fef36;
   height: 6px;
@@ -104,14 +102,13 @@
   box-shadow: -100vw 0 0 100vw #4fef36;
 }
 
-#audio-player #progress::-moz-range-thumb {
+#audio-player .track::-moz-range-thumb {
   background: #4fef36;
   height: 6px;
   width: 6px;
   border-radius: 50%;
 }
-
-#audio-player #progress::-ms-thumb {
+#audio-player .track ::-ms-thumb {
   -webkit-appearance: none !important;
   background: #4fef36;
   height: 6px;
@@ -119,21 +116,22 @@
   border-radius: 50%;
 }
 
+
 #audio-player .time{
   color: #fff;
   font-size: .9em;
   margin: 0 0 0 0;
 }
 
-#audio-player #end{
+#audio-duration{
   float: right;
 }
 
-#audio-player #panel-control {
+#audio-panel {
     margin: 2.5em auto 1.5em auto;
 }
 
-#audio-player #panel-control .aud-control i{
+#audio-panel  i{
     font-size: 1.3em;
     overflow: hidden;
     color: #fff;
@@ -165,6 +163,7 @@
   margin-right: .5em;
 }
 
+
 #audio-platform{
   clear: both;
   display: block;
@@ -192,11 +191,7 @@
   font-size: .8em;
 }
 
-#audio-platform .platform{
-    
-}
-
-#audio-platform .podcast-hosting{
+#audio-platform .hosting{
     margin: .5em 1em;
     border: 1px solid var(--border-color);
     padding: .75em 1.5em;
@@ -205,18 +200,28 @@
     transition: .2s;
 }
 
-#audio-platform .podcast-hosting i{
+#audio-platform .hosting i{
   display: block;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: .5em;
 }
 
-#audio-platform .podcast-hosting span{
+#audio-platform .hosting span{
   font-size: .95em;
 }
 
+
+
 @media screen and (max-width: 600px) { 
+
+  #audio-content .main-title{
+    justify-content: unset;
+    margin-bottom: 2em;
+    text-align: left;
+    font-size: 1.27em;
+  }
+
   #audio-player {
     width: calc( 100% - 2em );
     float: unset;
@@ -231,27 +236,27 @@
     font-size: 1.9em;
   }
 
-  #audio-player #audio-cover{
+  #audio-cover{
     font-size: 2em;
     margin: 0;
   }
 
-  #audio-player .track{
+  #audio-player .audio-progress{
     width: 50%;
     margin:  0 auto;
   }
 
-  #audio-player #progress{
+  #audio-player .track{
     margin-bottom: 0;
   }
 
-  #audio-player #panel-control .aud-control i{
-    width: 2em;
-    height: 2em;
+  #audio-panel{
+    margin:0
   }
 
-  #audio-player #panel-control{
-    margin:0
+  #audio-panel i{
+    width: 2em;
+    height: 2em;
   }
 
   #audio-description{
@@ -259,20 +264,9 @@
     margin-top: 3em;
   }
 
-  #audio-content .title{
-    justify-content: unset;
-    margin-bottom: 2em;
-    text-align: left;
-    font-size: 1.27em;
-  }
-
-  #audio-description .description{
-
-  }
-  #audio-description i{
+   #audio-description i{
     font-size: 1.5em;
   }
-
 
   #audio-platform .platform{
     display: grid;
@@ -280,18 +274,18 @@
     justify-content: unset;
     align-items: unset
   }
-  #audio-platform .podcast-hosting{
+  #audio-platform .hosting{
     margin-bottom: 2em;
     padding: 1.5em;
   }
-  #audio-platform .podcast-hosting span {
+  #audio-platform .hosting span {
     display: block;
     font-size: .98em;
     text-align: center;
     margin-top: .5em;
   }
 
-  #audio-platform .podcast-hosting i{
+  #audio-platform .hosting i{
     margin: unset;
     font-size: 1.7em;
   }

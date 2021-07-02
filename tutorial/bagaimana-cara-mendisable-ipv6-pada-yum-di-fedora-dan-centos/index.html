@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.a7fd4ba38b29f989714e43ec20fd5cd90a8bf9776afcf90d38f8bbb50be8980a.css"
+                    href="/css/single.min.6935c8b573db9f6b9f80db3217539cd347875ae5747928cd0ee86f8055953475.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -53,7 +53,7 @@
     
     <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo"></head>
 <body data-fullscreen="false" >
-<header id="header">
+<header id="main-header">
     <h2 class="site-title" title="site title"><a href="/">Karim Pages</a></h2>
     <a role="button" title="mobile icon navigtion" class="navbar-burger" data-target="main-navigation" aria-label="menu" aria-expanded="false">
         <i class="fas fa-align-right fa-fw" aria-hidden="true"></i>
@@ -95,7 +95,8 @@
     </a>
 </header>
 
-<main class="post animated fadeInDown" ><div class="metadata">
+<main class="post animated fadeInDown" >
+     <article><div class="metadata">
     <a href="/profile" class="author flex column" rel="author">
         <img src="/images/profil.jpeg" alt="Author Profile Pictures">
         <div class="name">
@@ -107,7 +108,7 @@
         <div class="title">
             Published
         </div>
-        <time class="result" datetime=" 2021-07-01 03:07 ">
+        <time class="result" datetime=" 2021-07-02 04:57 ">
              
                  Apr 15, 2021 
             
@@ -117,7 +118,7 @@
         <div class="title">
             Update
         </div>
-        <time class="result" datetime=" 2021-07-01 03:07 ">
+        <time class="result" datetime=" 2021-07-02 04:57 ">
              
                  Jul, 2021 
             
@@ -132,29 +133,35 @@
         </div>
     </div>
 </div>
-    <sections class="options tab">
-        <a href="#main-title"  id="text-action" class="tab-btn flex active " data-target="article-content">
-            <i class="fa fa-file-alt fa-2x flex" aria-hidden="true"></i><span class="article flex">Article</span>
-        </a>
-        
-        <a href="#main-title"  id="audio-action" class="tab-btn flex" data-target="audio-content">
-            <i class="fa fa-microphone fa-2x flex" aria-hidden="true"></i><span class="audio flex">Audio</span>
-        </a>
-        
-        
-        <a href="#main-title" id="video-action" class="tab-btn flex" data-target="video-content">
-            <i class="fa fa-video fa-2x flex" aria-hidden="true"></i> <span class="video flex">Video</span>
-        </a>
-        
-    </sections>
-    
-    <article class="content tab-div">
-        <h1 id="main-title" class="post-title">Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</h1>
-        <div id="article-content"  class="tab-content active">
+        <sections id="content-format" class="options tab">
+            <a href="#content-format"  id="text-action" class="tab-btn flex active " data-target="article-content">
+                <i class="fa fa-file-alt fa-2x flex" aria-hidden="true"></i><span class="article flex">Article</span>
+            </a>
             
-            <img class="cover" src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" alt="Thumbnail image" />
+            <a href="#content-format"  id="audio-action" class="tab-btn flex" data-target="audio-content">
+                <i class="fa fa-microphone fa-2x flex" aria-hidden="true"></i><span class="audio flex">Audio</span>
+            </a>
             
-            <p>Yum adalah package manager yang digunakan oleh Centos. Yum biasanya kita gunakan untuk mempermudah installasi, menghapus atau mengupdate aplikasi dari centos. Dalam pekerjaanya yum biasanya menggunakan dua tipe internet protokol IPV4 dan IPV6.</p>
+            
+            <a href="#content-format" id="video-action" class="tab-btn flex" data-target="video-content">
+                <i class="fa fa-video fa-2x flex" aria-hidden="true"></i> <span class="video flex">Video</span>
+            </a>
+            
+        </sections>
+        
+        <header>
+            <h1 id="main-title" class="post-title">Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos</h1>
+        </header>
+        <section id="content" class="tab-div">
+            <div id="article-content"  class="tab-content active">
+                
+                <figure>
+                    <source media="(min-width: 800px)" srcset="">
+                    <img class="cover ratio" loading="lazy"  src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" loading="lazy" alt="Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos Feature Image">
+                    <figcaption class="feature-figcap">Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos </figcaption>
+                </figure>
+                
+                <p>Yum adalah package manager yang digunakan oleh Centos. Yum biasanya kita gunakan untuk mempermudah installasi, menghapus atau mengupdate aplikasi dari centos. Dalam pekerjaanya yum biasanya menggunakan dua tipe internet protokol IPV4 dan IPV6.</p>
 <p><img src="wireshark-screenshoot.webp" alt="image alt &lsquo;Penggunaan protokol internet IPV4 dan IPV6 oleh yum&rsquo; "></p>
 <p>Namun masalahnya, terkadang perangkat dekstop atau server kita tidak selalu berada pada jaringan yang telah mendukung IPV6. Dalam beberapa kasus terjadi error seperti contoh berikut</p>
 <pre><code class="language-sheel" data-lang="sheel">[Errno 14] curl#7 - &quot;Failed to connect to 2404:6800:4005:c00::88: Network is unreachable&quot;
@@ -174,69 +181,78 @@
 </ol>
 </section>
 
-        </div>
-        <div id="audio-content" class="tab-content"  
-        data-audio-url="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" >
-        <audio id="audio-source" src=""></audio>
-    <div id="audio-player">
-        <div id="audio-cover" class="flex">
-            <i class="fa fa-compact-disc fa-2x flex" aria-hidden="true"></i>
-        </div>
-        <div class="track">
-            <input id="progress" type="range" step="1" class="seekbar" value="0" min="0" max="100" >
-            <span id="start" class="time">0:0</span>
-            <span id="end"   class="time" data-duration="">0:0</span>
-        </div>
-        <div id="panel-control" class="flex">
-                <div id="audio-play" class="aud-control">
-                    <i class="fa fa-play fa-2x flex" aria-hidden="true"></i>
-                </div>
-                <div id="audio-pause" class="aud-control hide">
-                    <i class="fa fa-pause fa-2x flex" aria-hidden="true"></i>
-                </div>
-        </div>
+            </div>
+            
+            <div id="audio-content" class="tab-content "><audio id="audio-source" src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" preload="none"></audio>
+<div id="audio-player">
+    <div id="audio-cover" class="flex">
+        <i class="fa fa-compact-disc fa-2x flex" aria-hidden="true"></i>
     </div>
-    <div id="audio-description">
-        <h2 class="title flex">
-            <i class="fa fa-headphones fa-2x flex" aria-hidden="true"></i>
-            Podcast Overview
-        </h2>
-        <p class="description">
-            Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos 
-        </p>
+    <div class="audio-progress">
+        <input id="audio-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" >
+        <label for="audio-seekbar">audio progress tracking</label>
+        <span class="time audio-current">0:0</span>
+        <span id="audio-duration" class="time" data-duration="">0:0</span>
     </div>
-    <div id ="audio-platform">
-       <h2 class="title">
-            Get latest Podcast Episode <span> Subscribe us on platform listed bellow</span>
-        </h2>
-        <div class="platform flex">
-            
-                <a class="podcast-hosting" href="https://open.spotify.com/show/2KRC9HS1J0cow37Xtuh0XG" rel="me" aria-label="Spotify">
-                    <i class="fab fa-spotify fa-2x" aria-hidden="true"></i><span> Spotify</span>
-                </a>
-            
-                <a class="podcast-hosting" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NTUzNGM5OC9wb2RjYXN0L3Jzcw" rel="me" aria-label="Google Podcast">
-                    <i class="fab fa-google fa-2x" aria-hidden="true"></i><span> Google Podcast</span>
-                </a>
-            
-                <a class="podcast-hosting" href="https://pca.st/l0s7s0wv" rel="me" aria-label="Pocket Cast ">
-                    <i class="fab fa-get-pocket fa-2x" aria-hidden="true"></i><span> Pocket Cast </span>
-                </a>
-            
-                <a class="podcast-hosting" href="https://anchor.fm/s/45534c98/podcast/rss" rel="me" aria-label="Rss">
-                    <i class="fas fa-rss fa-2x" aria-hidden="true"></i><span> Rss</span>
-                </a>
-            
+    <div id="audio-panel" class="flex">
+        <div id="audio-play" class="aud-control">
+            <i class="fa fa-play fa-2x flex" aria-hidden="true"></i>
+        </div>
+        <div id="audio-pause" class="aud-control hide">
+            <i class="fa fa-pause fa-2x flex" aria-hidden="true"></i>
         </div>
     </div>
 </div>
+<div id="audio-description">
+    <h2 class="title flex">
+        <i class="fa fa-headphones fa-2x flex" aria-hidden="true"></i>
+        Podcast Overview
+    </h2>
+    <p id="content-description" class="description">
+        Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos 
+    </p>
+</div>
+<div id ="audio-platform">
+    <h2 class="title">
+        Get latest Podcast Episode <span> Subscribe us on platform listed bellow</span>
+    </h2>
+    <div class="platform flex">
+        
+            <a class="hosting" href="https://open.spotify.com/show/2KRC9HS1J0cow37Xtuh0XG" rel="me" aria-label="Spotify">
+                <i class="fab fa-spotify fa-2x" aria-hidden="true"></i><span> Spotify</span>
+            </a>
+        
+            <a class="hosting" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NTUzNGM5OC9wb2RjYXN0L3Jzcw" rel="me" aria-label="Google Podcast">
+                <i class="fab fa-google fa-2x" aria-hidden="true"></i><span> Google Podcast</span>
+            </a>
+        
+            <a class="hosting" href="https://pca.st/l0s7s0wv" rel="me" aria-label="Pocket Cast ">
+                <i class="fab fa-get-pocket fa-2x" aria-hidden="true"></i><span> Pocket Cast </span>
+            </a>
+        
+            <a class="hosting" href="https://anchor.fm/s/45534c98/podcast/rss" rel="me" aria-label="Rss">
+                <i class="fas fa-rss fa-2x" aria-hidden="true"></i><span> Rss</span>
+            </a>
+        
+    </div>
+</div>
 
-        <div id="video-content" class="tab-content" 
-    data-youtube-url="https://www.youtube.com/embed/8-5-a5IRk6g"
-    >
 
 </div>
-    </article><section id="related" class="">
+            
+            
+            <div id="video-content" class="tab-content"  >
+     
+    <video id="video-player" class="ratio" preload="none" poster="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" disablePictureInPicture controls controlsList="nodownload">
+        <source id="video-source" src="https://archive.org/download/update-and-upgrade-ubuntu-ubuntu-20.04.1-lts-focal-fossa-using-terminal/Update%20and%20Upgrade%20ubuntu%20Ubuntu%2020.04.1%20LTS%20%28%20Focal%20Fossa%20%29%20Using%20Terminal.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <button id="startcast">Cast</button>
+  
+
+</div>
+            
+        </section><section id="related" class="">
     <div id="related-tab-options" class="tab">
         <div id="related-post-action"class="tab-btn flex active" data-target="related-post">
             <i class="fa fa-link fa-2x flex" aria-hidden="true"></i><span>Related</span>
@@ -433,6 +449,7 @@
 </section>
 
 
+</article>
 </main>
 <footer class="content-footer">
     <div class="menu-footer">
@@ -466,7 +483,7 @@
 
 
 <script type="text/javascript"
-        src="/js/main.min.7e1051323cf0c2028ee436f47bbb4ab7f576746f0a59139537fdb506c243bc6d.js"
+        src="/js/main.min.bc452c31d2d2bee5e8d762574b1389cc3c2126b0eea69261101630e869508546.js"
         integrity=""
         crossorigin="anonymous" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>

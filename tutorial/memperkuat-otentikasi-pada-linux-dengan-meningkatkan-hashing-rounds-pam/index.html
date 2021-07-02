@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.a7fd4ba38b29f989714e43ec20fd5cd90a8bf9776afcf90d38f8bbb50be8980a.css"
+                    href="/css/single.min.6935c8b573db9f6b9f80db3217539cd347875ae5747928cd0ee86f8055953475.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -53,7 +53,7 @@
     
     <meta name="google-site-verification" content="upsmWQThycSN72_TcX_WHvJYxkM5pnUBWtP7vgOCXCo"></head>
 <body data-fullscreen="false" >
-<header id="header">
+<header id="main-header">
     <h2 class="site-title" title="site title"><a href="/">Karim Pages</a></h2>
     <a role="button" title="mobile icon navigtion" class="navbar-burger" data-target="main-navigation" aria-label="menu" aria-expanded="false">
         <i class="fas fa-align-right fa-fw" aria-hidden="true"></i>
@@ -95,7 +95,8 @@
     </a>
 </header>
 
-<main class="post animated fadeInDown" ><div class="metadata">
+<main class="post animated fadeInDown" >
+     <article><div class="metadata">
     <a href="/profile" class="author flex column" rel="author">
         <img src="/images/profil.jpeg" alt="Author Profile Pictures">
         <div class="name">
@@ -132,11 +133,13 @@
         </div>
     </div>
 </div>
-    <article class="content tab-div">
-        <h1 id="main-title" class="post-title">Memperkuat Otentikasi Pada Linux Dengan Meningkatkan Hashing Rounds PAM</h1>
-        <div id="article-content"  class="tab-content active">
-            
-            <h2 id="pam-dan-password-cracking">PAM dan Password Cracking</h2>
+        <header>
+            <h1 id="main-title" class="post-title">Memperkuat Otentikasi Pada Linux Dengan Meningkatkan Hashing Rounds PAM</h1>
+        </header>
+        <section id="content" class="tab-div">
+            <div id="article-content"  class="tab-content active">
+                
+                <h2 id="pam-dan-password-cracking">PAM dan Password Cracking</h2>
 <p>Cracking password adalah salah satu metode klasik dalam mendapatkan credential dari suatu sistem linux, baik itu menggunakan bruteforce atau menggunakan dictionary attack.</p>
 <p>PAM sendiri adalah modul yang bertanggung jawab dalam proses otentikasi pengguna bagi banyak distro linux. Dalam kesempatan ini, kita akan belajar bagaimana meningkatkan hashing rounds pada password pada PAM.</p>
 <p>Diharapkan dengan meningkatkan hashing round, maka password kita akan lebih sulit untuk di dekripsi sehingga berdampak kepada meningkatnya sistem keamanan pada sistem operasi berbasis linux.</p>
@@ -162,10 +165,10 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">password sufficient pam_unix.so try_first_pass use_authtok nullok sha512 shadow rounds<span style="color:#f92672">=</span><span style="color:#ae81ff">50000</span>
 </code></pre></div><p>Sama seperti sebelumnya, anda bisa mengganti <code>rounds=50000</code> sesuai dengan keinginan anda.</p>
 
-        </div>
-        
-        
-    </article><section id="related" class="">
+            </div>
+            
+            
+        </section><section id="related" class="">
     <div id="related-tab-options" class="tab">
         <div id="related-post-action"class="tab-btn flex active" data-target="related-post">
             <i class="fa fa-link fa-2x flex" aria-hidden="true"></i><span>Related</span>
@@ -370,6 +373,7 @@
 </section>
 
 
+</article>
 </main>
 <footer class="content-footer">
     <div class="menu-footer">
@@ -403,7 +407,7 @@
 
 
 <script type="text/javascript"
-        src="/js/main.min.7e1051323cf0c2028ee436f47bbb4ab7f576746f0a59139537fdb506c243bc6d.js"
+        src="/js/main.min.bc452c31d2d2bee5e8d762574b1389cc3c2126b0eea69261101630e869508546.js"
         integrity=""
         crossorigin="anonymous" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>
