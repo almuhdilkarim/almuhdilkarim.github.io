@@ -45,11 +45,13 @@ function elemconstruct() {
         idn("startcast").removeAttr("disabled").text("Start");
         }
     }
-  
+
+    let videourl =  idn('video-source').src
+
     function onSessionRequestSuccess(session) {
         console.log('onSessionRequestSuccess', session);
         var mediaInfo = new chrome.cast.media.MediaInfo(
-        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            videourl,
         "video/mp4");
         var request = new chrome.cast.media.LoadRequest(mediaInfo);
         session.loadMedia(request, onMediaLoadSuccess, onError );
