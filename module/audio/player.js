@@ -22,8 +22,10 @@ function playerstop(a, e, f, g) {
     a.pause();
     a.currentTime = 0;
     e.classList.remove('hide')
-    f.classList.add('hide')
-    g.classList.remove('rotate')
+    f.classList.add('hide');
+    if ( x ===  'audio') {
+        g.classList.remove('rotate')
+    }
 }
 
 // Fungsi untuk menjalankan bar progress dan waktu progress
@@ -136,7 +138,7 @@ function initplayer() {
                 var obj = () => { return 'audio'; }
             }
 
-            let x =  obj();
+            let x = obj();
             let a = idn( x+'-source');
             let b = idn( x+'-seekbar');
             let c = idn( x+'-current');
@@ -151,15 +153,14 @@ function initplayer() {
                     playerstart(a, e, f, g, x);
                     progress(a, b, c);
                     a.onended = () => {
-                        playerstop(a)
+                        playerstop(a, e, f, g, x)
                     }
                     break;
                 case x+"-pause":
                     playerpause(a, e, f, g, x)
                     break;
                 case x+"-stop":
-                    a.playerstop(a);
-                    a.currentTime = 0;
+                    a.playerstop(a, e, f, g, x);
                     break;
                 case x+"-volume":
                     alert('vol')
@@ -170,7 +171,7 @@ function initplayer() {
                 case x+"-chromecast":
                     chrome.cast.requestSession(castsessionok, errorbos);
                     break;
-                case "exit":
+                default:
                     alert('exit')
             }
         }, false)
