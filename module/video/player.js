@@ -41,9 +41,7 @@ function elemconstruct() {
     function receiverListener(availability) {
         console.log('receiverListener', availability);
     
-        if(availability === chrome.cast.ReceiverAvailability.AVAILABLE) {
-        idn("startcast").removeAttr("disabled").text("Start");
-        }
+
     }
 
     let videourl =  idn('video-source').src
