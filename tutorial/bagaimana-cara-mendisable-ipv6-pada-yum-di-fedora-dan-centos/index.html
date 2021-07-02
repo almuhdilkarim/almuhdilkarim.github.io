@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.6935c8b573db9f6b9f80db3217539cd347875ae5747928cd0ee86f8055953475.css"
+                    href="/css/single.min.eb6242e50f97df773f96af52f37e2baebdb2eb89db5c3be7930438c4ded42e11.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -157,7 +157,7 @@
                 
                 <figure>
                     <source media="(min-width: 800px)" srcset="">
-                    <img class="cover ratio" loading="lazy"  src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" loading="lazy" alt="Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos Feature Image">
+                    <img class="cover ratio"  src="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" loading="lazy" alt="Bagaimana cara mendisable IPV6 pada Yum di Fedora dan Centos Feature Image">
                     <figcaption class="feature-figcap">Terkadang perangkat tidak mendukung penggunaan IPV6, Nah bagaimana kita bisa mengatur package manager YUM hanya menggunakan IPV4 pada Fedora dan Centos </figcaption>
                 </figure>
                 
@@ -183,22 +183,22 @@
 
             </div>
             
-            <div id="audio-content" class="tab-content "><audio id="audio-source" src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" preload="none"></audio>
+            <div id="audio-content" class="tab-content extended"><audio id="audio-source" src="https://archive.org/download/cyber-threat-archive-breach-and-digital-supremacy/slide-1.mp3" preload="none"></audio>
 <div id="audio-player">
     <div id="audio-cover" class="flex">
         <i class="fa fa-compact-disc fa-2x flex" aria-hidden="true"></i>
     </div>
-    <div class="audio-progress">
+    <div class="progress">
         <input id="audio-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" >
         <label for="audio-seekbar">audio progress tracking</label>
-        <span class="time audio-current">0:0</span>
-        <span id="audio-duration" class="time" data-duration="">0:0</span>
+        <span id="audio-current" class="time">0:0</span>
+        <span id="audio-duration" class="time right" data-duration="">0:0</span>
     </div>
-    <div id="audio-panel" class="flex">
-        <div id="audio-play" class="aud-control">
+    <div id="audio-panel" class="panel-control flex">
+        <div id="audio-play" class="player-control">
             <i class="fa fa-play fa-2x flex" aria-hidden="true"></i>
         </div>
-        <div id="audio-pause" class="aud-control hide">
+        <div id="audio-pause" class="player-control hide">
             <i class="fa fa-pause fa-2x flex" aria-hidden="true"></i>
         </div>
     </div>
@@ -241,13 +241,72 @@
 </div>
             
             
-            <div id="video-content" class="tab-content"  >
+            <div id="video-content" class="tab-content extended"  >
      
-    <video id="video-player" class="ratio" preload="none" poster="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" disablePictureInPicture controls controlsList="nodownload">
-        <source id="video-source" src="https://archive.org/download/update-and-upgrade-ubuntu-ubuntu-20.04.1-lts-focal-fossa-using-terminal/Update%20and%20Upgrade%20ubuntu%20Ubuntu%2020.04.1%20LTS%20%28%20Focal%20Fossa%20%29%20Using%20Terminal.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video id="video-source"  class="ratio" preload="none" poster="https://almuhdilkarim.com/tutorial/bagaimana-cara-mendisable-ipv6-pada-yum-di-fedora-dan-centos//cover.jpeg" disablePictureInPicture controlsList="nodownload">
+        <source  src="https://archive.org/download/update-and-upgrade-ubuntu-ubuntu-20.04.1-lts-focal-fossa-using-terminal/Update%20and%20Upgrade%20ubuntu%20Ubuntu%2020.04.1%20LTS%20%28%20Focal%20Fossa%20%29%20Using%20Terminal.mp4" type="video/mp4">
+        Your browser does not support video player.
     </video>
-    <button id="startcast">Start Cast</button>
+    <div id="video-panel" class="panel-control">
+        <div class="progress flex">
+            <input id="video-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" >
+            <label for="video-seekbar" class="hide">audio progress tracking</label>
+        </div>
+        <div class="flex">
+            <div class="server column flex">
+                <label for="video-host"> <i class="fa fa-server fa-2x flex" aria-hidden="true"></i></label>
+                <select id="video-host">
+                    <option value="origin">Origins</option>
+                    <option value="youtube">Youtube</option>
+                </select>
+            </div>
+            <div class="main flex column">
+                <button id="video-play" class="player-control">
+                    <i class="fa fa-play fa-2x flex" aria-hidden="true"></i>
+                </button>
+                <button id="video-pause" class="player-control hide">
+                    <i class="fa fa-pause fa-2x flex" aria-hidden="true"></i>
+                </button>
+                <button id="video-volume" class="player-control">
+                    <i class="fa fa-volume-up fa-2x flex" aria-hidden="true"></i>
+                </button>
+                <button id="video-pause" class="player-control">
+                    <i class="fa fa-closed-captioning fa-2x flex" aria-hidden="true"></i>
+                </button>
+                <div class="time flex">
+                    <div id="video-current" >0:0 </div><div style="margin:0 .5em ;">/</div> 
+                    <div id="video-duration" data-duration="">0:0</div>
+                </div>
+            </div>
+            <div class="feature column flex">
+                <button id="video-fullscreen" class="player-control">
+                    <i class="fa fa-expand fa-2x flex" aria-hidden="true"></i>
+                </button>
+                <button id="video-chromecast" class="player-control" disable>
+                    <i class="fab fa-chromecast fa-2x flex" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="video-content" >
+        <div id="youtube-playlist">
+            <h2 class="title flex"> <i class="fas fa-play-circle fa-2x flex" aria-hidden="true"></i>  Latest Video </h2> 
+        </div>
+        <div id="video-sidebar">
+            <h2 class="title flex"> <i class="fab fa-chromecast fa-2x flex" aria-hidden="true"></i>Cast Status </h2> 
+            <p id ="chromecast-info">
+                No cast devices found at this moment. Please check your cast device for activating cast feature. 
+            </p>
+            <h2 class="title flex"> <i class="fab fa-youtube fa-2x flex" aria-hidden="true"></i> Keep Update </h2> 
+            <div id ="youtube-subscribe">
+                <p> Subscribe our youtube channel and get our latest video content by click button bellow </p>
+                <a class="subscribe-link" target="_blank" href="https://www.youtube.com/channel/UCZj6SQNzUfWIbtmbnpJNfig" title="youtube video channel">
+                    Subscribe
+                </a>
+            </div>
+        </div>
+    </div>
+
   
 
 </div>
@@ -483,7 +542,7 @@
 
 
 <script type="text/javascript"
-        src="/js/main.min.bc452c31d2d2bee5e8d762574b1389cc3c2126b0eea69261101630e869508546.js"
+        src="/js/main.min.760a5e2e09f8a0a41cf93c7e23debd2dc76a3869042a36e4c7d8879d80df903d.js"
         integrity=""
         crossorigin="anonymous" defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116241347-1" defer></script>

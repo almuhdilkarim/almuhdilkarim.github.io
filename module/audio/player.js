@@ -1,19 +1,24 @@
 // Fungsi memulai audio
-function audiostart(a, e, f, g) {
+function playerstart(a, e, f, g, x) {
+    a.load();
     a.play();
     e.classList.add('hide')
     f.classList.remove('hide')
-    g.classList.add('rotate')
+    if ( x ===  'audio') {
+        g.classList.add('rotate')
+    }
 }
 // Fungsi pause audio
-function audiopause(a, e, f, g) {
+function playerpause(a, e, f, g, x) {
     a.pause();
     e.classList.remove('hide')
     f.classList.add('hide')
-    g.classList.remove('rotate')
+    if ( x ===  'audio') {
+        g.classList.remove('rotate')
+    }
 }
 // Fungsi mematikan audio
-function audiostop(a, e, f, g) {
+function playerstop(a, e, f, g) {
     a.pause();
     a.currentTime = 0;
     e.classList.remove('hide')
@@ -22,7 +27,7 @@ function audiostop(a, e, f, g) {
 }
 
 // Fungsi untuk menjalankan bar progress dan waktu progress
-function bar(a, b, c) {
+function progress(a, b, c) {
     a.ontimeupdate = function () {
         b.value = a.currentTime
     }
@@ -49,43 +54,125 @@ function durasi(a, b, d) {
         console.log('data duration is loaded')
     }
 }
+
+// CHROMECAST FUNCTIONS
+
+function initcastscript() {
+    let xel = document.createElement('script')
+    xel.src = 'https://www.gstatic.com/cv/js/sender/v1/cast_sender.js'
+    xel.setAttribute('id', 'video-cast-script')
+    document.body.appendChild(xel);
+} initcastscript()
+
+function  initcast() {
+    console.log('initcast');
+    var sessionRequest = new chrome.cast.SessionRequest(
+    chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID);
+    var apiConfig = new chrome.cast.ApiConfig(
+    sessionRequest, castsessionlisten, castlistener);
+    chrome.cast.initialize(apiConfig, castinitok, errorbos);
+} 
+
+if (!chrome.cast || !chrome.cast.isAvailable) {
+    setTimeout(initcast, 1000);
+}
+
+function castinitok() {
+    console.log('castinitok');
+}
+
+function errorbos(e) {
+    console.log('errorbos', e);
+}
+
+function castsessionlisten(e) {
+    console.log('castsessionlisten', e);
+}
+
+function castlistener(availability) {
+    console.log('castlistener', availability);
+    if( availability === chrome.cast.ReceiverAvailability.AVAILABLE ) {
+        idn("video-chromecast").removeAttribute('disabled') ;
+        idn('chromecast-info').innerHTML =" Cast devices is ready. You can start cast this content by click cast button at the right bottom on video panel."
+    } 
+}
+
+function castsessionok(session) {
+    let videourl =  idn('video-source').src
+    console.log('castsessionok', session);
+    var mediaInfo = new chrome.cast.media.MediaInfo(
+        videourl,
+    "video/mp4");
+    var request = new chrome.cast.media.LoadRequest(mediaInfo);
+    session.loadMedia(request, castmediaload, errorbos );
+}
+
+function castmediaload(e) {
+    console.log('castmediaload', e);
+}
+
 // Fungsi utama
-function audiocontrol() {
-    let a = idn('audio-source');
-    let b = idn('audio-seekbar');
-    let c = dqs('.audio-current');
-    let d = idn('audio-duration');
-    let e = idn('audio-play')
-    let f  = idn('audio-pause')
-    let g = idn('audio-cover')
+function initplayer() {
 
-    durasi(a, b, d)
+    let g = dqs('video-source')
+    let h = cln('player-control');
+    let j =  cln('player-control').length
+    
+    if ( g !== null ) {
+        let a = idn('video-source');
+        let b =  document.querySelector('.post');
+        let c = ( 56.25 / 100 ) * b.offsetWidth;
+        a.setAttribute('height', c );
+    }
 
-    let h = cln('aud-control');
-    let j =  cln('aud-control').length
     for ( i = 0 ; i < j ; i++ ) {
         h[i].addEventListener('click', function() { 
-            switch (this.getAttribute('id')) {
-                case "audio-play":
-                    audiostart(a, e, f, g);
-                    bar(a, b, c);
+            
+            let z = this.getAttribute('id')
+            let y= z.match(/video/g)
+            if ( y !== null ){
+                var obj = () => { return 'video'; }
+            } else {
+                var obj = () => { return 'audio'; }
+            }
+
+            let x =  obj();
+            let a = idn( x+'-source');
+            let b = idn( x+'-seekbar');
+            let c = idn( x+'-current');
+            let d = idn( x+'-duration');
+            let e = idn( x+'-play')
+            let f  = idn( x+'-pause')
+            let g = idn( x+'-cover')
+
+            durasi(a, b, d);
+            switch (z) {
+                case x+"-play":
+                    playerstart(a, e, f, g, x);
+                    progress(a, b, c);
                     a.onended = () => {
-                        audiostop(a)
+                        playerstop(a)
                     }
                     break;
-                case "audio-pause":
-                    audiopause(a, e, f, g)
+                case x+"-pause":
+                    playerpause(a, e, f, g, x)
                     break;
-                case "audio-stop":
-                    a.audiostop(a);
+                case x+"-stop":
+                    a.playerstop(a);
                     a.currentTime = 0;
                     break;
-                case "audio-volume":
+                case x+"-volume":
                     alert('vol')
+                    break;
+                case x+"-fullscreen":
+                    fs(a)
+                    break;
+                case x+"-chromecast":
+                    chrome.cast.requestSession(castsessionok, errorbos);
                     break;
                 case "exit":
                     alert('exit')
             }
-        })
+        }, false)
     }
-} audiocontrol()
+} initplayer()
