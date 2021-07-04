@@ -94,7 +94,7 @@ function castlistener(availability) {
     console.log('castlistener', availability);
     if( availability === chrome.cast.ReceiverAvailability.AVAILABLE ) {
         idn('video-chromecast').removeAttribute('disabled') ;
-        idn('video-chromecast').innerHTML = 'Select Devices' ;
+        idn('video-chromecast').innerHTML = 'Start Cast' ;
     } 
 }
 
