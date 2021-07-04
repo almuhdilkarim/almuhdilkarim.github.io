@@ -114,7 +114,6 @@ function castmediaload(e) {
 
 // Fungsi utama
 function initplayer() {
-
     let g = dqs('video-source')
     let h = cln('player-control');
     let j =  cln('player-control').length
@@ -124,9 +123,10 @@ function initplayer() {
         let b =  document.querySelector('.post');
         let c = ( 56.25 / 100 ) * b.offsetWidth;
         a.setAttribute('height', c );
-
-        a.load();
     }
+
+
+
 
     for ( i = 0 ; i < j ; i++ ) {
         h[i].addEventListener('click', function() { 
@@ -151,6 +151,7 @@ function initplayer() {
             durasi(a, b, d);
             switch (z) {
                 case x+"-play":
+                    a.load();
                     playerstart(a, e, f, g, x);
                     progress(a, b, c);
                     a.onended = () => {
