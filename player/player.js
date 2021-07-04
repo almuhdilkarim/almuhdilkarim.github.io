@@ -147,6 +147,7 @@ function initplayer() {
             let e = idn( x+'-play')
             let f  = idn( x+'-pause')
             let g = idn( x+'-cover')
+            let h = idn( x+'-mute')
 
             durasi(a, b, d);
             switch (z) {
@@ -165,7 +166,18 @@ function initplayer() {
                     a.playerstop(a, e, f, g, x);
                     break;
                 case x+"-volume":
-                    alert('vol')
+                    this.classList.toggle('muted')
+                    if (a.muted === true) {
+                        a.muted = false;
+                        h.classList.add('fa-volume-up')
+                        h.classList.remove('fa-volume-mute')
+                        
+                    }
+                      else if (a.muted === false) {
+                        a.muted = true;
+                        h.classList.remove('fa-volume-up')
+                        h.classList.add('fa-volume-mute')
+                    }
                     break;
                 case x+"-fullscreen":
                     fs(a)
