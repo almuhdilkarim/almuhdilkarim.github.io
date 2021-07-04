@@ -124,6 +124,8 @@ function initplayer() {
         let b =  document.querySelector('.post');
         let c = ( 56.25 / 100 ) * b.offsetWidth;
         a.setAttribute('height', c );
+
+        a.load();
     }
 
     for ( i = 0 ; i < j ; i++ ) {
