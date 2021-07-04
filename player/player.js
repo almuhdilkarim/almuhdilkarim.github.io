@@ -1,9 +1,8 @@
 // Fungsi memulai audio
 function playerstart(a, e, f, g, x) {
-    a.load();
     a.play();
-    e.classList.add('hide')
-    f.classList.remove('hide')
+    e.classList.add('act-target')
+    f.classList.remove('act-target')
     if ( x ===  'audio') {
         g.classList.add('rotate')
     }
@@ -11,8 +10,8 @@ function playerstart(a, e, f, g, x) {
 // Fungsi pause audio
 function playerpause(a, e, f, g, x) {
     a.pause();
-    e.classList.remove('hide')
-    f.classList.add('hide')
+    e.classList.remove('act-target')
+    f.classList.add('act-target')
     if ( x ===  'audio') {
         g.classList.remove('rotate')
     }
@@ -94,8 +93,8 @@ function castsessionlisten(e) {
 function castlistener(availability) {
     console.log('castlistener', availability);
     if( availability === chrome.cast.ReceiverAvailability.AVAILABLE ) {
-        idn("video-chromecast").removeAttribute('disabled') ;
-        idn('chromecast-info').innerHTML =" Cast devices is ready. You can start cast this content by click cast button at the right bottom on video panel."
+        idn('video-chromecast').removeAttribute('disabled') ;
+        idn('video-chromecast').innerHTML = 'Select Devices' ;
     } 
 }
 
@@ -177,3 +176,36 @@ function initplayer() {
         }, false)
     }
 } initplayer()
+
+// Class mutation detections
+function classmutation(id) {
+    let ax = idn(id);
+    let pvc = ax.classList.contains('active');
+    let obs = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if(mutation.attributeName == "class"){
+                let cmut = mutation.target.classList.contains('active');
+                if(pvc !== cmut)    {
+                    pvc = cmut;
+                    if ( id === 'audio-btn' ) {
+                        let a = idn( 'audio-source');
+                        let e = idn( 'audio-play')
+                        let f  = idn('audio-pause')
+                        let g = idn( 'audio-cover')
+                        let x = "audio"
+                        playerpause(a, e, f, g, x)
+                    }
+                    if ( id === 'audio-btn' ) {
+                        let a = idn( 'video-source');
+                        let e = idn( 'video-play')
+                        let f  = idn( 'video-pause')
+                        playerpause(a, e, f, )
+                    }
+                }
+            }
+        });
+    });
+    obs.observe(ax, {attributes: true});
+}
+classmutation('audio-btn');
+classmutation('video-btn');
