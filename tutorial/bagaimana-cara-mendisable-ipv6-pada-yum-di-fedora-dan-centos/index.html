@@ -26,7 +26,7 @@
     
             
             <link rel="stylesheet" 
-                    href="/css/single.min.2b0b194c61cdeaa2130bd5270d06c5f3dfbccabcf224fba83a6479816ac15959.css"
+                    href="/css/single.min.3f6b70f89dc0e132fb66a8ba6f36b6b5c6ef774355fd6359cb3f4e602fa2c663.css"
                     type="text/css"
                     crossorigin="anonymous"
                     integrity=""/>
@@ -189,10 +189,10 @@
         <i class="fa fa-compact-disc fa-2x flex" aria-hidden="true"></i>
     </div>
     <div class="progress">
-        <input id="audio-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" >
-        <label for="audio-seekbar">audio progress tracking</label>
+        <input id="audio-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" ></input>
         <span id="audio-current" class="time">0:0</span>
         <span id="audio-duration" class="time right" data-duration="">0:0</span>
+        <label for="audio-seekbar">Audio progress</label>
     </div>
     <div id="audio-panel" class="panel-control flex">
         <div id="audio-play" class="player-control">
@@ -244,20 +244,20 @@
     <div id="video-panel" class="panel-control">
         <div class="progress">
             <input id="video-seekbar" class="track" type="range" step="1" value="0" min="0" max="100" >
-            <label for="video-seekbar" class="hide">audio progress tracking</label>
+             <label for="video-seekbar">video progress tracking</label>
         </div>
         <div class="flex mixer">
             <div class="main flex column">
-                <button id="video-play" class="player-control flex">
+                <button id="video-play" class="player-control flex" aria-label="play video">
                     <i class="fa fa-play flex" aria-hidden="true"></i>
                 </button>
-                <button id="video-pause" class="player-control act-target flex hide">
+                <button id="video-pause" class="player-control act-target flex hide" aria-label="pause video">
                     <i class="fa fa-pause flex" aria-hidden="true"></i>
                 </button>
-                <button id="video-volume" class="player-control flex">
+                <button id="video-volume" class="player-control flex" aria-label="mute video">
                     <i id="video-mute" class="fa fa-volume-up flex" aria-hidden="true"></i>
                 </button>
-                <button id="video-pause" class="player-control flex">
+                <button id="video-caption" class="player-control flex" aria-label="video caption">
                     <i class="fa fa-closed-captioning flex" aria-hidden="true"></i>
                 </button>
                 <div class="time flex">
@@ -266,10 +266,10 @@
                 </div>
             </div>
             <div class="feature column flex">
-                <button id="video-fullscreen" class="player-control">
+                <button id="video-fullscreen" class="player-control" aria-label="fullscreen video">
                     <i class="fa fa-expand flex" aria-hidden="true"></i>
                 </button>
-                <button id="video-chromecast" class="player-control" href="#video-source" rel="me" aria-label="cast">
+                <button id="video-chromecast" class="player-control" aria-label="cast video">
                     <i class="fab fa-chromecast" aria-hidden="true"></i>
                 </button>
             </div>
@@ -278,7 +278,7 @@
 </div>
 <div id="video-feature" class="flex-a">
     <div class="intense right flex-a">
-        <a id="youtube-subscribe" class="btn-flat flex-a"target="_blank"href="https://www.youtube.com/channel/UCZj6SQNzUfWIbtmbnpJNfig" rel="me" aria-label="youtube" role="button">
+        <a id="youtube-subscribe" class="btn-flat flex-a"target="_blank"href="https://www.youtube.com/channel/UCZj6SQNzUfWIbtmbnpJNfig" rel="noreferrer" aria-label="youtube" role="button">
             <i class="fab fa-youtube fa-2x" aria-hidden="true"></i><span> Subsribe</span>
         </a>
     </div>

@@ -17,7 +17,7 @@ function playerpause(a, e, f, g, x) {
     }
 }
 // Fungsi mematikan audio
-function playerstop(a, e, f, g) {
+function playerstop(a, e, f, g, x) {
     a.pause();
     a.currentTime = 0;
     e.classList.remove('hide')
@@ -47,9 +47,9 @@ function durasi(a, b, d) {
         console.log('data duration is existed');
     } else {
         a.onloadedmetadata = function () {
-            b.setAttribute('max', b.duration)
+            b.setAttribute('max', a.duration)
             var ds = parseInt(a.duration % 60)
-            var dm = parseInt((a.duration / 60) % 60)
+            var dm= parseInt((a.duration / 60) % 60)
             d.innerHTML = dm + ':' + ds
         };
         console.log('data duration is loaded')
@@ -166,7 +166,6 @@ function initplayer() {
                         a.muted = false;
                         h.classList.add('fa-volume-up')
                         h.classList.remove('fa-volume-mute')
-                        
                     }
                       else if (a.muted === false) {
                         a.muted = true;
