@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stories on Karim Pages</title>
+    <title>Stories on Al Muhdil Karim</title>
     <link>https://almuhdilkarim.com/story/</link>
-    <description>Recent content in Stories on Karim Pages</description>
+    <description>Recent content in Stories on Al Muhdil Karim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Sun, 25 Apr 2021 01:44:28 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/story/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 02:27:19 +0700</lastBuildDate><atom:link href="https://almuhdilkarim.com/story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyber Threat, Archive Breach And Digital Supremacy</title>
+      <link>https://almuhdilkarim.com/story/cyber-threat-archive-breach-and-digital-supremacy/</link>
+      <pubDate>Thu, 17 Jun 2021 02:27:19 +0700</pubDate>
+      
+      <guid>https://almuhdilkarim.com/story/cyber-threat-archive-breach-and-digital-supremacy/</guid>
+      <description>Presentasi ini menjelaskan korelasi antara fenomena kebocoran arsip, serangan siber dan supremasi.</description>
+    </item>
+    
     <item>
       <title>Kebebasan Akademis ? Pertarungan Linux Foundation Melawan Universitas Minnesota</title>
       <link>https://almuhdilkarim.com/story/kebebasan-akademis-pertarungan-linux-foundation-melawan-universitas-minnesota/</link>
