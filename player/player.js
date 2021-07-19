@@ -202,9 +202,9 @@ function classmutation(id) {
                         let f  = idn('audio-pause')
                         let g = idn( 'audio-cover')
                         let x = "audio"
-                        playerpause(a, e, f, g, x)
+                        audiopause(a, e, f, g, x)
                     }
-                    if ( id === 'audio-btn' ) {
+                    if ( id === 'video-btn' ) {
                         let a = idn( 'video-source');
                         let e = idn( 'video-play')
                         let f  = idn( 'video-pause')
